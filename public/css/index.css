@@ -1,0 +1,45 @@
+.banner {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    height: 550px;
+}
+
+.about-cards {
+    border-radius: 50px;
+    -webkit-box-shadow: -1px 1px 13px 1px rgba(0,126,235,0.77);
+    -moz-box-shadow: -1px 1px 13px 1px rgba(0,126,235,0.77);
+    box-shadow: -1px 1px 13px 1px rgba(0,126,235,0.77);
+    position: absolute;
+    z-index: 1;
+    top: -2rem;
+    background-color: white;
+    padding: 1.5rem 1.7rem;
+}
+
+.about-main {
+    border-radius: 10px;
+}
+
+.about-main .card-body {
+    padding-top: 4rem;
+    padding-bottom: 0.5rem;
+}
+
+.products-banner {
+    background-image: url('../img/frontend/index/product_banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 550px;
+}
+
+
+.new-banner {
+    background-image: url('../img/frontend/index/new_banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 600px;
+}
