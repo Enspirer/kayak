@@ -1,10 +1,13 @@
 .banner {
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
     background-position: center center;
     height: 550px;
 }
+
+
+
 
 .about-cards {
     border-radius: 50px;
@@ -17,23 +20,40 @@
     background-color: white;
     padding: 1.5rem 1.7rem;
 }
-
+.about-cards img {
+    height: 3rem;
+}
 .about-main {
     border-radius: 10px;
 }
-
 .about-main .card-body {
     padding-top: 4rem;
     padding-bottom: 0.5rem;
 }
+
+
+
 
 .products-banner {
     background-image: url('../img/frontend/index/product_banner.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 550px;
+    height: 600px;
 }
+.mySwiper1 .card {
+    background: rgba(255, 255, 255, .8);
+    border-radius: 30px;
+}
+.gold {
+    color: #FCCA25;
+    border: #FCCA25;
+}
+.center-image {
+    height: 15rem!important;
+}
+
+
 
 
 .new-banner {
@@ -43,3 +63,27 @@
     background-position: center center;
     height: 600px;
 }
+
+.other-banner {
+    background-image: url('../img/frontend/index/other_banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 550px;
+}
+
+
+.other-banner .swiper-button-next:after, .other-banner .swiper-button-prev:after {
+    font-size: 2rem!important;
+}
+
+/* .other-banner .swiper-button-next, .swiper-rtl .swiper-button-prev {
+    right: 110px!important;
+    top: 21rem!important;
+}
+
+.other-banner .swiper-button-prev, .swiper-rtl .swiper-button-next {
+    left: 110px!important;
+    top: 21rem!important;
+} */
+

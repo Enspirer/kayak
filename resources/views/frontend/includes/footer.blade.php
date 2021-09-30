@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-4">
                 <h6 class="fw-bold mb-3">
-                    Kayaki Surgi Pharma
+                    Kayak Surgi Pharma
                 </h6>
 
                 <a href="#" class="text-decoration-none d-inline-block text-white mb-2">The Company</a><br>

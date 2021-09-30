@@ -1,0 +1,17 @@
+.mySwiper1 .swiper-slide-next {
+    height: 25rem!important;
+}
+
+.mySwiper1 .swiper-slide-next .card {
+    height: 100%!important;
+}
+
+.mySwiper1 .card .card-body img {
+    height: 10rem;
+    object-fit: cover;
+}
+
+.mySwiper1 .card .card-body a {
+    color: #5B5959;
+    font-weight: 600;
+}

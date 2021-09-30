@@ -4,32 +4,10 @@
 
 @push('after-styles')
     <link rel="stylesheet" href="{{ url('css/index.css') }}"/>
+    <link rel="stylesheet" href="{{ url('css/products-swiper.css') }}"/>
 @endpush
 
 @section('content')
-    <!-- <div class="container-fluid p-0" style="margin-top: 5rem;">
-        <div class="swiper mySwiper">
-            <div class="swiper-wrapper" style="background-attachment: fixed;">
-                <div class="swiper-slide banner-1">
-                    <div class="container" style="padding-top: 11rem;">
-                        <div class="row justify-content-end">
-                            <div class="col-6">
-                                <h1>Better Technology for</h1>
-                                <h1 class="mb-2">Better Health Care</h1>
-                                <p class="ps-1">Widest range of products with Highest Quality standards</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide banner-2"></div>
-                <div class="swiper-slide banner-3"></div>
-                <div class="swiper-slide banner-4"></div>
-                <div class="swiper-slide banner-5"></div>
-            </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-        </div>
-    </div> -->
 
     <div class="container-fluid p-0 banners" style="margin-top: 5rem;">
         <div class="banner first" style="background-image: url('img/frontend/index/1.jpg');">
@@ -105,22 +83,22 @@
     </div>
 
     
-    <div class="container text-center" style="margin-top: 5rem;">
+    <div class="container text-center about-us" style="margin-top: 5rem;">
         <h1>Get More Information About Us</h1>
         <p>We are doing out best to help our customers, throw stable steps</p>
 
 
-        <div class="row" style="margin-top: 7rem;">
+        <div class="row" style="margin-top: 6rem;">
             <div class="col-4 position-relative">
                 <div class="row justify-content-center mb-3">
                     <div class="col-3 about-cards">
-                        <img src="{{ url('img/frontend/index/team.png') }}" class="img-fluid" alt="..." style="height: 3rem;">
+                        <img src="{{ url('img/frontend/index/team.png') }}" class="img-fluid" alt="...">
                     </div>
                 </div>
                 <div class="card about-main">
-                    <div class="card-body ">
+                    <div class="card-body">
                         <h5 class="card-title mb-2">About Kayak</h5>
-                        <p class="card-text" style="font-size: 0.9rem;">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur</p>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur</p>
 
                         <div class="row justify-content-end">
                             <div class="col-2 text-end pe-1">
@@ -135,13 +113,13 @@
             <div class="col-4 position-relative">
                 <div class="row justify-content-center mb-3">
                     <div class="col-3 about-cards">
-                        <img src="{{ url('img/frontend/index/hand.png') }}" class="img-fluid" alt="..." style="height: 3rem;">
+                        <img src="{{ url('img/frontend/index/hand.png') }}" class="img-fluid" alt="...">
                     </div>
                 </div>
                 <div class="card about-main">
-                    <div class="card-body ">
+                    <div class="card-body">
                         <h5 class="card-title mb-2">About Kayak</h5>
-                        <p class="card-text" style="font-size: 0.9rem;">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur</p>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur</p>
 
                         <div class="row justify-content-end">
                             <div class="col-2 text-end pe-1">
@@ -155,13 +133,13 @@
             <div class="col-4 position-relative">
                 <div class="row justify-content-center mb-3">
                     <div class="col-3 about-cards">
-                        <img src="{{ url('img/frontend/index/medicine.png') }}" class="img-fluid" alt="..." style="height: 3rem;">
+                        <img src="{{ url('img/frontend/index/medicine.png') }}" class="img-fluid" alt="...">
                     </div>
                 </div>
                 <div class="card about-main">
                     <div class="card-body ">
                         <h5 class="card-title mb-2">Manufacturing</h5>
-                        <p class="card-text" style="font-size: 0.9rem;">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur</p>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur</p>
 
                         <div class="row justify-content-end">
                             <div class="col-2 text-end pe-1">
@@ -183,44 +161,76 @@
             </div>
         </div>
 
-        <div class="container swiper mySwiper1 mt-5">
-            <div class="swiper-wrapper">
+        <div class="container swiper mySwiper1 mt-5 px-5">
+            <div class="swiper-wrapper align-items-center">
                 <div class="swiper-slide">
-                    <div class="card" style="width: 18rem; height: 20rem; background: rgba(255, 255, 255, .8);">
+                    <div class="card">
                         <div class="card-body text-center">
-                            <img src="{{ url('img/frontend/index/slide-1.png') }}" alt="..." style="height: 10rem; object-fit: cover;">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <img src="{{ url('img/frontend/index/slide-1.png') }}" alt="...">
+                            <h6 class="card-title fw-bold mb-2">Multilayer Surgical Cellulose Roll</h6>
+                            <div class="text-center mb-2">
+                                <i class="bi bi-star-fill gold"></i>
+                                <i class="bi bi-star-fill gold"></i>
+                                <i class="bi bi-star-fill gold"></i>
+                                <i class="bi bi-star-fill gold"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <p class="card-text mb-3" style="font-size: 0.8rem;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p>
+                            <a href="#" class="btn d-none">View More</a>
                         </div>
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="card">
                         <div class="card-body text-center">
-                            <img src="{{ url('img/frontend/index/slide-1.png') }}" alt="..." style="height: 10rem; object-fit: cover;">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <img src="{{ url('img/frontend/index/slide-2.png') }}" alt="...">
+                            <h5 class="card-title fw-bold mb-2">KN95 Face Masks</h5>
+                            <div class="text-center mb-2">
+                                <i class="bi bi-star-fill gold"></i>
+                                <i class="bi bi-star-fill gold"></i>
+                                <i class="bi bi-star-fill gold"></i>
+                                <i class="bi bi-star-fill gold"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <p class="card-text mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p>
+                            <a href="#" class="btn d-none">View More</a>
                         </div>
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="card">
                         <div class="card-body text-center">
-                            <img src="{{ url('img/frontend/index/slide-1.png') }}" alt="..." style="height: 10rem; object-fit: cover;">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <img src="{{ url('img/frontend/index/slide-3.png') }}" alt="...">
+                            <h6 class="card-title fw-bold mb-2">Endotracheal Tubes</h6>
+                            <div class="text-center mb-2">
+                                <i class="bi bi-star-fill gold"></i>
+                                <i class="bi bi-star-fill gold"></i>
+                                <i class="bi bi-star-fill gold"></i>
+                                <i class="bi bi-star-fill gold"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <p class="card-text mb-3" style="font-size: 0.8rem;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p>
+                            <a href="#" class="btn d-none">View More</a>
                         </div>
                     </div>
                 </div>
-                <div class="swiper-slide">Slide 4</div>
-                <div class="swiper-slide">Slide 5</div>
-                <div class="swiper-slide">Slide 6</div>
-                <div class="swiper-slide">Slide 7</div>
-                <div class="swiper-slide">Slide 8</div>
-                <div class="swiper-slide">Slide 9</div>
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img src="{{ url('img/frontend/index/slide-1.png') }}" alt="...">
+                            <h6 class="card-title fw-bold mb-2">Multilayer Surgical Cellulose Roll</h6>
+                            <div class="text-center mb-2">
+                                <i class="bi bi-star-fill gold"></i>
+                                <i class="bi bi-star-fill gold"></i>
+                                <i class="bi bi-star-fill gold"></i>
+                                <i class="bi bi-star-fill gold"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <p class="card-text mb-3" style="font-size: 0.8rem;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p>
+                            <a href="#" class="btn d-none">View More</a>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
@@ -229,57 +239,75 @@
     </div>
 
 
-    <div class="container" style="margin-top: 1rem;">
-        <div class="row pt-5">
-            <div class="col-12 text-center">
-                <h3>Other Products</h3>
-                <p>We are doing our best to help our customers, throw stable steps</p>
+    <div class="container-fluid other-banner">
+        <div class="container">
+            <div class="row pt-5">
+                <div class="col-12 text-center">
+                    <h3>Other Products</h3>
+                    <p>We are doing our best to help our customers, throw stable steps</p>
+                </div>
             </div>
-        </div>
-        <div class="swiper mySwiper2 mt-5">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide px-5">
-                    <div class="row justify-content-center">
-                        <div class="col-9">
-                            <div class="row align-items-center">
-                                    <div class="col-6 text-center">
-                                    <h4 class="fw-bold">SURGICAL DIVISION</h4>
-                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio dolorum consequatur excepturi hic quae enim minima ipsam nobis atque quas, totam autem mollitia dolores cupiditate nihil officiis dicta aliquam similique.</p>
-                                </div>
 
-                                <div class="col-6 d-flex align-items-end" style="background: linear-gradient(to bottom, rgba(0,0,0, 0), rgba(0,0,0, 100) ),url('../img/frontend/index/shoulder.png'); background-repeat: no-repeat;background-size: cover; height: 16rem; background-position:center center; justify-content: center">
-                                    <!-- <img src="{{ url('img/frontend/index/shoulder.png') }}" alt="" style="height: 15rem; "> -->
-                                    <h5 class="fw-bold text-white">Orthopedics Products</h5>
+            <div class="row justify-content-center">
+                <div class="col-10">
+                    <div class="row align-items-center">
+                        <div class="col-6 text-center">
+                            <h4 class="fw-bold">SURGICAL DIVISION</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo commodi vitae dignissimos quos provident, qui laudantium neque possimus totam esse nulla animi, earum cum repudiandae ea libero? Ad iste nulla, quo quas laudantium placeat in expedita tempora tenetur necessitatibus nam!</p>
+                        </div>
+
+                    <div class="col-6">
+                        <div class="swiper mySwiper2 mt-5">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide px-5">        
+                                    <div class="d-flex align-items-end" style="background: linear-gradient(to bottom, rgba(0,0,0, 0), rgba(0,0,0, 100) ),url('../img/frontend/index/shoulder.png'); background-repeat: no-repeat;background-size: cover; height: 16rem; background-position:center center; justify-content: center">
+                                        <h5 class="fw-bold text-white">Orthopedics Products</h5>
+                                    </div>
+                                </div>
+                                
+                                <div class="swiper-slide px-5">
+                                    <div class="d-flex align-items-end" style="background: linear-gradient(to bottom, rgba(0,0,0, 0), rgba(0,0,0, 100) ),url('../img/frontend/index/shoulder.png'); background-repeat: no-repeat;background-size: cover; height: 16rem; background-position:center center; justify-content: center">
+                                        <h5 class="fw-bold text-white">Surgical Products</h5>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide px-5">
+                                    <div class="d-flex align-items-end" style="background: linear-gradient(to bottom, rgba(0,0,0, 0), rgba(0,0,0, 100) ),url('../img/frontend/index/shoulder.png'); background-repeat: no-repeat;background-size: cover; height: 16rem; background-position:center center; justify-content: center">
+                                        <h5 class="fw-bold text-white">Vaccine Products</h5>
+                                    </div>
                                 </div>
                             </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
                         </div>
-                       
+                        
                     </div>
                 </div>
-                <div class="swiper-slide">Slide 2</div>
-                <div class="swiper-slide">Slide 3</div>
-            </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-        </div>
 
-        <div class="text-center mt-5">
-            <a href="#" type="button" class="btn text-decoration-none text-white rounded-pill" style="background-color: #00ACEE;">View All Products</a>
+                <div class="text-center mt-5">
+                    <a href="#" type="button" class="btn text-decoration-none text-white rounded-pill" style="background-color: #00ACEE;">View All Products</a>
+                </div>
+                </div>
+            </div>
+
+            
         </div>
     </div>
+    
 
-    <div class="container-fluid new-banner" style="margin-top: 5rem;">
-        <div class="row pt-5 justify-content-center">
-            <div class="col-6">
-                <div class="row">
-                    <div class="col-12 text-center">
-                        <h1>What's New at Kayak</h1>
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata</p>
+    <div class="container-fluid new-banner">
+        <div class="container">
+            <div class="row pt-5 justify-content-center">
+                <div class="col-10">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <h1>What's New at Kayak</h1>
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    
+        
         <div class="container">
             <div class="row mt-5">
                 <div class="col-3">
@@ -308,12 +336,13 @@
                 </div>
 
                 <div class="col-6">
-
+                    <iframe src="https://www.youtube.com/embed/wHWpz804lOk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width: 100%; height: 336px"></iframe>
                 </div>
             </div>
         </div>
         
     </div>
+
 @endsection
 
 
@@ -329,14 +358,47 @@
 </script>
 
 <script>
-      var swiper = new Swiper(".mySwiper1", {
-        slidesPerView: 3,
-        spaceBetween: 60,
+    var swiper = new Swiper( '.mySwiper1', {
+		// pagination: '.swiper-pagination',
+        spaceBetween: 50,
+		slidesPerView: 3,
+        loop: true,
+        loopFillGroupWithBlank: true,
         navigation: {
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
+        },
+        
+    });
+
+    // if($('.mySwiper1 .swiper-slide').hasClass('swiper-slide-next')) {
+    //     $(this).find('.card-title').css('border', '1px solid black');
+    // }
+
+    if($('.mySwiper1 .swiper-slide').hasClass('swiper-slide-next')) {
+            $('.mySwiper1 .swiper-slide-next').find('a').removeClass('d-none');
         }
-      });
+
+    $('.swiper-button-next').on('click', function() {
+        if($('.mySwiper1 .swiper-slide').hasClass('swiper-slide-next')) {
+            $('.mySwiper1 .swiper-slide-next').find('a').removeClass('d-none');
+        }
+
+        if ($('.mySwiper1 .swiper-slide').hasClass('swiper-slide-active')) {
+           $('.mySwiper1 .swiper-slide-active').find('a').addClass('d-none');
+        }
+    });
+
+    $('.swiper-button-prev').on('click', function() {
+        if($('.mySwiper1 .swiper-slide').hasClass('swiper-slide-next')) {
+            $('.mySwiper1 .swiper-slide-next').find('a').removeClass('d-none');
+        }
+
+        if ($('.mySwiper1 .swiper-slide').classList.length == 1) {
+           $('.mySwiper1 .swiper-slide').find('a').addClass('d-none');
+        }
+    });
+
 </script>
 
 <script>
