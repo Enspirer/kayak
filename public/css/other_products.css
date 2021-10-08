@@ -1,0 +1,42 @@
+.banner {
+    background-image: url(../img/frontend/other_products/banner.png);
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center center; */
+    height: 800px;
+    margin-top: 7rem;
+}
+
+.accordion-item {
+    background-color: #fff;
+    border: none!important;
+}
+.accordion-header {
+    border: 1px solid #00ACEE;
+    font-weight: 700;
+}
+.accordion-button:not(.collapsed) {
+    color: black!important;
+}
+.nav .active {
+    color: #00ACEE!important;
+}
+
+
+.accordion-button::after {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='10' fill='%2300ACEE' class='bi bi-plus-lg' viewBox='0 0 16 16'><path fill-rule='evenodd' d='M8 0a1 1 0 0 1 1 1v6h6a1 1 0 1 1 0 2H9v6a1 1 0 1 1-2 0V9H1a1 1 0 0 1 0-2h6V1a1 1 0 0 1 1-1z'/></svg>");
+    width: 1rem!important;
+    height: 1rem!important;
+    background-size: 1rem!important;
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='10' fill='%2300ACEE' class='bi bi-plus-lg' viewBox='0 0 16 16'><path fill-rule='evenodd' d='M8 0a1 1 0 0 1 1 1v6h6a1 1 0 1 1 0 2H9v6a1 1 0 1 1-2 0V9H1a1 1 0 0 1 0-2h6V1a1 1 0 0 1 1-1z'/></svg>");
+    transform: rotate(-45deg)!important;
+}
+
+.tab-content img {
+    object-fit: cover;
+    border: 1px solid #00ACEE;
+    border-radius: 8px;
+}

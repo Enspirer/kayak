@@ -1,0 +1,51 @@
+.banner {
+    background-image: url(../img/frontend/other_products/banner.png);
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center center; */
+    height: 650px;
+    margin-top: 7rem;
+}
+
+.kayak-products .nav-link {
+    border: 1px solid #00ACEE;
+    border-radius: 0!important;
+    width: 100%!important;
+    text-align: left;
+    padding: 1rem 1.25rem!important;
+    color: black;
+}
+.kayak-products .nav-link i {
+    float: right;
+    transition: transform .2s ease-in-out;
+    color: #00ACEE;
+}
+
+.rotate {
+    transform: rotate(-45deg)!important;
+}
+
+.tab-content .col-4 img {
+    object-fit: cover;
+    border: 1px solid #00ACEE;
+    border-radius: 8px;
+    height: 15rem;
+}
+
+.multiple .col-2 {
+    background-color: #E9E9E9;
+}
+
+.multiple .col-2 img {
+    object-fit: cover;
+    height: 5rem;
+    cursor: pointer;
+}
+.inquire {
+    background-color: #00ACEE;
+}
+
+hr:not([size]) {
+    height: 0px!important;
+}

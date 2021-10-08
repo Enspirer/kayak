@@ -1,0 +1,20 @@
+.banner {
+    background-image: url(../img/frontend/contact_us/banner.png);
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center center; */
+    height: 290px;
+    margin-top: 7rem;
+}
+
+.form-control::placeholder {
+    color: #9B9B9B!important;
+    opacity: 1;
+    font-size: 0.7rem!important;
+}
+.form-control {
+    border-radius: 0!important;
+    background-color: #F1F0F5!important;
+    border: none!important;
+}

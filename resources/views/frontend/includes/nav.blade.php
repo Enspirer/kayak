@@ -28,22 +28,41 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item mx-3">
-                        <a class="nav-link text-white active" aria-current="page" href="{{ route('frontend.index') }}">Home</a>
+                        <a class="nav-link text-white {{ Request::segment(1) == null ? 'active' : null }}" href="{{ route('frontend.index') }}" aria-current="page" href="{{ route('frontend.index') }}">Home</a>
                     </li>
                     <li class="nav-item mx-3">
-                        <a class="nav-link text-white" href="#">The Company</a>
+                        <a class="nav-link text-white {{ Request::segment(1) == 'about-us' ? 'active' : null }}" href="{{ route('frontend.about_us') }}">About Us</a>
                     </li>
-                    <li class="nav-item mx-3">
-                        <a class="nav-link text-white" href="#">Products</a>
+                    <li class="nav-item dropdown mx-3">
+                        <a class="nav-link dropdown-toggle text-white {{ Request::segment(1) == 'other-products' ? 'active' : (Request::segment(1) == 'kayak-products' ? 'active' : null) }}" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" disabled>
+                            Products
+                        </a>
+                    
+                        <ul class="dropdown-menu px-0" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item py-2" href="{{ route('frontend.kayak_products') }}">Kayak Products</a></li>
+                            <li><a class="dropdown-item py-2" href="{{ route('frontend.other_products') }}">Other Products</a></li>
+                        </ul>
                     </li>
                     <li class="nav-item mx-3">
                         <a class="nav-link text-white" href="#">News</a>
                     </li>
                     <li class="nav-item mx-3">
-                        <a class="nav-link text-white" href="#">Contact Us</a>
+                        <a class="nav-link text-white {{ Request::segment(1) == 'contact-us' ? 'active' : null }}" href="{{ route('frontend.contact_us') }}">Contact Us</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 </div>
+
+
+@push('after-scripts')
+  <script>
+      $('.dropdown').hover(function() {
+          $(this).find('.dropdown-menu').stop(true, true).delay(100).fadeIn(100);
+      }, function() {
+          $(this).find('.dropdown-menu').stop(true, true).delay(100).fadeOut(100);
+      }); 
+  </script>
+
+@endpush

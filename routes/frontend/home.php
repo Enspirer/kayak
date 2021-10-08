@@ -2,6 +2,8 @@
 
 use App\Http\Controllers\Frontend\ContactController;
 use App\Http\Controllers\Frontend\HomeController;
+use App\Http\Controllers\Frontend\ProductsController;
+use App\Http\Controllers\Frontend\AboutUsController;
 use App\Http\Controllers\Frontend\User\AccountController;
 use App\Http\Controllers\Frontend\User\DashboardController;
 use App\Http\Controllers\Frontend\User\ProfileController;
@@ -11,8 +13,14 @@ use App\Http\Controllers\Frontend\User\ProfileController;
  * All route names are prefixed with 'frontend.'.
  */
 Route::get('/', [HomeController::class, 'index'])->name('index');
-Route::get('contact', [ContactController::class, 'index'])->name('contact');
+Route::get('contact-us', [ContactController::class, 'index'])->name('contact_us');
 Route::post('contact/send', [ContactController::class, 'send'])->name('contact.send');
+
+
+Route::get('other-products', [ProductsController::class, 'otherProducts'])->name('other_products');
+Route::get('kayak-products', [ProductsController::class, 'kayakProducts'])->name('kayak_products');
+
+Route::get('about-us', [AboutUsController::class, 'index'])->name('about_us');
 
 /*
  * These frontend controllers require the user to be logged in
