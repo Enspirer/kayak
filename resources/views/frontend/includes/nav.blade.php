@@ -2,11 +2,11 @@
     <div class="container-fluid py-2 top-nav" style="background-color: white;">
         <div class="container">
             <div class="row justify-content-between">
-                <div class="col-6">
+                <div class="col-12 text-center col-md-6 text-md-left">
                     <p>Email : info@kayak.com</p>
                 </div>
 
-                <div class="col-6 text-end">
+                <div class="col-12 text-center col-md-6 text-md-right">
                     <p>Tel : +94 11 22 22944</p>
                 </div>
             </div>
@@ -16,7 +16,7 @@
 
 
 
-    <nav class="navbar navbar-expand-lg navbar-light main-nav" style="background-color: #010101;">
+    <nav class="navbar navbar-expand-lg navbar-dark main-nav " style="background-color: #010101;">
         <div class="container p-0">
 
             <img src="{{ url('img/frontend/logo.png') }}" alt="" class="img-fluid me-2" style="height: 4rem;">

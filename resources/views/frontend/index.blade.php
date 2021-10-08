@@ -89,7 +89,7 @@
 
 
         <div class="row" style="margin-top: 6rem;">
-            <div class="col-4 position-relative">
+            <div class="col-12 col-md-4 position-relative">
                 <div class="row justify-content-center mb-3">
                     <div class="col-3 about-cards">
                         <img src="{{ url('img/frontend/index/team.png') }}" class="img-fluid" alt="...">
@@ -110,7 +110,7 @@
                 </div>
             </div>
 
-            <div class="col-4 position-relative">
+            <div class="col-12 col-md-4 position-relative">
                 <div class="row justify-content-center mb-3">
                     <div class="col-3 about-cards">
                         <img src="{{ url('img/frontend/index/hand.png') }}" class="img-fluid" alt="...">
@@ -130,7 +130,7 @@
                 </div>
             </div>
 
-            <div class="col-4 position-relative">
+            <div class="col-12 col-md-4 position-relative">
                 <div class="row justify-content-center mb-3">
                     <div class="col-3 about-cards">
                         <img src="{{ url('img/frontend/index/medicine.png') }}" class="img-fluid" alt="...">
@@ -249,14 +249,14 @@
             </div>
 
             <div class="row justify-content-center">
-                <div class="col-10">
+                <div class="col-12 col-md-10">
                     <div class="row align-items-center">
-                        <div class="col-6 text-center">
+                        <div class="col-12 col-md-6 text-center">
                             <h4 class="fw-bold">SURGICAL DIVISION</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo commodi vitae dignissimos quos provident, qui laudantium neque possimus totam esse nulla animi, earum cum repudiandae ea libero? Ad iste nulla, quo quas laudantium placeat in expedita tempora tenetur necessitatibus nam!</p>
                         </div>
 
-                    <div class="col-6">
+                    <div class="col-12 col-md-6">
                         <div class="swiper mySwiper2 mt-5">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide px-5">        
@@ -310,7 +310,7 @@
         
         <div class="container">
             <div class="row mt-5">
-                <div class="col-3">
+                <div class="col-12 col-md-3">
                     <img src="{{ url('img/frontend/index/new-1.png') }}" alt="" class="img-fluid">
 
                     <div class="row justify-content-end">
@@ -322,7 +322,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-12 col-md-3">
                     <img src="{{ url('img/frontend/index/new-2.png') }}" alt="" class="img-fluid">
 
                     <div class="row justify-content-end">
@@ -335,7 +335,7 @@
                     </div>
                 </div>
 
-                <div class="col-6">
+                <div class="col-12 col-md-6">
                     <iframe src="https://www.youtube.com/embed/wHWpz804lOk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width: 100%; height: 336px"></iframe>
                 </div>
             </div>
@@ -368,6 +368,18 @@
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
         },
+        breakpoints: {
+            0: {
+                slidesPerView: 1,
+            },
+
+            576: {
+                slidesPerView: 5,
+            },
+            768: {
+                slidesPerView: 4,
+            }
+            },
         
     });
 
