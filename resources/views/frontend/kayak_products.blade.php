@@ -10,7 +10,7 @@
     <div class="container-fluid banner">    
         <div class="container" style="padding-top: 4rem;">
             <div class="row justify-content-center">
-                <div class="col-7 text-center">
+                <div class="col-12 col-md-7 text-center">
                     <h2>Kayak Products</h2>
                     <p>We are doing our best to help our customers, throw stable steps</p>
                 </div>
@@ -19,7 +19,7 @@
 
         <div class="container kayak-products">
             <div class="row mt-5">
-                <div class="col-4">
+                <div class="col-12 mb-4 col-md-4 mb-md-0">
                     <ul class="nav flex-column" id="pills-tab" role="tablist">
                         <li class="nav-item" role="presentation">
                             <button class="nav-link active fw-bolder mb-3" id="pills-kn95-tab" data-bs-toggle="pill" data-bs-target="#pills-kn95" type="button" role="tab" aria-controls="pills-kn95" aria-selected="true">KN95 FACE MASKS <i class="bi bi-plus-lg"></i></button>
@@ -34,32 +34,35 @@
                 </div>
 
                 
-                <div class="col-8">
+                <div class="col-12 col-md-8">
                     <div class="tab-content">
                         <div class="tab-pane fade active show" id="pills-kn95" aria-labelledby="pills-kn95-tab">
                             <div class="row">
-                                <div class="col-4 text-center">
+                                <div class="col-12 col-md-4 mb-4 mb-md-0 text-center">
                                     <img src="{{ url('img/frontend/kayak_products/kn95.png') }}" alt="" class="img-fluid main-image">
                                 </div>
-                                <div class="col-8">
-                                    <h5 class="fw-bold">KN95 FACE MASKS</h5>
+                                <div class="col-12 col-md-8">
+                                    <h5 class="fw-bold text-center text-md-left">KN95 FACE MASKS</h5>
                                     <hr>
 
                                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla hic, odit laboriosam minima aliquid reiciendis sint facilis autem, odio ad doloribus. Obcaecati ab ipsam unde doloremque laudantium. Quas hic in, vero maiores iure nihil architecto a, tenetur porro labore voluptatibus distinctio repellendus debitis, fugiat sed ratione eaque dicta beatae magni laboriosam iusto nulla esse? Similique perspiciatis qui voluptatem eligendi repellendus?</p>
 
-                                    <div class="row multiple mx-0 mt-4 mb-4">
-                                        <div class="col-2 text-center me-1">
+                                    <div class="row multiple mx-0 mt-4 mb-4 justify-content-center justify-content-md-start">
+                                        <div class="col-3 col-md-2 text-center me-1">
                                             <img src="{{ url('img/frontend/kayak_products/kn95.png') }}" alt="" class="img-fluid">
                                         </div>
-                                        <div class="col-2 text-center me-1">
+                                        <div class="col-3 col-md-2 text-center me-1">
                                             <img src="{{ url('img/frontend/kayak_products/kn95.png') }}" alt="" class="img-fluid">
                                         </div>
-                                        <div class="col-2 text-center me-1">
+                                        <div class="col-3 col-md-2 text-center me-1">
                                             <img src="{{ url('img/frontend/kayak_products/kn95.png') }}" alt="" class="img-fluid">
                                         </div>
                                     </div>
 
-                                    <button class="btn rounded-pill text-white px-5 py-2 inquire">Inquire Now</button>
+                                    <div class="inquire">
+                                        <button class="btn rounded-pill text-white px-5 py-2">Inquire Now</button>
+                                    </div>
+                                    
                                 </div>
                             </div>
                         </div>

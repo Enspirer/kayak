@@ -119,3 +119,22 @@ p {
     box-shadow: 0 0rem 1rem rgba(0,0,0,.175);
 }
 
+
+
+
+
+@media screen and (max-width: 576px) {
+    .footer {
+        padding-top: 2rem!important;
+        padding-bottom: 1rem!important;
+    }
+    .footer a, .footer p {
+        font-size: 0.9rem!important;
+    }
+    .footer a i {
+        font-size: 1.5rem!important;
+    }
+    .copyright p {
+        font-size: 0.8rem!important;
+    }
+}

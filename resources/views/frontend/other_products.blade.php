@@ -7,10 +7,10 @@
 @endpush
 
 @section('content')
-    <div class="container-fluid banner">    
+    <div class="container-fluid banner other-products">    
         <div class="container" style="padding-top: 4rem;">
             <div class="row justify-content-center">
-                <div class="col-7 text-center">
+                <div class="col-12 col-md-7 text-center">
                     <h2>Other Products</h2>
                     <p>Want to get in touch? We'd love to hear from you. Here's how you can reach us ...</p>
                 </div>
@@ -18,8 +18,8 @@
         </div>
 
         <div class="container">
-            <div class="row mt-5">
-                <div class="col-4">
+            <div class="row mt-4 mt-md-5">
+                <div class="col-12 col-md-4 mb-4 mb-md-0">
                     <div class="accordion" id="accordionExample">
                         <div class="accordion-item mb-4">
                             <h2 class="accordion-header" id="headingOne">
@@ -128,31 +128,31 @@
                 </div>
 
                 
-                <div class="col-8">
+                <div class="col-12 col-md-8">
                     <div class="tab-content">
                         <div class="tab-pane fade active show" id="pills-orthopaedic" aria-labelledby="pills-orthopaedic-tab">
                             <div class="row">
-                                <div class="col-4 mb-4">
+                                <div class="col-12 col-md-4 mb-4">
                                     <img src="{{ url('img/frontend/other_products/1.png') }}" alt="" class="img-fluid">
                                 </div>
 
-                                <div class="col-4 mb-4">
+                                <div class="col-12 col-md-4 mb-4">
                                     <img src="{{ url('img/frontend/other_products/2.png') }}" alt="" class="img-fluid">
                                 </div>
 
-                                <div class="col-4 mb-4">
+                                <div class="col-12 col-md-4 mb-4">
                                     <img src="{{ url('img/frontend/other_products/3.png') }}" alt="" class="img-fluid">
                                 </div>
 
-                                <div class="col-4 mb-4">
+                                <div class="col-12 col-md-4 mb-4">
                                     <img src="{{ url('img/frontend/other_products/4.png') }}" alt="" class="img-fluid">
                                 </div>
 
-                                <div class="col-4 mb-4">
+                                <div class="col-12 col-md-4 mb-4">
                                     <img src="{{ url('img/frontend/other_products/5.png') }}" alt="" class="img-fluid">
                                 </div>
 
-                                <div class="col-4 mb-4">
+                                <div class="col-12 col-md-4 mb-4">
                                     <img src="{{ url('img/frontend/other_products/6.png') }}" alt="" class="img-fluid">
                                 </div>
                             </div>
