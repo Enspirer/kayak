@@ -86,6 +86,9 @@
     left: 110px!important;
     top: 21rem!important;
 } */
+.banner .swiper-button-next, .banner .swiper-button-prev {
+    top: 55%!important;
+}
 
 
 
