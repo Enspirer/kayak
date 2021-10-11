@@ -458,23 +458,47 @@
 
 <script>
     $('.banners .banner .next').on('click', function() {
-        $(this).parents('.banner').addClass('d-none');
+
+        $(this).parents('.banner').fadeOut(500); 
+
+        $(this).parents('.banner').next().fadeIn(1000);
+
         $(this).parents('.banner').next().removeClass('d-none');
 
         if($(this).parents('.banner').hasClass('last')) {
-            $(this).parents('.banner').addClass('d-none');
+
+            $(this).parents('.banner').fadeOut(500);
+
+            $(this).parents('.banners').find('.banner:first-child').fadeIn(1000);
+
             $(this).parents('.banners').find('.banner:first-child').removeClass('d-none');
         };
     });
 
     $('.banners .banner .previous').on('click', function() {
-        $(this).parents('.banner').addClass('d-none');
+
+        $(this).parents('.banner').fadeOut(500); 
+
+        $(this).parents('.banner').prev().fadeIn(1000);
+
         $(this).parents('.banner').prev().removeClass('d-none');
 
         if($(this).parents('.banner').hasClass('first')) {
-            $(this).parents('.banner').addClass('d-none');
+
+            $(this).parents('.banner').fadeOut(500); 
+
+            $(this).parents('.banners').find('.banner:last-child').fadeIn(1000);
+
             $(this).parents('.banners').find('.banner:last-child').removeClass('d-none');
         };
+    });
+
+
+    $(document).ready(function() {
+        setInterval(function(){ 
+            $(".next").click();
+        }, 2000);
+        
     });
 
     
