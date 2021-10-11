@@ -4,7 +4,6 @@
 
 @section('content')
     
-
 <div class="row">
         <div class="col">
 
@@ -12,7 +11,7 @@
                 <div class="card-header">
                     <strong>News&nbsp;</strong>
 
-                    <a href="" class="btn btn-primary ms-4">Create New</a>
+                    <a href="{{route('admin.news.create')}}" class="btn btn-primary pull-right ml-4">Create New</a>
                    
                 </div><!--card-header-->
 
@@ -22,7 +21,6 @@
                             <tr>
                                 <th scope="col">No</th>
                                 <th scope="col">Title</th>
-                                <th scope="col">Featured Image</th>
                                 <th scope="col">Is Feature</th>
                                 <th scope="col">Status</th>
                                 <th scope="col">Order</th>
@@ -47,8 +45,8 @@
                     {{csrf_field()}}
                     <div class="modal-header">
                         <h3 class="modal-title" id="ModalDeleteLabel">Delete</h3>
-                        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                            <!-- <span aria-hidden="true">&times;</span> -->
                         </button>
                     </div>
                     <div class="modal-body">
@@ -76,13 +74,12 @@
     $(function () {
         var table = $('#news-table').DataTable({
             processing: true,
-            ajax: "{{route('admin.news.get_news')}}",
+            ajax: "{{route('admin.news.getdetails')}}",
             serverSide: true,
             order: [[0, "desc"]],
             columns: [
                 {data: 'id', name: 'id'},
                 {data: 'title', name: 'title'},
-                {data: 'image', name: 'image'},
                 {data: 'is_feature', name: 'is_feature'},
                 {data: 'status', name: 'status'},
                 {data: 'order', name: 'order'},
@@ -99,7 +96,7 @@
 
         $('#ok_button').click(function(){
             $.ajax({
-                url:"news/delete-news/" + news_id,
+                url:"news/delete/" + news_id,
         
                 success:function(data)
                 {

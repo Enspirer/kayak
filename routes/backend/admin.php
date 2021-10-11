@@ -8,5 +8,9 @@ Route::redirect('/', '/admin/dashboard', 301);
 Route::get('dashboard', [DashboardController::class, 'index'])->name('dashboard');
 
 Route::get('news', [NewsController::class, 'index'])->name('news.index');
-Route::get('news/get-news', [NewsController::class, 'getNews'])->name('news.get_news');
-Route::get('news/delete-news/{id}', [NewsController::class, 'deleteNews'])->name('articles.delete_news');
+Route::get('news/create', [NewsController::class, 'create'])->name('news.create');
+Route::post('news/store', [NewsController::class, 'store'])->name('news.store');
+Route::get('news/getdetails', [NewsController::class, 'getdetails'])->name('news.getdetails');
+Route::get('news/edit/{id}', [NewsController::class, 'edit'])->name('news.edit');
+Route::post('news/update', [NewsController::class, 'update'])->name('news.update');
+Route::get('news/delete/{id}', [NewsController::class, 'destroy'])->name('news.destroy');
