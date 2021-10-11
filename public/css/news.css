@@ -1,0 +1,38 @@
+.multiple img {
+    cursor: pointer;
+}
+
+
+
+
+@media screen and (max-width: 576px) {
+    .title {
+        font-size: 2rem!important;
+        text-align: center;
+    }
+    .main-news img {
+        height: 15rem!important;
+    }
+    .main-news h2 {
+        font-size: 1.6rem!important;
+    }
+    .other-news {
+        margin-top: 4rem!important;
+    }
+    .other-news h2 {
+        font-size: 1.6rem!important;
+    }
+    .main-image {
+        height: 15rem!important;
+    }
+    .multiple img {
+        height: 5rem!important;
+    }
+    .other-news p {
+        -webkit-line-clamp: 7!important;
+    }
+    .other-news p {
+        -webkit-line-clamp: 7!important;
+    }
+}
+

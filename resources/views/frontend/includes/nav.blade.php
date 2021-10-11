@@ -44,7 +44,7 @@
                         </ul>
                     </li>
                     <li class="nav-item mx-3">
-                        <a class="nav-link text-white" href="#">News</a>
+                        <a class="nav-link text-white {{ Request::segment(1) == 'news' ? 'active' : null }}" href="{{ route('frontend.news') }}">News</a>
                     </li>
                     <li class="nav-item mx-3">
                         <a class="nav-link text-white {{ Request::segment(1) == 'contact-us' ? 'active' : null }}" href="{{ route('frontend.contact_us') }}">Contact Us</a>

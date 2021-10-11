@@ -13,6 +13,15 @@
                 </a>
             </li>
 
+            <li class="nav-item">
+                <a class="nav-link {{
+                    active_class(Route::is('admin/news.index'))
+                }}" href="{{ route('admin.news.index') }}">
+                    <i class="nav-icon far fa-newspaper"></i>
+                    News
+                </a>
+            </li>
+
             @if ($logged_in_user->isAdmin())
                 <li class="nav-title">
                     @lang('menus.backend.sidebar.system')

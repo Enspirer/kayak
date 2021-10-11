@@ -4,6 +4,7 @@ use App\Http\Controllers\Frontend\ContactController;
 use App\Http\Controllers\Frontend\HomeController;
 use App\Http\Controllers\Frontend\ProductsController;
 use App\Http\Controllers\Frontend\AboutUsController;
+use App\Http\Controllers\Frontend\NewsController;
 use App\Http\Controllers\Frontend\User\AccountController;
 use App\Http\Controllers\Frontend\User\DashboardController;
 use App\Http\Controllers\Frontend\User\ProfileController;
@@ -19,6 +20,9 @@ Route::post('contact/send', [ContactController::class, 'send'])->name('contact.s
 
 Route::get('other-products', [ProductsController::class, 'otherProducts'])->name('other_products');
 Route::get('kayak-products', [ProductsController::class, 'kayakProducts'])->name('kayak_products');
+
+Route::get('news', [NewsController::class, 'index'])->name('news');
+Route::get('news/{id}', [NewsController::class, 'singleNews'])->name('single_news');
 
 Route::get('about-us', [AboutUsController::class, 'index'])->name('about_us');
 
