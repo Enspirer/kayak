@@ -13,7 +13,7 @@
         <div class="banner first" style="background-image: url('img/frontend/index/1.jpg');">
             <div class="container" style="padding-top: 11rem;">
                 <div class="row justify-content-end">
-                    <div class="col-6">
+                    <div class="col-12 col-md-6">
                         <h1>Better Technology for</h1>
                         <h1 class="mb-2">Better Health Care</h1>
                         <p class="ps-1">Widest range of products with Highest Quality standards</p>
@@ -84,11 +84,11 @@
 
     
     <div class="container text-center about-us" style="margin-top: 5rem;">
-        <h1>Get More Information About Us</h1>
+        <h1 class="mb-3 mb-md-0">Get More Information About Us</h1>
         <p>We are doing out best to help our customers, throw stable steps</p>
 
 
-        <div class="row" style="margin-top: 6rem;">
+        <div class="row about-us-row" style="margin-top: 6rem;">
             <div class="col-12 col-md-4 position-relative">
                 <div class="row justify-content-center mb-3">
                     <div class="col-3 about-cards">
@@ -161,7 +161,7 @@
             </div>
         </div>
 
-        <div class="container swiper mySwiper1 mt-5 px-5">
+        <div class="container swiper mySwiper1 mt-md-5 px-5">
             <div class="swiper-wrapper align-items-center">
                 <div class="swiper-slide">
                     <div class="card">
@@ -175,7 +175,7 @@
                                 <i class="bi bi-star-fill gold"></i>
                                 <i class="bi bi-star-fill"></i>
                             </div>
-                            <p class="card-text mb-3" style="font-size: 0.8rem;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p>
+                            <p class="card-text mb-md-3" style="font-size: 0.8rem;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p>
                             <a href="#" class="btn d-none">View More</a>
                         </div>
                     </div>
@@ -192,7 +192,7 @@
                                 <i class="bi bi-star-fill gold"></i>
                                 <i class="bi bi-star-fill"></i>
                             </div>
-                            <p class="card-text mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p>
+                            <p class="card-text mb-md-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p>
                             <a href="#" class="btn d-none">View More</a>
                         </div>
                     </div>
@@ -209,7 +209,7 @@
                                 <i class="bi bi-star-fill gold"></i>
                                 <i class="bi bi-star-fill"></i>
                             </div>
-                            <p class="card-text mb-3" style="font-size: 0.8rem;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p>
+                            <p class="card-text mb-md-3" style="font-size: 0.8rem;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p>
                             <a href="#" class="btn d-none">View More</a>
                         </div>
                     </div>
@@ -226,7 +226,7 @@
                                 <i class="bi bi-star-fill gold"></i>
                                 <i class="bi bi-star-fill"></i>
                             </div>
-                            <p class="card-text mb-3" style="font-size: 0.8rem;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p>
+                            <p class="card-text mb-md-3" style="font-size: 0.8rem;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p>
                             <a href="#" class="btn d-none">View More</a>
                         </div>
                     </div>
@@ -242,7 +242,7 @@
     <div class="container-fluid other-banner">
         <div class="container">
             <div class="row pt-5">
-                <div class="col-12 text-center">
+                <div class="col-12 text-center mb-4 mb-md-0">
                     <h3>Other Products</h3>
                     <p>We are doing our best to help our customers, throw stable steps</p>
                 </div>
@@ -387,28 +387,60 @@
     //     $(this).find('.card-title').css('border', '1px solid black');
     // }
 
-    if($('.mySwiper1 .swiper-slide').hasClass('swiper-slide-next')) {
-            $('.mySwiper1 .swiper-slide-next').find('a').removeClass('d-none');
-        }
+    // if($('.mySwiper1 .swiper-slide').hasClass('swiper-slide-next')) {
+    //         $('.mySwiper1 .swiper-slide-next').find('a').removeClass('d-none');
+    //     }
 
-    $('.swiper-button-next').on('click', function() {
-        if($('.mySwiper1 .swiper-slide').hasClass('swiper-slide-next')) {
-            $('.mySwiper1 .swiper-slide-next').find('a').removeClass('d-none');
-        }
+    // $('.swiper-button-next').on('click', function() {
+    //     if($('.mySwiper1 .swiper-slide').hasClass('swiper-slide-next')) {
+    //         $('.mySwiper1 .swiper-slide-next').find('a').removeClass('d-none');
+    //     }
 
-        if ($('.mySwiper1 .swiper-slide').hasClass('swiper-slide-active')) {
-           $('.mySwiper1 .swiper-slide-active').find('a').addClass('d-none');
-        }
-    });
+    //     if ($('.mySwiper1 .swiper-slide').hasClass('swiper-slide-active')) {
+    //        $('.mySwiper1 .swiper-slide-active').find('a').addClass('d-none');
+    //     }
+    // });
 
-    $('.swiper-button-prev').on('click', function() {
-        if($('.mySwiper1 .swiper-slide').hasClass('swiper-slide-next')) {
-            $('.mySwiper1 .swiper-slide-next').find('a').removeClass('d-none');
-        }
+    // $('.swiper-button-prev').on('click', function() {
+    //     if($('.mySwiper1 .swiper-slide').hasClass('swiper-slide-next')) {
+    //         $('.mySwiper1 .swiper-slide-next').find('a').removeClass('d-none');
+    //     }
 
-        if ($('.mySwiper1 .swiper-slide').classList.length == 1) {
-           $('.mySwiper1 .swiper-slide').find('a').addClass('d-none');
+    //     if ($('.mySwiper1 .swiper-slide').classList.length == 1) {
+    //        $('.mySwiper1 .swiper-slide').find('a').addClass('d-none');
+    //     }
+    // });
+
+
+    $(window).resize(function(e) {
+        if ($(window).width() <= 576) {
+            $('.mySwiper1 a').removeClass('d-none');
         }
+        else {
+            $('.swiper-button-next').on('click', function() {
+                if($('.mySwiper1 .swiper-slide').hasClass('swiper-slide-next')) {
+                    $('.mySwiper1 .swiper-slide-next').find('a').removeClass('d-none');
+                }
+
+                if ($('.mySwiper1 .swiper-slide').hasClass('swiper-slide-active')) {
+                   $('.mySwiper1 .swiper-slide-active').find('a').addClass('d-none');
+                }
+            });
+
+            $('.swiper-button-prev').on('click', function() {
+                if($('.mySwiper1 .swiper-slide').hasClass('swiper-slide-next')) {
+                    $('.mySwiper1 .swiper-slide-next').find('a').removeClass('d-none');
+                }
+
+                if ($('.mySwiper1 .swiper-slide').classList.length == 1) {
+                   $('.mySwiper1 .swiper-slide').find('a').addClass('d-none');
+                }
+            });
+            }
+        });
+
+    $(document).ready(function(){
+        $(window).resize(); // call once for good measure!
     });
 
 </script>

@@ -25,6 +25,14 @@ p {
     color: #0090FF!important;
 }
 
+.main-nav .nav-link {
+    border-bottom: 2px solid transparent;
+}
+
+.main-nav .nav-link:hover {
+    border-bottom: 2px solid #0090FF;
+}
+
 
 /* Loader Screen Earth */
 #loading {
@@ -124,6 +132,28 @@ p {
 
 
 @media screen and (max-width: 576px) {
+    .navbar-nav {
+        margin-top: 1rem;
+        text-align: center;
+    }
+    .navbar .nav-item {
+        border-right: none;
+        margin-bottom: 0.7rem;
+    }
+    .navbar .dropdown-toggle::after {
+        display: none!important;
+    }
+    .nav-link {
+        display: inline-block!important;
+    }
+    .dropdown-menu .dropdown-item {
+        text-align: center;
+    }
+    .dropdown-menu {
+        border-top: none!important;
+        background-color: rgb(39, 39, 39)!important;
+    }
+    
     .footer {
         padding-top: 2rem!important;
         padding-bottom: 1rem!important;

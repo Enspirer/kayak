@@ -89,3 +89,75 @@
 
 
 
+
+@media screen and (max-width: 576px) {
+    .banner {
+        background-attachment: initial!important;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: center center;
+        height: 230px!important;
+    }
+    .banner .container {
+        padding-top: 5rem!important;
+    }
+    .banner .swiper-button-next:after, .banner .swiper-button-prev:after {
+        font-size: 1.7rem!important;
+    }
+    .banner .swiper-button-next, .banner .swiper-rtl .banner .swiper-button-prev {
+        right: 0px!important;
+        left: auto;
+    }
+    .banner .swiper-button-prev, .swiper-rtl .swiper-button-next {
+        left: 0px!important;
+        right: auto;
+    }
+    .banner .swiper-button-next, .banner .swiper-button-prev {
+        top: 40%!important;
+    }
+    .new-banner {
+        height: auto!important;
+        padding-bottom: 4rem;
+    }
+    .other-banner {
+        height: auto!important;
+        padding-bottom: 4rem;
+    }
+    .new-banner .container .row {
+        padding-top: 1rem!important;
+    }
+    .mySwiper1 .card .card-body img {
+        height: 8rem!important;
+    }
+    .products-banner {
+        height: auto!important;
+        padding-bottom: 2rem;
+        margin-top: 0!important;
+    }
+    .banners {
+        margin-top: 8rem!important;
+    }
+    .about-us {
+        margin-top: 3rem!important;
+    }
+    .about-us h1 {
+        font-size: 1.8rem!important;
+    }
+    .about-us-row {
+        margin-top: 4rem!important;
+    }
+    .about-us-row .col-12 {
+        margin-bottom: 4rem!important;
+    }
+    .banner h1 {
+        font-size: 1.6rem!important;
+        text-align: center;
+    }
+    .banner p {
+        font-size: 0.9rem!important;
+        text-align: center;
+    }
+    .products-banner .swiper-button-next:after, .products-banner .swiper-button-prev:after {
+        font-size: 1.7rem!important;
+    }
+}

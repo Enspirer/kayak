@@ -18,3 +18,28 @@
     height: 450px;
 }
 
+
+
+
+@media screen and (max-width: 576px) {
+    .banner {
+        height: auto!important;
+    }
+    .banner iframe {
+        height: 250px!important;
+    }
+    .bottom-banner {
+        height: auto!important;
+        margin-bottom: 4rem;
+    }
+    .bottom-banner .large-title {
+        top: -1.5rem!important;
+    }
+    .bottom-banner .display-2 {
+        font-size: 4rem!important;
+    }
+    .bottom-banner .container {
+        padding-top: 5rem!important;
+    }
+}
+
