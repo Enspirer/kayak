@@ -494,12 +494,12 @@
     });
 
 
-    $(document).ready(function() {
-        setInterval(function(){ 
-            $(".next").click();
-        }, 2000);
+    // $(document).ready(function() {
+    //     setInterval(function(){ 
+    //         $(".next").click();
+    //     }, 2000);
         
-    });
+    // });
 
     
 </script>
