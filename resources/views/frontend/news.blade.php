@@ -114,15 +114,17 @@
 @endsection
 
 @push('after-scripts')
-    @foreach($all_news as $key => $news)
-    <script>        
-        $('.multiple{{$news->id}} img').on('click', function() {
-            let src = $(this).attr('src');
+    @if(count($all_news) != 0)
+        @foreach($all_news as $key => $news)
+        <script>        
+            $('.multiple{{$news->id}} img').on('click', function() {
+                let src = $(this).attr('src');
 
-            $('.main-image{{$news->id}}').attr('src', src);
-        });           
-    </script>
-    @endforeach
+                $('.main-image{{$news->id}}').attr('src', src);
+            });           
+        </script>
+        @endforeach
+    @endif
 
     <script>
         $('.multiples img').on('click', function() {
