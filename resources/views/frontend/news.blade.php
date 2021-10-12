@@ -13,7 +13,7 @@
         @if($featured_news !=  null)
             @if(json_decode($featured_news->images)[1]->image2 == null  )
                 @if(json_decode($featured_news->images)[1]->image2 == null && json_decode($featured_news->images)[2]->image3 == null)
-                    <div class="row mt-4">
+                    <div class="row mt-4 mb-4">
                         <div class="col-12 col-md-7 mb-3 mb-md-0">
                             <img src="{{ uploaded_asset(json_decode($featured_news->images)[0]->image1) }}" alt="..." class="img-fluid w-100" style="height: 22rem; object-fit: cover;">
                         </div>
@@ -109,6 +109,12 @@
             @endforeach
         </div>
     @endif    
+
+    @if(count($all_news_count) == 0)
+        @include('frontend.includes.not_found',[
+            'not_found_title' => 'News Not Found',
+        ])
+    @endif
 
     
 @endsection

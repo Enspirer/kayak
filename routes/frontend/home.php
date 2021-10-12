@@ -17,7 +17,7 @@ use App\Http\Controllers\Frontend\AizUploadController;
  */
 Route::get('/', [HomeController::class, 'index'])->name('index');
 Route::get('contact-us', [ContactController::class, 'index'])->name('contact_us');
-Route::post('contact/send', [ContactController::class, 'send'])->name('contact.send');
+Route::post('contact/store', [ContactController::class, 'store'])->name('contact.store');
 
 
 Route::get('other-products', [ProductsController::class, 'otherProducts'])->name('other_products');

@@ -19,3 +19,19 @@ Breadcrumbs::for('admin.news.create', function ($trail) {
 Breadcrumbs::for('admin.news.edit', function ($trail) {
     $trail->push('Edit News', route('admin.news.edit',1));
 });
+
+
+Breadcrumbs::for('admin.homepage_news.create', function ($trail) {
+    $trail->push('HomePage News', route('admin.homepage_news.create'));
+});
+
+Breadcrumbs::for('admin.homepage_news.edit', function ($trail) {
+    $trail->push('Edit HomePage News', route('admin.homepage_news.edit',1));
+});
+
+Breadcrumbs::for('admin.contact_us.index', function ($trail) {
+    $trail->push('Contact Us', route('admin.contact_us.index'));
+});
+Breadcrumbs::for('admin.contact_us.edit', function ($trail) {
+    $trail->push('Status', route('admin.contact_us.edit',1));
+});

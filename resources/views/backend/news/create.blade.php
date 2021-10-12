@@ -13,16 +13,16 @@
                 <div class="card">
                     <div class="card-body">
                         <div class="form-group">
-                            <label>Title</label>
+                            <label>Title <span class="text-danger">*</span></label>
                             <input type="text" class="form-control" name="title" required>
                         </div>
                         <div class="form-group">
-                            <label>Description</label>
+                            <label>Description <span class="text-danger">*</span></label>
                             <textarea type="text" class="form-control" name="description" rows="6" required></textarea>
                         </div> 
                         
                         <div class="form-group">
-                            <label>Featured News</label>
+                            <label>Featured News <span class="text-danger">*</span></label>
                             <select class="form-control" name="featured_news" required>
                                 <option value="1">Enable</option>   
                                 <option value="0" selected>Disable</option>                                
@@ -30,12 +30,12 @@
                         </div>
 
                         <div class="form-group">
-                            <label>Order</label>
+                            <label>Order <span class="text-danger">*</span></label>
                             <input type="text" class="form-control" name="order" required>
                         </div>
                         
                         <div class="form-group">
-                            <label>Status</label>
+                            <label>Status <span class="text-danger">*</span></label>
                             <select class="form-control" name="status" required>
                                 <option value="Enabled">Enable</option>   
                                 <option value="Disabled">Disable</option>                                

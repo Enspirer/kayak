@@ -13,16 +13,16 @@
                 <div class="card">
                     <div class="card-body">
                     <div class="form-group">
-                            <label>Title</label>
+                            <label>Title <span class="text-danger">*</span></label>
                             <input type="text" class="form-control" name="title" value="{{$news->title}}" required>
                         </div>
                         <div class="form-group">
-                            <label>Description</label>
+                            <label>Description <span class="text-danger">*</span></label>
                             <textarea type="text" class="form-control" name="description" rows="6" required>{{$news->description}}</textarea>
                         </div> 
                         
                         <div class="form-group">
-                            <label>Featured News</label>
+                            <label>Featured News <span class="text-danger">*</span></label>
                             <select class="form-control" name="featured_news" required>
                                 <option value="1" {{ $news->is_feature == 1 ? "selected" : "" }}>Enable</option>   
                                 <option value="0" {{ $news->is_feature == 0 ? "selected" : "" }}>Disable</option>                                
@@ -30,12 +30,12 @@
                         </div>
 
                         <div class="form-group">
-                            <label>Order</label>
+                            <label>Order <span class="text-danger">*</span></label>
                             <input type="text" class="form-control" name="order" value="{{$news->order}}" required>
                         </div>
                         
                         <div class="form-group">
-                            <label>Status</label>
+                            <label>Status <span class="text-danger">*</span></label>
                             <select class="form-control" name="status" required>
                                 <option value="Enabled" {{ $news->status == 'Enabled' ? "selected" : "" }}>Enable</option>   
                                 <option value="Disabled" {{ $news->status == 'Disabled' ? "selected" : "" }}>Disable</option>                                
