@@ -21,8 +21,13 @@ class NewsController extends Controller
         return view('backend.news.index');
     }
 
+    public function create()
+    {
+        return view('backend.news.create');
+    }
 
-    public function getNews(Request $request)
+
+    public function getdetails(Request $request)
     {
         if($request->ajax())
         {
@@ -32,19 +37,13 @@ class NewsController extends Controller
 
                 ->addColumn('action', function($data){
                     
-                    $button = '<a href="" name="edit" id="'.$data->id.'" class="edit btn btn-secondary btn-sm ml-3" style="margin-right: 10px"><i class="far fa-edit"></i> Edit </a>';
+                    $button = '<a href="'.route('admin.news.edit',$data->id).'" name="edit" id="'.$data->id.'" class="edit btn btn-secondary btn-sm ml-3 mr-3"><i class="fas fa-edit"></i> Edit </a>';
                     $button .= '<button type="button" name="delete" id="'.$data->id.'" class="delete btn btn-danger btn-sm"><i class="fas fa-trash-alt"></i> Delete</button>';
                     return $button;
                 })
-
-                ->addColumn('image', function($data){
-                    $img = '<img src="'.url('images/news', $data->image).'" style="width: 70%">';
-                 
-                    return $img;
-                })
-
+               
                 ->editColumn('is_feature', function($data){
-                    if($data->status == '1'){
+                    if($data->is_feature == '1'){
                         $is_feature = '<span class="badge bg-success">Yes</span>';
                     }else {
                         $is_feature = '<span class="badge bg-warning text-dark">No</span>';
@@ -53,25 +52,111 @@ class NewsController extends Controller
                 })
 
                 ->editColumn('status', function($data){
-                    if($data->status == 'Approved'){
-                        $status = '<span class="badge bg-success">Approved</span>';
-                    }elseif($data->status == 'Pending'){
-                        $status = '<span class="badge bg-warning text-dark">Pending</span>';
+                    if($data->status == 'Enabled'){
+                        $status = '<span class="badge bg-success">Enabled</span>';
                     }else {
-                        $status = '<span class="badge bg-danger text-dark">Rejected</span>';
+                        $status = '<span class="badge bg-danger">Disabled</span>';
                     }
                     return $status;
                 })
                 
-                ->rawColumns(['action','image', 'is_feature', 'status'])
+                ->rawColumns(['action','is_feature', 'status'])
                 ->make(true);
         }
         
         return back();
     }
 
+    public function store(Request $request)
+    {        
+        // dd($request);
 
-    public function deleteNews($id)
+        if($request->image1 == null){
+            return back()->withErrors('Please Select Feature Image');
+        }else{
+
+                 
+                    $json_images_one = ['image1' => $request->image1];
+                    $json_images_two = ['image2' => $request->image2];
+                    $json_images_three = ['image3' => $request->image3];
+
+                    $json_images = [
+                        $json_images_one,$json_images_two,$json_images_three
+                    ];                  
+
+
+                    if($request->featured_news == 1)
+                    {            
+                        $featured_news = DB::table('news')->where('is_feature', '=', 1)->update(array('is_feature' => 0));           
+                    } 
+
+                    $add = new News;
+
+                    $add->title=$request->title; 
+
+                    
+                    $add->description=$request->description;
+                    $add->status=$request->status;
+                    $add->is_feature=$request->featured_news;
+                    $add->order=$request->order;
+                    $add->images=json_encode($json_images);
+                    $add->save();
+
+                    return redirect()->route('admin.news.index')->withFlashSuccess('Added Successfully');  
+                // }
+            // }
+        }
+    }
+
+    public function edit($id)
+    {
+        $news = News::where('id',$id)->first(); 
+
+        return view('backend.news.edit',[
+            'news' => $news
+        ]);
+    }
+
+    public function update(Request $request)
+    {        
+        // dd($request);
+
+        if($request->image1 == null){
+            return back()->withErrors('Please Select Feature Image');
+        }else{         
+        
+            $json_images_one = ['image1' => $request->image1];
+            $json_images_two = ['image2' => $request->image2];
+            $json_images_three = ['image3' => $request->image3];
+
+            $json_images = [
+                $json_images_one,$json_images_two,$json_images_three
+            ];                  
+
+
+            if($request->featured_news == 1)
+            {            
+                $featured_news = DB::table('news')->where('is_feature','=', 1)->update(array('is_feature' => 0));           
+            } 
+
+            $update = new News;
+
+            $update->title=$request->title; 
+
+            $update->description=$request->description;
+            $update->status=$request->status;
+            $update->is_feature=$request->featured_news;
+            $update->order=$request->order;
+            $update->images=json_encode($json_images);
+                    
+            News::whereId($request->hidden_id)->update($update->toArray());
+
+            return redirect()->route('admin.news.index')->withFlashSuccess('Updated Successfully');  
+                
+        }
+    }
+
+    public function destroy($id)
     {
         $news = News::where('id', $id)->delete();
     }

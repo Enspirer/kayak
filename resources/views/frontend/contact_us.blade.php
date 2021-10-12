@@ -7,6 +7,23 @@
 @endpush
 
 @section('content')
+
+@if ( session()->has('message') )
+
+    <div class="container" style="background-color: #6F8FAF; padding-top:5px; margin-bottom:50px; border-radius: 50px 50px; text-align:center;">
+
+        <h1 style="margin-top:150px; color:white" class="fs-1">Thank You!</h1><br>
+        <p class="lead mb-3"><h4 style="color:white">We appreciate you for your inquiry. One of our member will get back in touch with you soon!<br><br> Have a great day!</h4></p>
+        <br><hr><br>    
+        <p class="lead">
+            <a class="btn btn-primary btn-md mt-3 mb-3" href="{{url('contact-us')}}" role="button">Contact Us Page</a>
+        </p>
+        <br>
+    </div>
+
+@else  
+
+
     <div class="container-fluid banner">
         <div class="container" style="padding-top: 7rem;">
             <div class="row justify-content-center">
@@ -53,21 +70,23 @@
                 <div class="col-12 custom-shadow p-4 bg-white box">
                     <h4 class="mb-3" style="color: #0090FF">Quick Inquiries</h4>
 
-                    <form>
+                    <form action="{{ route('frontend.contact.store') }}" method="post" enctype="multipart/form-data">
+                        {{csrf_field()}}
+
                         <div class="mb-2">
-                            <input type="text" class="form-control" id="name" name="name" aria-describedby="name" placeholder="Full Name">
+                            <input type="text" class="form-control" id="name" name="name" aria-describedby="name" placeholder="Full Name" required>
                         </div>
                         <div class="mb-2">
-                            <input type="email" class="form-control" id="email" name="email" aria-describedby="email" placeholder="Email Address">
+                            <input type="email" class="form-control" id="email" name="email" aria-describedby="email" placeholder="Email Address" required>
                         </div>
                         <div class="mb-2">
-                            <input type="text" class="form-control" id="company" name="company" aria-describedby="company" placeholder="Company">
+                            <input type="text" class="form-control" id="company" name="company" aria-describedby="company" placeholder="Company" required>
                         </div>
                         <div class="mb-2">
-                            <input type="text" class="form-control" id="telephone" name="telephone" aria-describedby="telephone" placeholder="Telephone">
+                            <input type="number" class="form-control" id="telephone" name="telephone" aria-describedby="telephone" placeholder="Telephone" required>
                         </div>
                         <div class="mb-2">
-                            <textarea name="message" id="message" class="form-control" rows="4" placeholder="Type your message"></textarea>
+                            <textarea name="message" id="message" class="form-control" rows="4" placeholder="Type your message" required></textarea>
                         </div>
                         <button type="submit" class="btn text-white" style="background-color: #0090FF;">Submit</button>
                     </form>
@@ -79,6 +98,9 @@
     <div class="container-fluid p-0">
         <div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="350" id="gmap_canvas" src="https://maps.google.com/maps?q=Lionel%20Michel%20Mawatha,%20Eriyawetiya,%20Kiribathgoda,%20Kelaniya,%20Sri%20Lanka&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org"></a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:1080px;}</style><a href="https://www.embedgooglemap.net"></a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1080px;}</style></div></div>
     </div>
+
+@endif
+
 @endsection
 
 @push('after-scripts')

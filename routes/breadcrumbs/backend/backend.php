@@ -13,11 +13,25 @@ require __DIR__.'/log-viewer.php';
 Breadcrumbs::for('admin.news.index', function ($trail) {
     $trail->push('News', route('admin.news.index'));
 });
+Breadcrumbs::for('admin.news.create', function ($trail) {
+    $trail->push('Create News', route('admin.news.create'));
+});
+Breadcrumbs::for('admin.news.edit', function ($trail) {
+    $trail->push('Edit News', route('admin.news.edit',1));
+});
 
-// Breadcrumbs::for('admin.articles.create_article', function ($trail) {
-//     $trail->push('Articles / Create', route('admin.articles.create_article'));
-// });
 
-// Breadcrumbs::for('admin.articles.edit_article', function ($trail) {
-//     $trail->push('Articles / Edit', route('admin.articles.edit_article', 1));
-// });
+Breadcrumbs::for('admin.homepage_news.create', function ($trail) {
+    $trail->push('HomePage News', route('admin.homepage_news.create'));
+});
+
+Breadcrumbs::for('admin.homepage_news.edit', function ($trail) {
+    $trail->push('Edit HomePage News', route('admin.homepage_news.edit',1));
+});
+
+Breadcrumbs::for('admin.contact_us.index', function ($trail) {
+    $trail->push('Contact Us', route('admin.contact_us.index'));
+});
+Breadcrumbs::for('admin.contact_us.edit', function ($trail) {
+    $trail->push('Status', route('admin.contact_us.edit',1));
+});

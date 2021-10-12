@@ -13,6 +13,39 @@
                 </a>
             </li>
 
+            <li class="nav-item nav-dropdown">
+                <a class="nav-link nav-dropdown-toggle " href="#">
+                    <i class="nav-icon fas fa-house-user"></i>
+                    Home Page
+                </a>
+
+                <ul class="nav-dropdown-items">
+                    @if(App\Models\HomePageNews::first() == null)
+                        <li class="nav-item">
+                            <a class="nav-link {{active_class(Route::is('admin/homepage_news'))}}" href="{{ route('admin.homepage_news.create') }}">                          
+                                Best News
+                            </a>
+                        </li>
+                    @else
+                        @php
+                            $homepage_news = App\Models\HomePageNews::first();
+                        @endphp
+                        <li class="nav-item">
+                            <a class="nav-link {{active_class(Route::is('admin/homepage_news'))}}" href="{{ route('admin.homepage_news.edit',$homepage_news->id) }}">                          
+                                Best News
+                            </a>
+                        </li>
+                    @endif
+                </ul>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link {{active_class(Route::is('admin/contact_us'))}}" href="{{ route('admin.contact_us.index') }}">
+                    <i class="nav-icon fas fa-comments"></i>
+                    Contact Us
+                </a>
+            </li>
+
             <li class="nav-item">
                 <a class="nav-link {{
                     active_class(Route::is('admin/news.index'))

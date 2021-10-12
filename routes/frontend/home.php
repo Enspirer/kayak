@@ -8,6 +8,8 @@ use App\Http\Controllers\Frontend\NewsController;
 use App\Http\Controllers\Frontend\User\AccountController;
 use App\Http\Controllers\Frontend\User\DashboardController;
 use App\Http\Controllers\Frontend\User\ProfileController;
+use App\Http\Controllers\Frontend\AizUploadController;
+
 
 /*
  * Frontend Controllers
@@ -15,7 +17,7 @@ use App\Http\Controllers\Frontend\User\ProfileController;
  */
 Route::get('/', [HomeController::class, 'index'])->name('index');
 Route::get('contact-us', [ContactController::class, 'index'])->name('contact_us');
-Route::post('contact/send', [ContactController::class, 'send'])->name('contact.send');
+Route::post('contact/store', [ContactController::class, 'store'])->name('contact.store');
 
 
 Route::get('other-products', [ProductsController::class, 'otherProducts'])->name('other_products');
@@ -25,6 +27,14 @@ Route::get('news', [NewsController::class, 'index'])->name('news');
 Route::get('news/{id}', [NewsController::class, 'singleNews'])->name('single_news');
 
 Route::get('about-us', [AboutUsController::class, 'index'])->name('about_us');
+
+
+Route::post('/aiz-uploader', [AizUploadController::class, 'show_uploader']);
+Route::post('/aiz-uploader/upload', [AizUploadController::class, 'upload']);
+Route::get('/aiz-uploader/get_uploaded_files', [AizUploadController::class, 'get_uploaded_files']);
+Route::post('/aiz-uploader/get_file_by_ids', [AizUploadController::class, 'get_preview_files']);
+Route::get('/aiz-uploader/download/{id}', [AizUploadController::class, 'attachment_download'])->name('download_attachment');
+Route::get('uploads/all/{file_name}',[AizUploadController::class,'get_image_content']);
 
 /*
  * These frontend controllers require the user to be logged in
