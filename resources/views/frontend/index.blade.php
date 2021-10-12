@@ -10,75 +10,76 @@
 @section('content')
 
     <div class="container-fluid p-0 banners" style="margin-top: 5rem;">
-        <div class="banner first" style="background-image: url('img/frontend/index/1.jpg');">
-            <div class="container" style="padding-top: 11rem;">
-                <div class="row justify-content-end">
-                    <div class="col-12 col-md-6">
-                        <h1>Better Technology for</h1>
-                        <h1 class="mb-2">Better Health Care</h1>
-                        <p class="ps-1">Widest range of products with Highest Quality standards</p>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="banner" style="background-image: url('img/frontend/index/1.jpg');">
+                        <div class="container" style="padding-top: 11rem;">
+                            <div class="row justify-content-end">
+                                <div class="col-12 col-md-6">
+                                    <h1>Better Technology for</h1>
+                                    <h1 class="mb-2">Better Health Care</h1>
+                                    <p class="ps-1">Widest range of products with Highest Quality standards</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    
                 </div>
-                <div class="swiper-button-next next"></div>
-                <div class="swiper-button-prev previous"></div>
-            </div>
-        </div>
-
-        <div class="banner d-none" style="background-image: url('img/frontend/index/2.jpg');">
-            <div class="container" style="padding-top: 11rem;">
-                <div class="row justify-content-end">
-                    <div class="col-6">
-                        <!-- <h1>Better Technology for</h1>
-                        <h1 class="mb-2">Better Health Care</h1>
-                        <p class="ps-1">Widest range of products with Highest Quality standards</p> -->
+                <div class="swiper-slide">
+                    <div class="banner" style="background-image: url('img/frontend/index/2.jpg');">
+                        <div class="container" style="padding-top: 11rem;">
+                            <div class="row justify-content-end">
+                                <div class="col-6">
+                                    <!-- <h1>Better Technology for</h1>
+                                    <h1 class="mb-2">Better Health Care</h1>
+                                    <p class="ps-1">Widest range of products with Highest Quality standards</p> -->
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="swiper-button-next next"></div>
-                    <div class="swiper-button-prev previous"></div>
                 </div>
-            </div>
-        </div>
-
-        <div class="banner d-none" style="background-image: url('img/frontend/index/3.jpg');">
-            <div class="container" style="padding-top: 11rem;">
-                <div class="row justify-content-end">
-                    <div class="col-6">
-                        <!-- <h1>Better Technology for</h1>
-                        <h1 class="mb-2">Better Health Care</h1>
-                        <p class="ps-1">Widest range of products with Highest Quality standards</p> -->
+                <div class="swiper-slide">
+                    <div class="banner" style="background-image: url('img/frontend/index/3.jpg');">
+                        <div class="container" style="padding-top: 11rem;">
+                            <div class="row justify-content-end">
+                                <div class="col-6">
+                                    <!-- <h1>Better Technology for</h1>
+                                    <h1 class="mb-2">Better Health Care</h1>
+                                    <p class="ps-1">Widest range of products with Highest Quality standards</p> -->
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="swiper-button-next next"></div>
-                    <div class="swiper-button-prev previous"></div>
                 </div>
-            </div>
-        </div>
-
-        <div class="banner d-none" style="background-image: url('img/frontend/index/4.jpg');">
-            <div class="container" style="padding-top: 11rem;">
-                <div class="row justify-content-end">
-                    <div class="col-6">
-                        <!-- <h1>Better Technology for</h1>
-                        <h1 class="mb-2">Better Health Care</h1>
-                        <p class="ps-1">Widest range of products with Highest Quality standards</p> -->
+                <div class="swiper-slide">
+                    <div class="banner" style="background-image: url('img/frontend/index/4.jpg');">
+                        <div class="container" style="padding-top: 11rem;">
+                            <div class="row justify-content-end">
+                                <div class="col-6">
+                                    <!-- <h1>Better Technology for</h1>
+                                    <h1 class="mb-2">Better Health Care</h1>
+                                    <p class="ps-1">Widest range of products with Highest Quality standards</p> -->
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="swiper-button-next next"></div>
-                    <div class="swiper-button-prev previous"></div>
                 </div>
-            </div>
-        </div>
-
-        <div class="banner d-none last" style="background-image: url('img/frontend/index/5.jpg');">
-            <div class="container" style="padding-top: 11rem;">
-                <div class="row justify-content-end">
-                    <div class="col-6">
-                        <!-- <h1>Better Technology for</h1>
-                        <h1 class="mb-2">Better Health Care</h1>
-                        <p class="ps-1">Widest range of products with Highest Quality standards</p> -->
+                <div class="swiper-slide">
+                    <div class="banner" style="background-image: url('img/frontend/index/5.jpg');">
+                        <div class="container" style="padding-top: 11rem;">
+                            <div class="row justify-content-end">
+                                <div class="col-6">
+                                    <!-- <h1>Better Technology for</h1>
+                                    <h1 class="mb-2">Better Health Care</h1>
+                                    <p class="ps-1">Widest range of products with Highest Quality standards</p> -->
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="swiper-button-next next"></div>
-                    <div class="swiper-button-prev previous"></div>
                 </div>
             </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
         </div>
     </div>
 
@@ -350,10 +351,17 @@
 <!-- Initialize Swiper -->
 <script>
   var swiper = new Swiper(".mySwiper", {
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    }
+        loop: true,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        autoplay: {
+          delay: 4000,
+          disableOnInteraction: false,
+        },
+        effect: "fade",
+        speed: 1000,
   });
 </script>
 
@@ -412,36 +420,36 @@
     // });
 
 
-    $(window).resize(function(e) {
-        if ($(window).width() <= 576) {
-            $('.mySwiper1 a').removeClass('d-none');
-        }
-        else {
-            $('.swiper-button-next').on('click', function() {
-                if($('.mySwiper1 .swiper-slide').hasClass('swiper-slide-next')) {
-                    $('.mySwiper1 .swiper-slide-next').find('a').removeClass('d-none');
-                }
+    // $(window).resize(function(e) {
+    //     if ($(window).width() <= 576) {
+    //         $('.mySwiper1 a').removeClass('d-none');
+    //     }
+    //     else {
+    //         $('.swiper-button-next').on('click', function() {
+    //             if($('.mySwiper1 .swiper-slide').hasClass('swiper-slide-next')) {
+    //                 $('.mySwiper1 .swiper-slide-next').find('a').removeClass('d-none');
+    //             }
 
-                if ($('.mySwiper1 .swiper-slide').hasClass('swiper-slide-active')) {
-                   $('.mySwiper1 .swiper-slide-active').find('a').addClass('d-none');
-                }
-            });
+    //             if ($('.mySwiper1 .swiper-slide').hasClass('swiper-slide-active')) {
+    //                $('.mySwiper1 .swiper-slide-active').find('a').addClass('d-none');
+    //             }
+    //         });
 
-            $('.swiper-button-prev').on('click', function() {
-                if($('.mySwiper1 .swiper-slide').hasClass('swiper-slide-next')) {
-                    $('.mySwiper1 .swiper-slide-next').find('a').removeClass('d-none');
-                }
+    //         $('.swiper-button-prev').on('click', function() {
+    //             if($('.mySwiper1 .swiper-slide').hasClass('swiper-slide-next')) {
+    //                 $('.mySwiper1 .swiper-slide-next').find('a').removeClass('d-none');
+    //             }
 
-                if ($('.mySwiper1 .swiper-slide').classList.length == 1) {
-                   $('.mySwiper1 .swiper-slide').find('a').addClass('d-none');
-                }
-            });
-            }
-        });
+    //             if ($('.mySwiper1 .swiper-slide').classList.length == 1) {
+    //                $('.mySwiper1 .swiper-slide').find('a').addClass('d-none');
+    //             }
+    //         });
+    //         }
+    //     });
 
-    $(document).ready(function(){
-        $(window).resize(); // call once for good measure!
-    });
+    // $(document).ready(function(){
+    //     $(window).resize(); // call once for good measure!
+    // });
 
 </script>
 
@@ -455,53 +463,5 @@
       });
 </script>
 
-
-<script>
-    $('.banners .banner .next').on('click', function() {
-
-        $(this).parents('.banner').fadeOut(500); 
-
-        $(this).parents('.banner').next().fadeIn(1000);
-
-        $(this).parents('.banner').next().removeClass('d-none');
-
-        if($(this).parents('.banner').hasClass('last')) {
-
-            $(this).parents('.banner').fadeOut(500);
-
-            $(this).parents('.banners').find('.banner:first-child').fadeIn(1000);
-
-            $(this).parents('.banners').find('.banner:first-child').removeClass('d-none');
-        };
-    });
-
-    $('.banners .banner .previous').on('click', function() {
-
-        $(this).parents('.banner').fadeOut(500); 
-
-        $(this).parents('.banner').prev().fadeIn(1000);
-
-        $(this).parents('.banner').prev().removeClass('d-none');
-
-        if($(this).parents('.banner').hasClass('first')) {
-
-            $(this).parents('.banner').fadeOut(500); 
-
-            $(this).parents('.banners').find('.banner:last-child').fadeIn(1000);
-
-            $(this).parents('.banners').find('.banner:last-child').removeClass('d-none');
-        };
-    });
-
-
-    // $(document).ready(function() {
-    //     setInterval(function(){ 
-    //         $(".next").click();
-    //     }, 2000);
-        
-    // });
-
-    
-</script>
 
 @endpush
