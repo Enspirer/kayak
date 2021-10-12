@@ -5,9 +5,10 @@ namespace App\Http\Controllers\Frontend;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\Frontend\Contact\SendContactRequest;
 use App\Mail\Frontend\Contact\SendContact;
-use Illuminate\Support\Facades\Mail;
 use Illuminate\Http\Request;
 Use App\Models\ContactUs;
+use Mail;
+use \App\Mail\ContactUsMail;
 
 
 /**
@@ -37,6 +38,16 @@ class ContactController extends Controller
         $add->status='Pending';
 
         $add->save();
+
+        $details = [
+            'name' => $request->name,
+            'phone' => $request->telephone,
+            'email' => $request->email,
+            'company' => $request->company,
+            'message' => $request->message
+        ];
+
+        \Mail::to('nihsaan.enspirer@gmail.com')->send(new ContactUsMail($details));
 
         session()->flash('message','Thanks!');
 
