@@ -30,21 +30,7 @@
     <body>
         @include('includes.partials.read-only')
 
-        <div id="loading">
-            <div id="earth"></div>
-
-            <div class="container" style="z-index: 9999; margin-top: 1rem;">
-                <div class="row justify-content-center">
-                    <div class="col-6 text-center">
-                        <div class="name" data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="1000">
-                            <p style="font-family: lora; font-size:2rem; line-height:0.75; color: white; z-index: 9999999;">KAYAK</p>
-                            <p class="mt-2" style="font-family: lora; font-size:1rem; color: #FFFFFF">SURGI PHARMA</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-        </div>
+        
             
         <div id="app">
             @include('includes.partials.logged-in-as')
@@ -69,16 +55,12 @@
         <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
         <script>
             AOS.init();
         </script>
 
-        <script>
-            $(window).on('load', function(){
-                $('#loading').hide(); // preloader hide when all elements and contents fully loaded
-            });
-        </script>
-
+   
         @stack('after-scripts')
 
         @include('includes.partials.ga')

@@ -9,6 +9,29 @@
 
 @section('content')
 
+    <div id="loading">
+        <div id="earth"></div>
+
+        <div class="container" style="z-index: 9999; margin-top: 1rem;">
+            <div class="row justify-content-center">
+                <div class="col-6 text-center">
+                    <div class="name" data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="1000">
+                        <p style="font-family: lora; font-size:2rem; line-height:0.75; color: white; z-index: 9999999;">KAYAK</p>
+                        <p class="mt-2" style="font-family: lora; font-size:1rem; color: #FFFFFF">SURGI PHARMA</p>
+                    </div>
+
+                    <div class="mt-4">
+                        <button class="btn"><i class="bi bi-arrow-right-circle-fill" style="font-size: 2rem; color: white;"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="index">
+
+    
+
     <div class="container-fluid p-0 banners" style="margin-top: 5rem;">
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
@@ -365,10 +388,34 @@
         
     </div>
 
+    </div>
+
 @endsection
 
 
 @push('after-scripts')
+
+    <script>
+        $('#loading .btn').on('click', function() {
+            $('#loading').fadeOut(2000);
+
+            // $( "#loading" ).animate({
+            //         width: "toggle",
+            //         height: "toggle"
+            //     }, {
+            //         duration: 5000,
+            //         specialEasing: {
+            //         width: "easeOutSine",
+            //         height: "easeInOutSine",
+            //         },
+            //         complete: function() {
+            //         alert( "Animation complete!" );
+            //         }
+            // });
+
+        });
+    </script>
+
 <!-- Initialize Swiper -->
 <script>
   var swiper = new Swiper(".mySwiper", {
