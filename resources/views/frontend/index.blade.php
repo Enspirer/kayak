@@ -20,10 +20,6 @@
                         <p class="mt-2" style="font-family: lora; font-size:1rem; color: #FFFFFF">SURGI PHARMA</p> -->
                         <img src="{{ url('img/frontend/loader_text.png') }}" alt="" style="height: 3rem;">
                     </div>
-
-                    <div class="mt-4">
-                        <button class="btn"><i class="bi bi-arrow-right-circle-fill" style="font-size: 2rem; color: white;"></i></button>
-                    </div>
                 </div>
             </div>
         </div>
@@ -397,8 +393,10 @@
 @push('after-scripts')
 
     <script>
-        $('#loading .btn').on('click', function() {
-            $('#loading').fadeOut(2000);
+        $(document).ready(function(){
+            setTimeout(function(){
+                $("#loading").css('display', 'none');
+            }, 3500);
         });
     </script>
 
