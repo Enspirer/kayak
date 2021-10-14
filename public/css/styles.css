@@ -23,6 +23,7 @@ p {
 
 .main-nav .active {
     color: #0090FF!important;
+    font-weight: 700;
 }
 
 .main-nav .nav-link {

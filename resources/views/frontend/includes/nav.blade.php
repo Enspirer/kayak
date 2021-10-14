@@ -16,7 +16,7 @@
 
 
 
-    <nav class="navbar navbar-expand-lg navbar-dark main-nav" style="background-color: #010101;">
+    <nav class="navbar navbar-expand-lg navbar-dark main-nav" style="background-color: #00011c;">
         <div class="container p-0">
 
             <a href="{{ route('frontend.index') }}"><img src="{{ url('img/frontend/logo.png') }}" alt="" class="img-fluid me-2" style="height: 3.3rem;"></a>

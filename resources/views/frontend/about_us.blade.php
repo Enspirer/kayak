@@ -8,7 +8,7 @@
 
 @section('content')
     <div class="container-fluid banner">
-        <div class="container" style="padding-top: 3rem;">
+        <div class="container" style="padding-top: 6rem;">
             <div class="row">
                 <div class="col-12 col-md-5 mb-5 mb-md-0">
                     <h3 class="mb-2" style="color: #0090FF">HISTORY OF KAYAK</h3>

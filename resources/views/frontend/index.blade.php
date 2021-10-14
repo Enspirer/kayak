@@ -16,8 +16,9 @@
             <div class="row justify-content-center">
                 <div class="col-6 text-center">
                     <div class="name" data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="1000">
-                        <p style="font-family: lora; font-size:2rem; line-height:0.75; color: white; z-index: 9999999;">KAYAK</p>
-                        <p class="mt-2" style="font-family: lora; font-size:1rem; color: #FFFFFF">SURGI PHARMA</p>
+                        <!-- <p style="font-family: lora; font-size:2rem; line-height:0.75; color: white; z-index: 9999999;">KAYAK</p>
+                        <p class="mt-2" style="font-family: lora; font-size:1rem; color: #FFFFFF">SURGI PHARMA</p> -->
+                        <img src="{{ url('img/frontend/loader_text.png') }}" alt="" style="height: 3rem;">
                     </div>
 
                     <div class="mt-4">
@@ -398,21 +399,6 @@
     <script>
         $('#loading .btn').on('click', function() {
             $('#loading').fadeOut(2000);
-
-            // $( "#loading" ).animate({
-            //         width: "toggle",
-            //         height: "toggle"
-            //     }, {
-            //         duration: 5000,
-            //         specialEasing: {
-            //         width: "easeOutSine",
-            //         height: "easeInOutSine",
-            //         },
-            //         complete: function() {
-            //         alert( "Animation complete!" );
-            //         }
-            // });
-
         });
     </script>
 
