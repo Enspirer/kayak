@@ -13,7 +13,7 @@
         @if($featured_news !=  null)
             @if(json_decode($featured_news->images)[1]->image2 == null  )
                 @if(json_decode($featured_news->images)[1]->image2 == null && json_decode($featured_news->images)[2]->image3 == null)
-                    <div class="row mt-4 mb-4">
+                    <div class="row mb-4">
                         <div class="col-12 col-md-7 mb-3 mb-md-0">
                             <img src="{{ uploaded_asset(json_decode($featured_news->images)[0]->image1) }}" alt="..." class="img-fluid w-100" style="height: 22rem; object-fit: cover;">
                         </div>
@@ -33,16 +33,16 @@
                         <div class="col-12 col-md-2 mb-2 mb-md-0">
                             <div class="row multiples">
                                 <div class="col-4 col-md-12 mb-2">
-                                    <img src="{{ uploaded_asset(json_decode($featured_news->images)[0]->image1) }}" alt="..." class="img-fluid w-100" style="height: 7rem; object-fit: cover;">
+                                    <img src="{{ uploaded_asset(json_decode($featured_news->images)[0]->image1) }}" alt="..." class="img-fluid w-100 other-images" style="height: 7rem; object-fit: cover;">
                                 </div>
                                 @if(json_decode($featured_news->images)[1]->image2 != null)
                                     <div class="col-4 col-md-12 mb-2">
-                                        <img src="{{ uploaded_asset(json_decode($featured_news->images)[1]->image2) }}" alt="..." class="img-fluid w-100" style="height: 7rem; object-fit: cover;">
+                                        <img src="{{ uploaded_asset(json_decode($featured_news->images)[1]->image2) }}" alt="..." class="img-fluid w-100 other-images" style="height: 7rem; object-fit: cover;">
                                     </div>
                                 @endif
                                 @if(json_decode($featured_news->images)[2]->image3 != null)
                                     <div class="col-4 col-md-12 mb-2">
-                                        <img src="{{ uploaded_asset(json_decode($featured_news->images)[2]->image3) }}" alt="..." class="img-fluid w-100" style="height: 7rem; object-fit: cover;">
+                                        <img src="{{ uploaded_asset(json_decode($featured_news->images)[2]->image3) }}" alt="..." class="img-fluid w-100 other-images" style="height: 7rem; object-fit: cover;">
                                     </div>
                                 @endif
                             </div>
@@ -67,7 +67,7 @@
                         <h2 class="fw-bolder mb-3">{{$news->title}}</h2>
                         <div class="row mt-4">
                             <div class="col-12 col-md-7 mb-3 mb-md-0">
-                                <img src="{{ uploaded_asset(json_decode($news->images)[0]->image1) }}" alt="..." class="img-fluid w-100" style="height: 22rem; object-fit: cover;">
+                                <img src="{{ uploaded_asset(json_decode($news->images)[0]->image1) }}" alt="..." class="img-fluid w-100 main-image" style="height: 22rem; object-fit: cover;">
                             </div>
                             <div class="col-12 col-md-5">
                                 <p style="text-align: justify; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 17; -webkit-box-orient: vertical;">{{$news->description}}</p>
@@ -79,22 +79,22 @@
                         <h2 class="fw-bolder">{{$news->title}}</h2>
                         <div class="row mt-2 mt-md-4">
                             <div class="col-12 col-md-7 mb-3 mb-md-0">
-                                <img src="{{ uploaded_asset(json_decode($news->images)[0]->image1) }}" alt="..." class="img-fluid w-100 main-image{{$news->id}}" style="height: 22rem; object-fit: cover;">
+                                <img src="{{ uploaded_asset(json_decode($news->images)[0]->image1) }}" alt="..." class="img-fluid w-100 main-image{{$news->id}} main-image" style="height: 22rem; object-fit: cover;">
                             </div>
                             <div class="col-12 col-md-2 mb-2 mb-md-0">
                                 <div class="row multiple{{$news->id}}">
                                     
                                     <div class="col-4 col-md-12 mb-2">
-                                        <img src="{{ uploaded_asset(json_decode($news->images)[0]->image1) }}" alt="..." class="img-fluid w-100" style="height: 7rem; object-fit: cover;">
+                                        <img src="{{ uploaded_asset(json_decode($news->images)[0]->image1) }}" alt="..." class="img-fluid w-100 other-images" style="height: 7rem; object-fit: cover;">
                                     </div>
                                     @if(json_decode($news->images)[1]->image2 != null)
                                     <div class="col-4 col-md-12 mb-2">
-                                        <img src="{{ uploaded_asset(json_decode($news->images)[1]->image2) }}" alt="..." class="img-fluid w-100" style="height: 7rem; object-fit: cover;">
+                                        <img src="{{ uploaded_asset(json_decode($news->images)[1]->image2) }}" alt="..." class="img-fluid w-100 other-images" style="height: 7rem; object-fit: cover;">
                                     </div>
                                     @endif
                                     @if(json_decode($news->images)[2]->image3 != null)
                                     <div class="col-4 col-md-12 mb-2">
-                                        <img src="{{ uploaded_asset(json_decode($news->images)[2]->image3) }}" alt="..." class="img-fluid w-100" style="height: 7rem; object-fit: cover;">
+                                        <img src="{{ uploaded_asset(json_decode($news->images)[2]->image3) }}" alt="..." class="img-fluid w-100 other-images" style="height: 7rem; object-fit: cover;">
                                     </div>
                                     @endif
                                 </div>

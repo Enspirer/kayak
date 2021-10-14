@@ -9,9 +9,19 @@
     .title {
         font-size: 2rem!important;
         text-align: center;
+        margin-bottom: 2rem!important;
     }
-    .main-news img {
+    /* .main-news img {
         height: 15rem!important;
+    } */
+    .main-images {
+        height: 15rem!important;
+    }
+    .main-image {
+        height: 15rem!important;
+    }
+    .other-images {
+        height: 5rem!important;
     }
     .main-news h2 {
         font-size: 1.6rem!important;
@@ -21,12 +31,6 @@
     }
     .other-news h2 {
         font-size: 1.6rem!important;
-    }
-    .main-image {
-        height: 15rem!important;
-    }
-    .multiple img {
-        height: 5rem!important;
     }
     .other-news p {
         -webkit-line-clamp: 7!important;
