@@ -19,9 +19,9 @@
     <nav class="navbar navbar-expand-lg navbar-dark main-nav" style="background-color: #010101;">
         <div class="container p-0">
 
-            <img src="{{ url('img/frontend/logo.png') }}" alt="" class="img-fluid me-2" style="height: 4rem;">
+            <a href=""><img src="{{ url('img/frontend/logo.png') }}" alt="" class="img-fluid me-2" style="height: 3.3rem;"></a>
 
-            <a class="navbar-brand fw-bold" href="{{ route('frontend.index') }}" style="font-family: lora; font-size:1.5625rem; line-height:0.75; letter-spacing: 2px; color: #00B9FF;">KAYAK <br> <span style="font-family: lora; font-size:0.875rem; color: #FFFFFF">SURGI PHARMA</span></a>
+            <!-- <a class="navbar-brand fw-bold" href="{{ route('frontend.index') }}" style="font-family: lora; font-size:1.5625rem; line-height:0.75; letter-spacing: 2px; color: #00B9FF;">KAYAK <br> <span style="font-family: lora; font-size:0.875rem; color: #FFFFFF">SURGI PHARMA</span></a> -->
             
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
 

@@ -101,21 +101,21 @@
         height: 230px!important;
     }
     .banner .container {
-        padding-top: 5rem!important;
+        padding-top: 4rem!important;
     }
-    .banner .swiper-button-next:after, .banner .swiper-button-prev:after {
+    .banners .swiper-button-next:after, .banners .swiper-button-prev:after {
         font-size: 1.7rem!important;
     }
-    .banner .swiper-button-next, .banner .swiper-rtl .banner .swiper-button-prev {
+    .banners .swiper-button-next, .banners .swiper-rtl .banners .swiper-button-prev {
         right: 0px!important;
         left: auto;
     }
-    .banner .swiper-button-prev, .swiper-rtl .swiper-button-next {
+    .banners .swiper-button-prev, .swiper-rtl .swiper-button-next {
         left: 0px!important;
         right: auto;
     }
-    .banner .swiper-button-next, .banner .swiper-button-prev {
-        top: 40%!important;
+    .banners .swiper-button-next, .banners .swiper-button-prev {
+        top: 45%!important;
     }
     .new-banner {
         height: auto!important;
@@ -137,7 +137,7 @@
         margin-top: 0!important;
     }
     .banners {
-        margin-top: 8rem!important;
+        margin-top: 7.9rem!important;
     }
     .about-us {
         margin-top: 3rem!important;
