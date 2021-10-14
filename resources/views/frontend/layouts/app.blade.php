@@ -30,7 +30,7 @@
     <body>
         @include('includes.partials.read-only')
 
-        <!-- <div id="loading">
+        <div id="loading">
             <div id="earth"></div>
 
             <div class="container" style="z-index: 9999; margin-top: 1rem;">
@@ -44,7 +44,7 @@
                 </div>
             </div>
             
-        </div> -->
+        </div>
             
         <div id="app">
             @include('includes.partials.logged-in-as')
@@ -74,10 +74,8 @@
         </script>
 
         <script>
-            $(document).ready(function(){
-                setTimeout(function(){
-                    $("#loading").css('display', 'none');
-                }, 5000);
+            $(window).on('load', function(){
+                $('#loading').hide(); // preloader hide when all elements and contents fully loaded
             });
         </script>
 
