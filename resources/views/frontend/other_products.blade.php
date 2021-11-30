@@ -12,7 +12,7 @@
             <div class="row justify-content-center">
                 <div class="col-12 col-md-7 text-center">
                     <h2>Other Products</h2>
-                    <p>Want to get in touch? We'd love to hear from you. Here's how you can reach us ...</p>
+                    <p>Tissue Items such as paper serviette, Toilet Tissue, Kitchen Towel etc.</p>
                 </div>
             </div>
         </div>

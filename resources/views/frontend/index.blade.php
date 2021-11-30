@@ -106,8 +106,7 @@
     
     <div class="container text-center about-us" style="margin-top: 5rem;">
         <h1 class="mb-3 mb-md-0">Get More Information About Us</h1>
-        <p>We are doing out best to help our customers, throw stable steps</p>
-
+        <p>We are doing our best to help our customers. TRUSTED OVER 30 YEARS IN THE MEDICAL INDUSTRY At Kayak Surgi Pharma, We Serve You for Better Health.</p>
 
         <div class="row about-us-row" style="margin-top: 6rem;">
             <div class="col-12 col-md-4 position-relative">
@@ -119,7 +118,9 @@
                 <div class="card about-main">
                     <div class="card-body">
                         <h5 class="card-title mb-2">About Kayak</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur</p>
+                        <p class="card-text">We started our operations by introducing many products related to Pharmaceutical, Surgical and Public Health.
+                            Since our initiation in 2004, we have excelled in various avenues in Medical and Surgical Goods Manufacturing that were previously deemed impossible to produce locally. 
+                        </p>
 
                         <div class="row justify-content-end">
                             <div class="col-2 text-end pe-1">
@@ -140,7 +141,9 @@
                 <div class="card about-main">
                     <div class="card-body">
                         <h5 class="card-title mb-2">About Kayak</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur</p>
+                        <p class="card-text">Kayak is one of the first-ever organizations to set up manufacturing operations for Cellulose Wadding. Thereafter, we introduced a wide scope of medical goods such as Surgical Aprons, Respiratory Masks, Spinal Needles, Endotracheal Tubes and Many More. 
+                            Kayak takes Pride in its Sri Lankan Heritage and strive to Heal the Nation.
+                        </p>
 
                         <div class="row justify-content-end">
                             <div class="col-2 text-end pe-1">
@@ -160,7 +163,9 @@
                 <div class="card about-main">
                     <div class="card-body ">
                         <h5 class="card-title mb-2">Manufacturing</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur</p>
+                        <p class="card-text">We also engage in import and supply of many types of Medical items in Sri Lanka. We Strive to import Quality Products that heal the Nation. 
+                            We are one of the local manufacturers to Export Medical Goods.
+                        </p>
 
                         <div class="row justify-content-end">
                             <div class="col-2 text-end pe-1">
@@ -178,7 +183,7 @@
         <div class="row pt-5">
             <div class="col-12 text-center">
                 <h3 class="text-white">KAYAK Products</h3>
-                <p class="text-white">We are doing our best to help our customers, throw stable steps</p>
+                <p class="text-white">We are doing our best to help our customers.</p>
             </div>
         </div>
 
@@ -196,7 +201,7 @@
                                 <i class="bi bi-star-fill gold"></i>
                                 <i class="bi bi-star-fill"></i>
                             </div>
-                            <p class="card-text mb-md-3" style="font-size: 0.8rem;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p>
+                            <p class="card-text mb-md-3" style="font-size: 0.8rem;">At Kayak, Quality is Our Prime Concern. Browse Our Portfolio.</p>
                             <a href="#" class="btn d-none">View More</a>
                         </div>
                     </div>
@@ -213,7 +218,7 @@
                                 <i class="bi bi-star-fill gold"></i>
                                 <i class="bi bi-star-fill"></i>
                             </div>
-                            <p class="card-text mb-md-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p>
+                            <p class="card-text mb-md-3">At Kayak, Quality is Our Prime Concern. Browse Our Portfolio.</p>
                             <a href="#" class="btn d-none">View More</a>
                         </div>
                     </div>
@@ -230,7 +235,7 @@
                                 <i class="bi bi-star-fill gold"></i>
                                 <i class="bi bi-star-fill"></i>
                             </div>
-                            <p class="card-text mb-md-3" style="font-size: 0.8rem;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p>
+                            <p class="card-text mb-md-3" style="font-size: 0.8rem;">At Kayak, Quality is Our Prime Concern. Browse Our Portfolio.</p>
                             <a href="#" class="btn d-none">View More</a>
                         </div>
                     </div>
@@ -247,7 +252,7 @@
                                 <i class="bi bi-star-fill gold"></i>
                                 <i class="bi bi-star-fill"></i>
                             </div>
-                            <p class="card-text mb-md-3" style="font-size: 0.8rem;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p>
+                            <p class="card-text mb-md-3" style="font-size: 0.8rem;">At Kayak, Quality is Our Prime Concern. Browse Our Portfolio.</p>
                             <a href="#" class="btn d-none">View More</a>
                         </div>
                     </div>
@@ -265,7 +270,7 @@
             <div class="row pt-5">
                 <div class="col-12 text-center mb-4 mb-md-0">
                     <h3>Other Products</h3>
-                    <p>We are doing our best to help our customers, throw stable steps</p>
+                    <p>We are doing our best to help our customers.</p>
                 </div>
             </div>
 
@@ -274,7 +279,9 @@
                     <div class="row align-items-center">
                         <div class="col-12 col-md-6 text-center">
                             <h4 class="fw-bold">SURGICAL DIVISION</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo commodi vitae dignissimos quos provident, qui laudantium neque possimus totam esse nulla animi, earum cum repudiandae ea libero? Ad iste nulla, quo quas laudantium placeat in expedita tempora tenetur necessitatibus nam!</p>
+                            <p>Kayak Surgical Division provides Orthopedic and Hand Surgery essentials. We also supply Cardiac surgery goods such as Perfusion Cannula. We are partnered with leading manufacturers worldwide with exclusive products to provide for our Nation.  
+                                We excel in providing Post-Surgical Garments, Bacteria Filters, Cellulose Wadding, IV Cannula, Spinal Needle, Endotracheal tubes, Syringes, Face Masks, N-95 Masks and other general medical products. Our unparallel manufacturing technology allows us to provide better solutions for our stakeholders. 
+                            </p>
                         </div>
 
                     <div class="col-12 col-md-6">
@@ -282,7 +289,7 @@
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide px-5">        
                                     <div class="d-flex align-items-end" style="background: linear-gradient(to bottom, rgba(0,0,0, 0), rgba(0,0,0, 100) ),url('../img/frontend/index/shoulder.png'); background-repeat: no-repeat;background-size: cover; height: 16rem; background-position:center center; justify-content: center">
-                                        <h5 class="fw-bold text-white">Orthopedics Products</h5>
+                                        <h5 class="fw-bold text-white">Orthopedics</h5>
                                     </div>
                                 </div>
                                 
@@ -321,8 +328,8 @@
                 <div class="col-10">
                     <div class="row">
                         <div class="col-12 text-center">
-                            <h1>What's New at Kayak</h1>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata</p>
+                            <h1>News From Kayak</h1>
+                            <p>At Kayak, we are constantly focusing on providing better solutions for our clientele. We undertake extensive research on our product standards and how it serves healthcare organizations worldwide.</p>
                         </div>
                     </div>
                 </div>

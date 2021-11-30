@@ -28,8 +28,8 @@
         <div class="container" style="padding-top: 7rem;">
             <div class="row justify-content-center">
                 <div class="col-12 col-md-7 text-center text-white">
-                    <h2>Get in Touch</h2>
-                    <p>Want to get in touch? We'd love to hear from you. Here's how you can reach us ...</p>
+                    <h2>Make An Inquiry!</h2>
+                    <p>We at Kayak are excited to hear from you. You can reach us through the following:</p>
                 </div>
             </div>
         </div>
@@ -43,7 +43,7 @@
                     <div class="row align-items-center">
                         <div class="col-12 mb-4">
                             <i class="bi bi-telephone-fill text-black me-3" style="font-size: 1.1rem"></i>
-                            <p class="d-inline-block" style="font-size: 1rem;">0094 11 2942952 / 11 5022832</p>
+                            <p class="d-inline-block" style="font-size: 1rem;">011 5022832</p>
                         </div>
 
                         <div class="col-12 mb-4">
@@ -58,8 +58,8 @@
 
                         <div class="col-12">
                             <h5 class="fw-bold mb-2">Kayak Surgi Pharma (Pvt) Ltd.</h5>
-                            <p class="mb-1" style="font-size: 1rem;">490/1B, Lionel Michel Mawatha,</p>
-                            <p class="mb-1" style="font-size: 1rem;">Eriyawetiya, Kiribathgoda, Kelaniya,</p>
+                            <p class="mb-1" style="font-size: 1rem;">526/C2, Eriyawetiya road,</p>
+                            <p class="mb-1" style="font-size: 1rem;">Kiribathgoda, Kelaniya,</p>
                             <p class="mb-1" style="font-size: 1rem;">Sri Lanka.</p>
                         </div>
                     </div>
