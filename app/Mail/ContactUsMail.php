@@ -33,6 +33,6 @@ class ContactUsMail extends Mailable
     public function build()
     {
         
-        return $this->subject('Kayak Surgi Pharma - Contact Us')->view('frontend.mail.contactus_mail');
+        return $this->subject('Kayak Surgi Pharma - Contact Us')->view('frontend.mail.contact_us');
     }
 }

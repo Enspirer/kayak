@@ -15,11 +15,50 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
     /* background-position: center center; */
-    height: 450px;
+    height: 725px;
+    margin-top: 100px;
+}
+
+.about-center-txt {
+    margin: 30px 0;
+}
+
+.about-bottom-topic {
+    margin-top: 45px;
 }
 
 
+.about-hidden-title {
+    opacity: 0.1;
+    color: #0090FF;
+    position: absolute;
+    font-size: 80px;
+    white-space: nowrap;
+    top: -43px;
+}
 
+.about-title-box {
+    position: relative;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-title {
+    color: #0090FF;
+    font-size: 40px;
+    text-align: center;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    display: block;
+}
+
+.message-area {
+    margin-left: 45px;
+    margin-right: 45px;
+}
 
 @media screen and (max-width: 576px) {
     .banner {
@@ -40,6 +79,15 @@
     }
     .bottom-banner .container {
         padding-top: 5rem!important;
+    }
+
+    .about-hidden-title  {
+        font-size: 50px;
+        top: -15px;
+    }
+
+    .about-title {
+        font-size: 25px;
     }
 }
 

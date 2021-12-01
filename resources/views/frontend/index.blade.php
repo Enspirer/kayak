@@ -182,8 +182,8 @@
     <div class="container-fluid products-banner" style="margin-top: 5rem;">
         <div class="row pt-5">
             <div class="col-12 text-center">
-                <h3 class="text-white">KAYAK Products</h3>
-                <p class="text-white">We are doing our best to help our customers.</p>
+                <h3 class="text-white">Kayak Product Portfolio</h3>
+                <p class="text-white">At Kayak, Quality is Our Prime Concern. Browse Our Portfolio.</p>
             </div>
         </div>
 
@@ -278,7 +278,7 @@
                 <div class="col-12 col-md-10">
                     <div class="row align-items-center">
                         <div class="col-12 col-md-6 text-center">
-                            <h4 class="fw-bold">SURGICAL DIVISION</h4>
+                            <!-- <h4 class="fw-bold">SURGICAL DIVISION</h4> -->
                             <p>Kayak Surgical Division provides Orthopedic and Hand Surgery essentials. We also supply Cardiac surgery goods such as Perfusion Cannula. We are partnered with leading manufacturers worldwide with exclusive products to provide for our Nation.  
                                 We excel in providing Post-Surgical Garments, Bacteria Filters, Cellulose Wadding, IV Cannula, Spinal Needle, Endotracheal tubes, Syringes, Face Masks, N-95 Masks and other general medical products. Our unparallel manufacturing technology allows us to provide better solutions for our stakeholders. 
                             </p>
@@ -289,18 +289,32 @@
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide px-5">        
                                     <div class="d-flex align-items-end" style="background: linear-gradient(to bottom, rgba(0,0,0, 0), rgba(0,0,0, 100) ),url('../img/frontend/index/shoulder.png'); background-repeat: no-repeat;background-size: cover; height: 16rem; background-position:center center; justify-content: center">
-                                        <h5 class="fw-bold text-white">Orthopedics</h5>
+                                        <h5 class="fw-bold text-white mb-2">Orthopedics</h5>
                                     </div>
                                 </div>
-                                
-                                <div class="swiper-slide px-5">
-                                    <div class="d-flex align-items-end" style="background: linear-gradient(to bottom, rgba(0,0,0, 0), rgba(0,0,0, 100) ),url('../img/frontend/index/shoulder.png'); background-repeat: no-repeat;background-size: cover; height: 16rem; background-position:center center; justify-content: center">
-                                        <h5 class="fw-bold text-white">Surgical Products</h5>
+                                <div class="swiper-slide px-5">        
+                                    <div class="d-flex align-items-end" style="background: linear-gradient(to bottom, rgba(0,0,0, 0), rgba(0,0,0, 100) ),url('../img/frontend/other_products/2.png'); background-repeat: no-repeat;background-size: cover; height: 16rem; background-position:center center; justify-content: center">
+                                        <h5 class="fw-bold text-white mb-2">Orthopedics</h5>
                                     </div>
                                 </div>
-                                <div class="swiper-slide px-5">
-                                    <div class="d-flex align-items-end" style="background: linear-gradient(to bottom, rgba(0,0,0, 0), rgba(0,0,0, 100) ),url('../img/frontend/index/shoulder.png'); background-repeat: no-repeat;background-size: cover; height: 16rem; background-position:center center; justify-content: center">
-                                        <h5 class="fw-bold text-white">Vaccine Products</h5>
+                                <div class="swiper-slide px-5">        
+                                    <div class="d-flex align-items-end" style="background: linear-gradient(to bottom, rgba(0,0,0, 0), rgba(0,0,0, 100) ),url('../img/frontend/other_products/3.png'); background-repeat: no-repeat;background-size: cover; height: 16rem; background-position:center center; justify-content: center">
+                                        <h5 class="fw-bold text-white mb-2">Orthopedics</h5>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide px-5">        
+                                    <div class="d-flex align-items-end" style="background: linear-gradient(to bottom, rgba(0,0,0, 0), rgba(0,0,0, 100) ),url('../img/frontend/other_products/4.png'); background-repeat: no-repeat;background-size: cover; height: 16rem; background-position:center center; justify-content: center">
+                                        <h5 class="fw-bold text-white mb-2">Orthopedics</h5>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide px-5">        
+                                    <div class="d-flex align-items-end" style="background: linear-gradient(to bottom, rgba(0,0,0, 0), rgba(0,0,0, 100) ),url('../img/frontend/other_products/5.png'); background-repeat: no-repeat;background-size: cover; height: 16rem; background-position:center center; justify-content: center">
+                                        <h5 class="fw-bold text-white mb-2">Orthopedics</h5>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide px-5">        
+                                    <div class="d-flex align-items-end" style="background: linear-gradient(to bottom, rgba(0,0,0, 0), rgba(0,0,0, 100) ),url('../img/frontend/other_products/6.png'); background-repeat: no-repeat;background-size: cover; height: 16rem; background-position:center center; justify-content: center">
+                                        <h5 class="fw-bold text-white mb-2">Orthopedics</h5>
                                     </div>
                                 </div>
                             </div>
@@ -312,7 +326,7 @@
                 </div>
 
                 <div class="text-center mt-5">
-                    <a href="#" type="button" class="btn text-decoration-none text-white rounded-pill" style="background-color: #00ACEE;">View All Products</a>
+                    <a href="{{ route('frontend.other_products') }}" type="button" class="btn text-decoration-none text-white rounded-pill" style="background-color: #00ACEE;">View All Products</a>
                 </div>
                 </div>
             </div>

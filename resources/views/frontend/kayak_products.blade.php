@@ -7,6 +7,21 @@
 @endpush
 
 @section('content')
+
+@if ( session()->has('message') )
+
+    <div class="container" style="background-color: #6F8FAF; padding-top:5px; margin-bottom:50px; border-radius: 50px 50px; text-align:center;">
+
+        <h1 style="margin-top:150px; color:white" class="fs-1">Thank You!</h1><br>
+        <p class="lead mb-3"><h4 style="color:white">We appreciate you for your inquiry. One of our member will get back in touch with you soon!<br><br> Have a great day!</h4></p>
+        <br><hr><br>    
+        <p class="lead">
+            <a class="btn btn-primary btn-md mt-3 mb-3" href="{{url('kayak-products')}}" role="button">Kayak Product Page</a>
+        </p>
+        <br>
+    </div>
+
+@else  
     <div class="container-fluid banner">    
         <div class="container" style="padding-top: 4rem;">
             <div class="row justify-content-center">
@@ -48,7 +63,7 @@
                         <div class="tab-pane fade active show" id="pills-kn95" aria-labelledby="pills-kn95-tab">
                             <div class="row">
                                 <div class="col-12 col-md-5 mb-4 mb-md-0 text-center">
-                                    <img src="{{ url('img/frontend/kayak_products/kn95.png') }}" alt="" class="img-fluid main-image">
+                                    <img src="{{ url('img/frontend/kayak_products/kn95-1.png') }}" alt="" class="img-fluid main-image" id="main-image1">
                                 </div>
                                 <div class="col-12 col-md-7">
                                     <h5 class="fw-bold text-center text-md-left">KN95 FACE MASKS</h5>
@@ -58,18 +73,18 @@
 
                                     <div class="row multiple mx-0 mt-4 mb-4 justify-content-center justify-content-md-start">
                                         <div class="col-3 col-md-3 text-center me-1">
-                                            <img src="{{ url('img/frontend/kayak_products/kn95.png') }}" alt="" class="img-fluid">
+                                            <img src="{{ url('img/frontend/kayak_products/kn95-1.png') }}" id="image1" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-3 col-md-3 text-center me-1">
-                                            <img src="{{ url('img/frontend/kayak_products/kn95.png') }}" alt="" class="img-fluid">
+                                            <img src="{{ url('img/frontend/kayak_products/kn95-2.jpg') }}" id="image2" alt="" class="img-fluid">
                                         </div>
-                                        <div class="col-3 col-md-3 text-center me-1">
-                                            <img src="{{ url('img/frontend/kayak_products/kn95.png') }}" alt="" class="img-fluid">
-                                        </div>
+                                        <!-- <div class="col-3 col-md-3 text-center me-1">
+                                            <img src="{{ url('img/frontend/kayak_products/kn95.png') }}" id="image3" alt="" class="img-fluid">
+                                        </div> -->
                                     </div>
 
                                     <div class="inquire">
-                                        <button class="btn rounded-pill text-white px-5 py-2">Inquire Now</button>
+                                        <button class="btn rounded-pill text-white px-5 py-2" data-bs-toggle="modal" data-bs-target="#inquire">Inquire Now</button>
                                     </div>
                                     
                                 </div>
@@ -79,7 +94,7 @@
                         <div class="tab-pane fade" id="pills-tubes" aria-labelledby="pills-tubes-tab">
                             <div class="row">
                                 <div class="col-12 col-md-5 mb-4 mb-md-0 text-center">
-                                    <img src="{{ url('img/frontend/kayak_products/abercom.png') }}" alt="" class="img-fluid main-image2">
+                                    <img src="{{ url('img/frontend/kayak_products/abercom1.jpg') }}" alt="" class="img-fluid main-image2" id="main-image2">
                                 </div>
                                 <div class="col-12 col-md-7">
                                     <h5 class="fw-bold text-center text-md-left">ENDOTRACHEAL TUBES</h5>
@@ -89,18 +104,18 @@
 
                                     <div class="row multiple2 mx-0 mt-4 mb-4 justify-content-center justify-content-md-start">
                                         <div class="col-3 col-md-3 text-center me-1">
-                                            <img src="{{ url('img/frontend/kayak_products/abercom.png') }}" alt="" class="img-fluid">
+                                            <img src="{{ url('img/frontend/kayak_products/abercom1.jpg') }}" id="image4" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-3 col-md-3 text-center me-1">
-                                            <img src="{{ url('img/frontend/kayak_products/abercom.png') }}" alt="" class="img-fluid">
+                                            <img src="{{ url('img/frontend/kayak_products/abercom2.jpg') }}" id="image5" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-3 col-md-3 text-center me-1">
-                                            <img src="{{ url('img/frontend/kayak_products/abercom.png') }}" alt="" class="img-fluid">
+                                            <img src="{{ url('img/frontend/kayak_products/abercom3.jpg') }}" id="image6" alt="" class="img-fluid">
                                         </div>
                                     </div>
 
                                     <div class="inquire">
-                                        <button class="btn rounded-pill text-white px-5 py-2">Inquire Now</button>
+                                        <button class="btn rounded-pill text-white px-5 py-2" data-bs-toggle="modal" data-bs-target="#inquire">Inquire Now</button>
                                     </div>
                                     
                                 </div>
@@ -110,7 +125,7 @@
                         <div class="tab-pane fade" id="pills-contact" aria-labelledby="pills-contact-tab">
                             <div class="row">
                                 <div class="col-12 col-md-5 mb-4 mb-md-0 text-center">
-                                    <img src="{{ url('img/frontend/kayak_products/roll.png') }}" alt="" class="img-fluid main-image3">
+                                    <img src="{{ url('img/frontend/kayak_products/roll1.jpg') }}" alt="" class="img-fluid main-image3" id="main-image3">
                                 </div>
                                 <div class="col-12 col-md-7">
                                     <h5 class="fw-bold text-center text-md-left">SURGICAL CELLULOSE WADDING</h5>
@@ -120,18 +135,18 @@
 
                                     <div class="row multiple3 mx-0 mt-4 mb-4 justify-content-center justify-content-md-start">
                                         <div class="col-3 col-md-3 text-center me-1">
-                                            <img src="{{ url('img/frontend/kayak_products/roll.png') }}" alt="" class="img-fluid">
+                                            <img src="{{ url('img/frontend/kayak_products/roll1.jpg') }}" id="image7" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-3 col-md-3 text-center me-1">
-                                            <img src="{{ url('img/frontend/kayak_products/roll.png') }}" alt="" class="img-fluid">
+                                            <img src="{{ url('img/frontend/kayak_products/roll2.jpg') }}" id="image8" alt="" class="img-fluid">
                                         </div>
-                                        <div class="col-3 col-md-3 text-center me-1">
-                                            <img src="{{ url('img/frontend/kayak_products/roll.png') }}" alt="" class="img-fluid">
-                                        </div>
+                                        <!-- <div class="col-3 col-md-3 text-center me-1">
+                                            <img src="{{ url('img/frontend/kayak_products/roll.png') }}" id="image9" alt="" class="img-fluid">
+                                        </div> -->
                                     </div>
 
                                     <div class="inquire">
-                                        <button class="btn rounded-pill text-white px-5 py-2">Inquire Now</button>
+                                        <button class="btn rounded-pill text-white px-5 py-2" data-bs-toggle="modal" data-bs-target="#inquire">Inquire Now</button>
                                     </div>
                                     
                                 </div>
@@ -141,7 +156,7 @@
                         <div class="tab-pane fade" id="pills-surgical" aria-labelledby="pills-surgical-tab">
                             <div class="row">
                                 <div class="col-12 col-md-5 mb-4 mb-md-0 text-center">
-                                    <img src="{{ url('img/frontend/kayak_products/Surgical Apron.JPG') }}" alt="" class="img-fluid main-image4">
+                                    <img src="{{ url('img/frontend/kayak_products/Surgical Apron1.jpg') }}" alt="" class="img-fluid main-image4" id="main-image4">
                                 </div>
                                 <div class="col-12 col-md-7">
                                     <h5 class="fw-bold text-center text-md-left">SURGICAL APRONS</h5>
@@ -151,18 +166,18 @@
 
                                     <div class="row multiple4 mx-0 mt-4 mb-4 justify-content-center justify-content-md-start">
                                         <div class="col-3 col-md-3 text-center me-1">
-                                            <img src="{{ url('img/frontend/kayak_products/Surgical Apron.JPG') }}" alt="" class="img-fluid">
+                                            <img src="{{ url('img/frontend/kayak_products/Surgical Apron1.jpg') }}" id="image10" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-3 col-md-3 text-center me-1">
-                                            <img src="{{ url('img/frontend/kayak_products/Surgical Apron.JPG') }}" alt="" class="img-fluid">
+                                            <img src="{{ url('img/frontend/kayak_products/Surgical Apron2.jpg') }}" id="image11" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-3 col-md-3 text-center me-1">
-                                            <img src="{{ url('img/frontend/kayak_products/Surgical Apron.JPG') }}" alt="" class="img-fluid">
+                                            <img src="{{ url('img/frontend/kayak_products/Surgical Apron3.jpg') }}" id="image12" alt="" class="img-fluid">
                                         </div>
                                     </div>
 
                                     <div class="inquire">
-                                        <button class="btn rounded-pill text-white px-5 py-2">Inquire Now</button>
+                                        <button class="btn rounded-pill text-white px-5 py-2" data-bs-toggle="modal" data-bs-target="#inquire">Inquire Now</button>
                                     </div>
                                     
                                 </div>
@@ -172,7 +187,7 @@
                         <div class="tab-pane fade" id="pills-nintyfive" aria-labelledby="pills-nintyfive-tab">
                             <div class="row">
                                 <div class="col-12 col-md-5 mb-4 mb-md-0 text-center">
-                                    <img src="{{ url('img/frontend/kayak_products/N95 Masks.JPG') }}" alt="" class="img-fluid main-image5">
+                                    <img src="{{ url('img/frontend/kayak_products/N95 Masks1.jpg') }}" alt="" class="img-fluid main-image5" id="main-image5">
                                 </div>
                                 <div class="col-12 col-md-7">
                                     <h5 class="fw-bold text-center text-md-left">N95 MASKS</h5>
@@ -182,18 +197,18 @@
 
                                     <div class="row multiple5 mx-0 mt-4 mb-4 justify-content-center justify-content-md-start">
                                         <div class="col-3 col-md-3 text-center me-1">
-                                            <img src="{{ url('img/frontend/kayak_products/N95 Masks.JPG') }}" alt="" class="img-fluid">
+                                            <img src="{{ url('img/frontend/kayak_products/N95 Masks1.jpg') }}" id="image13" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-3 col-md-3 text-center me-1">
-                                            <img src="{{ url('img/frontend/kayak_products/N95 Masks.JPG') }}" alt="" class="img-fluid">
+                                            <img src="{{ url('img/frontend/kayak_products/N95 Masks2.jpg') }}" id="image14" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-3 col-md-3 text-center me-1">
-                                            <img src="{{ url('img/frontend/kayak_products/N95 Masks.JPG') }}" alt="" class="img-fluid">
+                                            <img src="{{ url('img/frontend/kayak_products/N95 Masks3.jpg') }}" id="image15" alt="" class="img-fluid">
                                         </div>
                                     </div>
 
                                     <div class="inquire">
-                                        <button class="btn rounded-pill text-white px-5 py-2">Inquire Now</button>
+                                        <button class="btn rounded-pill text-white px-5 py-2" data-bs-toggle="modal" data-bs-target="#inquire">Inquire Now</button>
                                     </div>
                                     
                                 </div>
@@ -203,7 +218,7 @@
                         <div class="tab-pane fade" id="pills-spinal" aria-labelledby="pills-spinal-tab">
                             <div class="row">
                                 <div class="col-12 col-md-5 mb-4 mb-md-0 text-center">
-                                    <img src="{{ url('img/frontend/kayak_products/Spinal needle.JPG') }}" alt="" class="img-fluid main-image6">
+                                    <img src="{{ url('img/frontend/kayak_products/Spinal needle1.jpg') }}" alt="" class="img-fluid main-image6" id="main-image6">
                                 </div>
                                 <div class="col-12 col-md-7">
                                     <h5 class="fw-bold text-center text-md-left">SPINAL NEEDLES</h5>
@@ -213,18 +228,18 @@
 
                                     <div class="row multiple6 mx-0 mt-4 mb-4 justify-content-center justify-content-md-start">
                                         <div class="col-3 col-md-3 text-center me-1">
-                                            <img src="{{ url('img/frontend/kayak_products/Spinal needle.JPG') }}" alt="" class="img-fluid">
+                                            <img src="{{ url('img/frontend/kayak_products/Spinal needle1.jpg') }}" id="image16" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-3 col-md-3 text-center me-1">
-                                            <img src="{{ url('img/frontend/kayak_products/Spinal needle.JPG') }}" alt="" class="img-fluid">
+                                            <img src="{{ url('img/frontend/kayak_products/Spinal needle2.jpg') }}" id="image17" alt="" class="img-fluid">
                                         </div>
-                                        <div class="col-3 col-md-3 text-center me-1">
-                                            <img src="{{ url('img/frontend/kayak_products/Spinal needle.JPG') }}" alt="" class="img-fluid">
-                                        </div>
+                                        <!-- <div class="col-3 col-md-3 text-center me-1">
+                                            <img src="{{ url('img/frontend/kayak_products/Spinal needle.jpg') }}" id="image18" alt="" class="img-fluid">
+                                        </div> -->
                                     </div>
 
                                     <div class="inquire">
-                                        <button class="btn rounded-pill text-white px-5 py-2">Inquire Now</button>
+                                        <button class="btn rounded-pill text-white px-5 py-2" data-bs-toggle="modal" data-bs-target="#inquire">Inquire Now</button>
                                     </div>
                                     
                                 </div>
@@ -235,6 +250,57 @@
             </div>
         </div>
     </div>
+
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="inquire" tabindex="-1" aria-labelledby="inquireLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+
+          <form action="{{ route('frontend.products.send') }}" method="post" enctype="multipart/form-data">
+          {{csrf_field()}}
+              <div class="modal-header text-white" style="background-color: #1D5001;">
+                <h5 class="modal-title" id="inquire-modal">Send an Inquire</h5>
+              </div>
+              <div class="modal-body">
+                  <div class="mb-2">
+                    <label for="first-name" class="form-label">Name <span class="text-danger">*</span></label>
+                    <input type="text" class="form-control" name="name" required>
+                  </div>
+                  <div class="mb-2">
+                    <label for="last-name" class="form-label">Company Name <span class="text-danger">*</span></label>
+                    <input type="text" class="form-control" name="company" required>
+                  </div>
+                  <div class="mb-2">
+                    <label for="contact-number" class="form-label">Contact Number <span class="text-danger">*</span></label>   
+                    <input type="number" class="form-control" name="telephone" required>
+                  </div>
+                  <div class="mb-2">
+                    <label for="email" class="form-label">Email Address <span class="text-danger">*</span></label>
+                    <input type="email" class="form-control" name="email" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="message" class="form-label">Message <span class="text-danger">*</span></label>
+                    <textarea class="form-control" name="message" cols="30" rows="5" required></textarea>
+                  </div>
+                  
+                  <div class="col-12 col-md-10 text-center">
+                      <div class="g-recaptcha" data-callback="checked" data-sitekey="6LfGnB8dAAAAAH6Baz00Galvcr7s7aZyeGUYly4t" style="display: inline-block;"></div>
+                  </div>
+              </div>
+              <div class="modal-footer justify-content-center">
+                <button type="button" class="btn" data-bs-dismiss="modal" style="color: #68AE42;">Cancel</button>
+                <input type="submit" class="submit-btn btn text-white px-5" style="background-color: #68AE42;" value="Send Request" disabled/>
+              </div>
+          </form>  
+        </div>
+      </div>
+    </div>
+
+@endif
+
 @endsection
 
 @push('after-scripts')
@@ -255,45 +321,77 @@
     </script>
 
     <script>
-        $('.multiple img').on('click', function() {
-            let src = $(this).attr('src');
-
-            $('.main-image').attr('src', src);
+        $("#image1").click(function(){
+            $("#main-image1").attr("src", "img/frontend/kayak_products/kn95-1.png");
+        });
+        $("#image2").click(function(){
+            $("#main-image1").attr("src", "img/frontend/kayak_products/kn95-2.jpg");
+        });
+        // $("#image3").click(function(){
+        //     $("#main-image1").attr("src", "img/frontend/kayak_products/kn95-1.png");
+        // });        
+    </script>
+    <script>
+        $("#image4").click(function(){
+            $("#main-image2").attr("src", "img/frontend/kayak_products/abercom1.jpg");
+        });
+        $("#image5").click(function(){
+            $("#main-image2").attr("src", "img/frontend/kayak_products/abercom2.jpg");
+        });
+        $("#image6").click(function(){
+            $("#main-image2").attr("src", "img/frontend/kayak_products/abercom3.jpg");
         });
     </script>
     <script>
-        $('.multiple2 img').on('click', function() {
-            let src = $(this).attr('src');
-
-            $('.main-image2').attr('src', src);
+        $("#image7").click(function(){
+            $("#main-image3").attr("src", "img/frontend/kayak_products/roll1.jpg");
+        });
+        $("#image8").click(function(){
+            $("#main-image3").attr("src", "img/frontend/kayak_products/roll2.jpg");
+        });
+        // $("#image9").click(function(){
+        //     $("#main-image3").attr("src", "img/frontend/kayak_products/roll.jpg");
+        // });
+    </script>
+    <script>
+        $("#image10").click(function(){
+            $("#main-image4").attr("src", "img/frontend/kayak_products/Surgical Apron1.jpg");
+        });
+        $("#image11").click(function(){
+            $("#main-image4").attr("src", "img/frontend/kayak_products/Surgical Apron2.jpg");
+        });
+        $("#image12").click(function(){
+            $("#main-image4").attr("src", "img/frontend/kayak_products/Surgical Apron3.jpg");
         });
     </script>
     <script>
-        $('.multiple3 img').on('click', function() {
-            let src = $(this).attr('src');
-
-            $('.main-image3').attr('src', src);
+        $("#image13").click(function(){
+            $("#main-image5").attr("src", "img/frontend/kayak_products/N95 Masks1.jpg");
+        });
+        $("#image14").click(function(){
+            $("#main-image5").attr("src", "img/frontend/kayak_products/N95 Masks2.jpg");
+        });
+        $("#image15").click(function(){
+            $("#main-image5").attr("src", "img/frontend/kayak_products/N95 Masks3.jpg");
         });
     </script>
-    <script>
-        $('.multiple4 img').on('click', function() {
-            let src = $(this).attr('src');
-
-            $('.main-image4').attr('src', src);
+    <script>   
+        $("#image16").click(function(){
+            $("#main-image6").attr("src", "img/frontend/kayak_products/Spinal needle1.jpg");
         });
+        $("#image17").click(function(){
+            $("#main-image6").attr("src", "img/frontend/kayak_products/Spinal needle2.jpg");
+        });
+        // $("#image18").click(function(){
+        //     $("#main-image6").attr("src", "img/frontend/kayak_products/Spinal needle.jpg");
+        // });
     </script>
-    <script>
-        $('.multiple5 img').on('click', function() {
-            let src = $(this).attr('src');
 
-            $('.main-image5').attr('src', src);
-        });
-    </script>
-    <script>
-        $('.multiple6 img').on('click', function() {
-            let src = $(this).attr('src');
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
-            $('.main-image6').attr('src', src);
-        });
+    <script>
+        function checked() {
+        $('.submit-btn').removeAttr('disabled');
+    };
     </script>
 @endpush
