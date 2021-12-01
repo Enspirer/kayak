@@ -22,6 +22,8 @@ Route::post('contact/store', [ContactController::class, 'store'])->name('contact
 
 Route::get('other-products', [ProductsController::class, 'otherProducts'])->name('other_products');
 Route::get('kayak-products', [ProductsController::class, 'kayakProducts'])->name('kayak_products');
+Route::post('products/send', [ProductsController::class, 'send'])->name('products.send');
+
 
 Route::get('news', [NewsController::class, 'index'])->name('news');
 Route::get('news/{id}', [NewsController::class, 'singleNews'])->name('single_news');

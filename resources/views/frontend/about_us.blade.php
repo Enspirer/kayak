@@ -26,6 +26,8 @@
         </div>
     </div>
 
+    
+
     <div class="container-fluid bottom-banner">
         <div class="container" style="padding-top: 8rem;">
             <div class="row">
@@ -49,6 +51,46 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+
+
+
+    <div class="container mb-5">
+
+        <div class="text-center">
+            <h3 class="mb-5 fw-bold" style="color: #0090FF">MESSAGE FROM CHAIRMAN</h3>
+        </div>
+
+        <div class="row align-items-center">            
+
+            <div class="col-6">
+                
+                
+                <div class="mb-4">
+                    <!-- <h5 class="mb-3">Description / Additional Note</h5> -->
+                    <div class="text-center" style="font-size: 0.8rem;">
+                        <p>
+                            To continue the good work Kayak has achieved so far, and to further enhance our competitive advantage, through innovation, marketing infrastructure, cost effectiveness, and customer relationship extended by our dynamic team.
+                        </p>
+                        <p class="mt-4">
+                            To continue the good work Kayak has achieved so far, and to further enhance our competitive advantage, through innovation, marketing infrastructure, cost effectiveness, and customer relationship extended by our dynamic team.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="mt-5 mb-4 text-center">
+                    <h5 class="fw-bold">Dr. Eshantha De Silva</h5>
+                    <p style="font-size:12px">(PhD, MBA, Dip Public health)</p>
+                </div>
+
+                
+            </div>
+
+            <div class="col-6">
+                <img src="{{url('img/frontend/chairman.png')}}" class="img-fluid w-100" style="object-fit: contain; height: 15rem;"/>
+            </div>
+
         </div>
     </div>
     
