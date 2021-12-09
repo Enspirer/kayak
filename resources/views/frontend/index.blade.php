@@ -285,41 +285,41 @@
                         </div>
 
                     <div class="col-12 col-md-6">
-                        <div class="swiper mySwiper2 mt-5">
+                        <div class="swiper mySwiper2 mt-5 swipper-with-bottom-caption">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide px-5">        
-                                    <div class="d-flex align-items-end" style="background: linear-gradient(to bottom, rgba(0,0,0, 0), rgba(0,0,0, 100) ),url('../img/frontend/index/shoulder.png'); background-repeat: no-repeat;background-size: cover; height: 16rem; background-position:center center; justify-content: center">
-                                        <h5 class="fw-bold text-white mb-2">Orthopedics</h5>
+                                    <div class="d-flex align-items-end" style="background-image: url('../img/frontend/index/shoulder.png'); background-repeat: no-repeat;background-size: cover; height: 16rem; background-position:center center; justify-content: center; border-radius: 15px;">
+                                        <h5 class="fw-bold text-white mb-2 bottom-caption">Surgical Division</h5>
                                     </div>
                                 </div>
                                 <div class="swiper-slide px-5">        
-                                    <div class="d-flex align-items-end" style="background: linear-gradient(to bottom, rgba(0,0,0, 0), rgba(0,0,0, 100) ),url('../img/frontend/other_products/2.png'); background-repeat: no-repeat;background-size: cover; height: 16rem; background-position:center center; justify-content: center">
-                                        <h5 class="fw-bold text-white mb-2">Orthopedics</h5>
+                                    <div class="d-flex align-items-end" style="background-image: url('../img/frontend/other_products/lab-division.png'); background-repeat: no-repeat;background-size: cover; height: 16rem; background-position:center center; justify-content: center; border-radius: 15px;">
+                                        <h5 class="fw-bold text-white mb-2 bottom-caption">Lab Division</h5>
                                     </div>
                                 </div>
                                 <div class="swiper-slide px-5">        
-                                    <div class="d-flex align-items-end" style="background: linear-gradient(to bottom, rgba(0,0,0, 0), rgba(0,0,0, 100) ),url('../img/frontend/other_products/3.png'); background-repeat: no-repeat;background-size: cover; height: 16rem; background-position:center center; justify-content: center">
-                                        <h5 class="fw-bold text-white mb-2">Orthopedics</h5>
+                                    <div class="d-flex align-items-end" style="background-image:url('../img/frontend/other_products/public-health.png'); background-repeat: no-repeat;background-size: cover; height: 16rem; background-position:center center; justify-content: center;border-radius: 15px;">
+                                        <h5 class="fw-bold text-white mb-2 bottom-caption">Public Health Division</h5>
                                     </div>
                                 </div>
                                 <div class="swiper-slide px-5">        
-                                    <div class="d-flex align-items-end" style="background: linear-gradient(to bottom, rgba(0,0,0, 0), rgba(0,0,0, 100) ),url('../img/frontend/other_products/4.png'); background-repeat: no-repeat;background-size: cover; height: 16rem; background-position:center center; justify-content: center">
-                                        <h5 class="fw-bold text-white mb-2">Orthopedics</h5>
+                                    <div class="d-flex align-items-end" style="background-image:url('../img/frontend/other_products/pharmaceutical-division.png'); background-repeat: no-repeat;background-size: cover; height: 16rem; background-position:center center; justify-content: center;border-radius:15px;">
+                                        <h5 class="fw-bold text-white mb-2 bottom-caption">Pharmaceutical Division</h5>
+                                    </div>
+                                </div>
+                                <!-- <div class="swiper-slide px-5">        
+                                    <div class="d-flex align-items-end" style="url('../img/frontend/other_products/5.png'); background-repeat: no-repeat;background-size: cover; height: 16rem; background-position:center center; justify-content: center">
+                                        <h5 class="fw-bold text-white mb-2 bottom-caption">Orthopedics</h5>
                                     </div>
                                 </div>
                                 <div class="swiper-slide px-5">        
-                                    <div class="d-flex align-items-end" style="background: linear-gradient(to bottom, rgba(0,0,0, 0), rgba(0,0,0, 100) ),url('../img/frontend/other_products/5.png'); background-repeat: no-repeat;background-size: cover; height: 16rem; background-position:center center; justify-content: center">
-                                        <h5 class="fw-bold text-white mb-2">Orthopedics</h5>
+                                    <div class="d-flex align-items-end" style="url('../img/frontend/other_products/6.png'); background-repeat: no-repeat;background-size: cover; height: 16rem; background-position:center center; justify-content: center">
+                                        <h5 class="fw-bold text-white mb-2 bottom-caption">Orthopedics</h5>
                                     </div>
-                                </div>
-                                <div class="swiper-slide px-5">        
-                                    <div class="d-flex align-items-end" style="background: linear-gradient(to bottom, rgba(0,0,0, 0), rgba(0,0,0, 100) ),url('../img/frontend/other_products/6.png'); background-repeat: no-repeat;background-size: cover; height: 16rem; background-position:center center; justify-content: center">
-                                        <h5 class="fw-bold text-white mb-2">Orthopedics</h5>
-                                    </div>
-                                </div>
+                                </div> -->
                             </div>
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next bold-arrow"></div>
+                            <div class="swiper-button-prev bold-arrow"></div>
                         </div>
                         
                     </div>
