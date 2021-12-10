@@ -30,6 +30,16 @@
     padding-bottom: 0.5rem;
 }
 
+.about-img {
+    height: unset !important;
+}
+
+.limit-card-text {
+    max-height: 95px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 
 
 

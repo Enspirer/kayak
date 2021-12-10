@@ -33,6 +33,62 @@
     height: 15rem;
 }
 
+.accordion-button::after {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='10' fill='%2300ACEE' class='bi bi-plus-lg' viewBox='0 0 16 16'><path fill-rule='evenodd' d='M8 0a1 1 0 0 1 1 1v6h6a1 1 0 1 1 0 2H9v6a1 1 0 1 1-2 0V9H1a1 1 0 0 1 0-2h6V1a1 1 0 0 1 1-1z'/></svg>");
+    width: 1rem!important;
+    height: 1rem!important;
+    background-size: 1rem!important;
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='10' fill='%2300ACEE' class='bi bi-plus-lg' viewBox='0 0 16 16'><path fill-rule='evenodd' d='M8 0a1 1 0 0 1 1 1v6h6a1 1 0 1 1 0 2H9v6a1 1 0 1 1-2 0V9H1a1 1 0 0 1 0-2h6V1a1 1 0 0 1 1-1z'/></svg>");
+    transform: rotate(-45deg)!important;
+}
+
+.accordion-header {
+    border: 1px solid #00ACEE;
+    font-weight: 700;
+}
+
+.accordion-button {
+    background-color: #efefef;
+}
+
+.kayak-products-main {
+    min-height: 800px;
+    height: inherit;
+}
+
+.detail-space  {
+    margin-left: 5px;
+}
+
+.kayak-product-sub-list li {
+    width: 100%;
+}
+
+.kayak-product-sub-list {
+    max-height: 222px;
+    overflow-y: scroll;
+}
+
+.main-product {
+    margin-bottom: 15px !important;
+}
+
+.product-box {
+    display: inline-flex;
+    padding-left: 5px;
+}
+
+.inner-navlink {
+    background-color: #00ACEE;
+    border-radius: 4px;
+    width: 95%;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #fff;
+}
+
 /* .multiple .col-md-3 {
     background-color: #E9E9E9;
 }
