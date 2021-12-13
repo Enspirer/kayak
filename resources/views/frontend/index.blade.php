@@ -210,7 +210,7 @@
                     <div class="card">
                         <div class="card-body text-center">
                             <img src="{{ url('img/frontend/index/slide-2.png') }}" alt="...">
-                            <h5 class="card-title fw-bold mb-2">KN95 Face Masks</h5>
+                            <h5 class="card-title fw-bold mb-2">Face Masks</h5>
                             <div class="text-center mb-2">
                                 <i class="bi bi-star-fill gold"></i>
                                 <i class="bi bi-star-fill gold"></i>
@@ -240,11 +240,31 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="swiper-slide">
                     <div class="card">
                         <div class="card-body text-center">
-                            <img src="{{ url('img/frontend/index/slide-1.png') }}" alt="...">
-                            <h6 class="card-title fw-bold mb-2">Multilayer Surgical Cellulose Roll</h6>
+                            <img style="padding-bottom: 10px;" src="{{ url('img/frontend/kayak_products/surgical-aprons/surgical-apron.png') }}" alt="...">
+                            <h6 class="card-title fw-bold mb-2">Surgical Aprons</h6>
+                            <div class="text-center mb-2">
+                                <i class="bi bi-star-fill gold"></i>
+                                <i class="bi bi-star-fill gold"></i>
+                                <i class="bi bi-star-fill gold"></i>
+                                <i class="bi bi-star-fill gold"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <p class="card-text mb-md-3" style="font-size: 0.8rem;">At Kayak, Quality is Our Prime Concern. Browse Our Portfolio.</p>
+                            <a href="#" class="btn d-none">View More</a>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img style="padding-bottom: 10px;" src="{{ url('img/frontend/kayak_products/spinal_needles/needles.jpg') }}" alt="...">
+                            <h6 class="card-title fw-bold mb-2">Spinal Needles</h6>
                             <div class="text-center mb-2">
                                 <i class="bi bi-star-fill gold"></i>
                                 <i class="bi bi-star-fill gold"></i>
@@ -472,26 +492,39 @@
             $('.mySwiper1 .swiper-slide-next').find('a').removeClass('d-none');
         }
 
+
+
+        /*next button*/
     $('.swiper-button-next').on('click', function() {
-        if($('.mySwiper1 .swiper-slide').hasClass('swiper-slide-next')) {
+        if($('.mySwiper1 .swiper-slide').hasClass('swiper-slide-active')) {
             $('.mySwiper1 .swiper-slide-next').find('a').removeClass('d-none');
         }
 
-        if ($('.mySwiper1 .swiper-slide').hasClass('swiper-slide-active')) {
-           $('.mySwiper1 .swiper-slide-active').find('a').addClass('d-none');
+        if ($('.mySwiper1 .swiper-slide').hasClass('swiper-slide-next')) {
+            $('.mySwiper1 .swiper-slide-active').find('a').addClass('d-none');
         }
+
         $(window).resize();
+        
     });
 
+
+/*previous button*/
     $('.swiper-button-prev').on('click', function() {
-        if($('.mySwiper1 .swiper-slide').hasClass('swiper-slide-next')) {
+        if($('.mySwiper1 .swiper-slide').hasClass('swiper-slide')) {
+             $('.mySwiper1 .swiper-slide').find('a').addClass('d-none');
+        }
+
+        if($('.mySwiper1 .swiper-slide-active').hasClass('swiper-slide-active')) {
+             $('.mySwiper1 .swiper-slide-active').find('a').addClass('d-none');
+        }
+
+        if ($('.mySwiper1 .swiper-slide-next').hasClass('swiper-slide-next')) {
             $('.mySwiper1 .swiper-slide-next').find('a').removeClass('d-none');
         }
 
-        if ($('.mySwiper1 .swiper-slide').classList.length == 1) {
-           $('.mySwiper1 .swiper-slide').find('a').addClass('d-none');
-        }
         $(window).resize();
+      
     });
 
 
