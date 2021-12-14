@@ -444,4 +444,13 @@ button.product-varient-btn-apron:hover, button.product-varient-btn-apron.active 
         display: flex;
         flex-direction: column;
     }
+
+    .popup {
+        width: 90%;
+    }
+
+    
+
+
+
 }

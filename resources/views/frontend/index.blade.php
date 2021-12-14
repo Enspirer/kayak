@@ -202,7 +202,7 @@
                                 <i class="bi bi-star-fill"></i>
                             </div>
                             <p class="card-text mb-md-3" style="font-size: 0.8rem;">At Kayak, Quality is Our Prime Concern. Browse Our Portfolio.</p>
-                            <a href="#" class="btn d-none">View More</a>
+                            <a href="{{ route('frontend.kayak_products') }}" class="btn d-none">View More</a>
                         </div>
                     </div>
                 </div>
@@ -219,7 +219,7 @@
                                 <i class="bi bi-star-fill"></i>
                             </div>
                             <p class="card-text mb-md-3">At Kayak, Quality is Our Prime Concern. Browse Our Portfolio.</p>
-                            <a href="#" class="btn d-none">View More</a>
+                            <a href="{{ route('frontend.kayak_products') }}" class="btn d-none">View More</a>
                         </div>
                     </div>
                 </div>
@@ -236,7 +236,7 @@
                                 <i class="bi bi-star-fill"></i>
                             </div>
                             <p class="card-text mb-md-3" style="font-size: 0.8rem;">At Kayak, Quality is Our Prime Concern. Browse Our Portfolio.</p>
-                            <a href="#" class="btn d-none">View More</a>
+                            <a href="{{ route('frontend.kayak_products') }}" class="btn d-none">View More</a>
                         </div>
                     </div>
                 </div>
@@ -254,7 +254,7 @@
                                 <i class="bi bi-star-fill"></i>
                             </div>
                             <p class="card-text mb-md-3" style="font-size: 0.8rem;">At Kayak, Quality is Our Prime Concern. Browse Our Portfolio.</p>
-                            <a href="#" class="btn d-none">View More</a>
+                            <a href="{{ route('frontend.kayak_products') }}" class="btn d-none">View More</a>
                         </div>
                     </div>
                 </div>
@@ -273,7 +273,7 @@
                                 <i class="bi bi-star-fill"></i>
                             </div>
                             <p class="card-text mb-md-3" style="font-size: 0.8rem;">At Kayak, Quality is Our Prime Concern. Browse Our Portfolio.</p>
-                            <a href="#" class="btn d-none">View More</a>
+                            <a href="{{ route('frontend.kayak_products') }}" class="btn d-none">View More</a>
                         </div>
                     </div>
                 </div>
