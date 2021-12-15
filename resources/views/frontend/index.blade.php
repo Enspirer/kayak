@@ -33,7 +33,7 @@
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <div class="banner" style="background-image: url('img/frontend/index/1.jpg');">
+                    <div class="banner" style="background-image: url('img/frontend/index/banners/kayak-banner-one.png');">
                         <div class="container" style="padding-top: 11rem;">
                             <div class="row justify-content-end">
                                 <div class="col-12 col-md-6">
@@ -46,7 +46,7 @@
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="banner" style="background-image: url('img/frontend/index/2.jpg');">
+                    <div class="banner" style="background-image: url('img/frontend/index/banners/kayak-banner-two.png');">
                         <div class="container" style="padding-top: 11rem;">
                             <div class="row justify-content-end">
                                 <div class="col-6">
@@ -59,7 +59,7 @@
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="banner" style="background-image: url('img/frontend/index/3.jpg');">
+                    <div class="banner" style="background-image: url('img/frontend/index/banners/kayak-banner-three.png');">
                         <div class="container" style="padding-top: 11rem;">
                             <div class="row justify-content-end">
                                 <div class="col-6">
@@ -72,7 +72,7 @@
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="banner" style="background-image: url('img/frontend/index/4.jpg');">
+                    <div class="banner" style="background-image: url('img/frontend/index/banners/kayak-banner-four.png');">
                         <div class="container" style="padding-top: 11rem;">
                             <div class="row justify-content-end">
                                 <div class="col-6">
@@ -85,7 +85,7 @@
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="banner" style="background-image: url('img/frontend/index/5.jpg');">
+                    <div class="banner" style="background-image: url('img/frontend/index/banners/kayak-banner-five.png');">
                         <div class="container" style="padding-top: 11rem;">
                             <div class="row justify-content-end">
                                 <div class="col-6">
