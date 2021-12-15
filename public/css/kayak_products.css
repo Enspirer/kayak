@@ -357,30 +357,30 @@ button.popup-btn.inquire-btn:hover {
 }
 
 button.product-varient-btn {
-    background: #00171f;
     border-radius: 25px;
-    border: 0;
     padding: 5px 15px;
     margin-right: 15px;
-    color: #fff;
+    background-color: transparent;
+    color: #00acee;
+    border: 1px solid #00acee;
 }
 
 button.product-varient-btn-apron {
-    background: #00171f;
     border-radius: 25px;
-    border: 0;
     padding: 5px 15px;
     margin-right: 15px;
-    color: #fff;
+    background-color: transparent;
+    color: #00acee;
+    border: 1px solid #00acee;
 }
 
 button.product-varient-btn:hover, button.product-varient-btn.active {
-    background-color:red;
+    background-color:#00acee;
     color: #fff;
 }
 
 button.product-varient-btn-apron:hover, button.product-varient-btn-apron.active {
-    background-color:red;
+    background-color:#00acee;
     color: #fff;
 }
 
