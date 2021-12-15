@@ -112,7 +112,7 @@
             <div class="col-12 col-md-4 position-relative">
                 <div class="row justify-content-center mb-3">
                     <div class="col-3 about-cards">
-                        <img src="{{ url('img/frontend/index/team.png') }}" class="img-fluid" alt="...">
+                        <img src="{{ url('img/frontend/index/team.png') }}" class="round-img" alt="...">
                     </div>
                 </div>
                 <div class="card about-main">
@@ -135,7 +135,7 @@
             <div class="col-12 col-md-4 position-relative">
                 <div class="row justify-content-center mb-3">
                     <div class="col-3 about-cards">
-                        <img src="{{ url('img/frontend/index/hand.png') }}" class="img-fluid" alt="...">
+                        <img src="{{ url('img/frontend/index/hand.png') }}" class="round-img" alt="...">
                     </div>
                 </div>
                 <div class="card about-main">
@@ -157,7 +157,7 @@
             <div class="col-12 col-md-4 position-relative">
                 <div class="row justify-content-center mb-3">
                     <div class="col-3 about-cards">
-                        <img src="{{ url('img/frontend/index/medicine.png') }}" class="img-fluid" alt="...">
+                        <img src="{{ url('img/frontend/index/medicine.png') }}" class="round-img" alt="...">
                     </div>
                 </div>
                 <div class="card about-main">

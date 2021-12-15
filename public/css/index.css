@@ -9,7 +9,7 @@
 
 
 .about-cards {
-    border-radius: 50px;
+    border-radius: 50%;
     -webkit-box-shadow: -1px 1px 13px 1px rgba(0,126,235,0.77);
     -moz-box-shadow: -1px 1px 13px 1px rgba(0,126,235,0.77);
     box-shadow: -1px 1px 13px 1px rgba(0,126,235,0.77);
@@ -36,6 +36,12 @@
     max-height: 95px;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+
+img.round-img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
 }
 
 
