@@ -29,7 +29,7 @@
 
     
 
-    <div class="container-fluid p-0 banners" style="margin-top: 5rem;">
+    <div class="container-fluid p-0 banners">
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
@@ -209,7 +209,7 @@
                 <div class="swiper-slide">
                     <div class="card">
                         <div class="card-body text-center">
-                            <img src="{{ url('img/frontend/index/slide-2.png') }}" alt="...">
+                            <img src="{{ url('img/frontend/kayak_products/respiratory-masks/breath-right/N95 Masks1.png') }}" alt="...">
                             <h5 class="card-title fw-bold mb-2">Face Masks</h5>
                             <div class="text-center mb-2">
                                 <i class="bi bi-star-fill gold"></i>
@@ -226,7 +226,7 @@
                 <div class="swiper-slide">
                     <div class="card">
                         <div class="card-body text-center">
-                            <img src="{{ url('img/frontend/index/slide-3.png') }}" alt="...">
+                        <img src="{{ url('img/frontend/kayak_products/endo-tubes/abercom1.png') }}">
                             <h6 class="card-title fw-bold mb-2">Endotracheal Tubes</h6>
                             <div class="text-center mb-2">
                                 <i class="bi bi-star-fill gold"></i>
@@ -312,21 +312,21 @@
                                         <h5 class="fw-bold text-white mb-2 bottom-caption">Surgical Division</h5>
                                     </div>
                                 </div>
-                                <div class="swiper-slide px-5">        
+                                <!-- <div class="swiper-slide px-5">        
                                     <div class="d-flex align-items-end" style="background-image: url('../img/frontend/other_products/lab-division.png'); background-repeat: no-repeat;background-size: cover; height: 16rem; background-position:center center; justify-content: center; border-radius: 15px;">
                                         <h5 class="fw-bold text-white mb-2 bottom-caption">Lab Division</h5>
                                     </div>
-                                </div>
+                                </div> -->
                                 <div class="swiper-slide px-5">        
                                     <div class="d-flex align-items-end" style="background-image:url('../img/frontend/other_products/public-health.png'); background-repeat: no-repeat;background-size: cover; height: 16rem; background-position:center center; justify-content: center;border-radius: 15px;">
                                         <h5 class="fw-bold text-white mb-2 bottom-caption">Public Health Division</h5>
                                     </div>
                                 </div>
-                                <div class="swiper-slide px-5">        
+                                <!-- <div class="swiper-slide px-5">        
                                     <div class="d-flex align-items-end" style="background-image:url('../img/frontend/other_products/pharmaceutical-division.png'); background-repeat: no-repeat;background-size: cover; height: 16rem; background-position:center center; justify-content: center;border-radius:15px;">
                                         <h5 class="fw-bold text-white mb-2 bottom-caption">Pharmaceutical Division</h5>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- <div class="swiper-slide px-5">        
                                     <div class="d-flex align-items-end" style="url('../img/frontend/other_products/5.png'); background-repeat: no-repeat;background-size: cover; height: 16rem; background-position:center center; justify-content: center">
                                         <h5 class="fw-bold text-white mb-2 bottom-caption">Orthopedics</h5>

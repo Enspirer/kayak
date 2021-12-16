@@ -1,4 +1,4 @@
-<div class="fixed-top">
+<!-- <div class="fixed-top">
     <div class="container-fluid py-2 top-nav" style="background-color: white;">
         <div class="container">
             <div class="row justify-content-between">
@@ -11,7 +11,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
 
 

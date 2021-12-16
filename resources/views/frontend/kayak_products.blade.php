@@ -80,7 +80,7 @@
                         <div class="row">
 
                             <div class="col-12 col-md-5 mb-4 mb-md-0 text-center">
-                                <img id="maskImg" src="{{ url('img/frontend/kayak_products/respiratory-masks/breath-right/N95 Masks1.jpg') }}" alt=""
+                                <img id="maskImg" src="{{ url('img/frontend/kayak_products/respiratory-masks/breath-right/N95 Masks1.png') }}" alt=""
                                     class="img-fluid main-image5" id="main-image5">
                             </div>
 
@@ -92,12 +92,13 @@
                                 <div
                                     class="row multiple5 mx-0 mt-4 mb-4 justify-content-center justify-content-md-start">
                                     <div class="col-3 col-md-3 text-center me-1">
-                                        <img id="maskSubImgOne" src="{{ url('img/frontend/kayak_products/respiratory-masks/breath-right/N95 Masks1.jpg') }}" id="image13"
-                                            alt="" class="img-fluid">
+                                        <a onclick="maskSubOne()" href="#"> <img id="maskSubImgOne" src="{{ url('img/frontend/kayak_products/respiratory-masks/breath-right/N95 Masks1.png') }}" id="image13"
+                                            alt="" class="img-fluid"> </a>
                                     </div>
                                     <div class="col-3 col-md-3 text-center me-1">
+                                        <a onclick="maskSubTwo()" href="#">
                                         <img id="maskSubImgTwo" src="{{ url('img/frontend/kayak_products/respiratory-masks/breath-right/N95 Masks2.jpg') }}" id="image14"
-                                            alt="" class="img-fluid">
+                                            alt="" class="img-fluid"> </a>
                                     </div>
                                 </div>
 
@@ -159,7 +160,7 @@
                     <div class="tab-pane fade" id="pills-endo-tubes" aria-labelledby="pills-tubes">
                         <div class="row">
                             <div class="col-12 col-md-5 mb-4 mb-md-0 text-center">
-                                <img src="{{ url('img/frontend/kayak_products/endo-tubes/abercom1.jpg') }}">
+                                <img id="endoImg" src="{{ url('img/frontend/kayak_products/endo-tubes/abercom1.png') }}">
                             </div>
                             <div class="col-12 col-md-7">
 
@@ -170,12 +171,20 @@
                                     class="row multiple5 mx-0 mt-4 mb-4 justify-content-center justify-content-md-start">
 
                                     <div class="col-3 col-md-3 text-center me-1">
-                                        <img src="{{ url('img/frontend/kayak_products/endo-tubes/abercom2.jpg') }}"
-                                            id="image13" alt="" class="img-fluid">
+                                        <a onclick="endoSubOne()" href="#">
+                                        <img src="{{ url('img/frontend/kayak_products/endo-tubes/abercom1.jpg') }}"
+                                            id="image13" alt="" class="img-fluid"></a>
                                     </div>
                                     <div class="col-3 col-md-3 text-center me-1">
-                                        <img src="{{ url('img/frontend/kayak_products/endo-tubes/abercom3.jpg') }}"
-                                            id="image14" alt="" class="img-fluid">
+                                        <a onclick="endoSubTwo()">
+                                            <img src="{{ url('img/frontend/kayak_products/endo-tubes/abercom3.jpg') }}"
+                                                id="image14" alt="" class="img-fluid">
+                                        </a>
+                                    </div>
+                                    <div class="col-3 col-md-3 text-center me-1">
+                                        <a onclick="endoSubThree()" href="#">
+                                        <img src="{{ url('img/frontend/kayak_products/endo-tubes/abercom2.jpg') }}"
+                                            id="image13" alt="" class="img-fluid"></a>
                                     </div>
 
                                 </div>
@@ -916,11 +925,13 @@
                                 <div
                                     class="row multiple3 mx-0 mt-4 mb-4 justify-content-center justify-content-md-start">
                                     <div class="col-3 col-md-3 text-center me-1">
-                                        <img src="{{ url('img/frontend/kayak_products/roll1.jpg') }}" id="image7" alt=""
+                                       
+                                    <img src="{{ url('img/frontend/kayak_products/roll1.jpg') }}" id="image7" alt=""
                                             class="img-fluid">
                                     </div>
                                     <div class="col-3 col-md-3 text-center me-1">
-                                        <img src="{{ url('img/frontend/kayak_products/roll2.jpg') }}" id="image8" alt=""
+                                       
+                                    <img src="{{ url('img/frontend/kayak_products/roll2.jpg') }}" id="image8" alt=""
                                             class="img-fluid">
                                     </div>
                                     <!-- <div class="col-3 col-md-3 text-center me-1">
@@ -983,16 +994,19 @@
                                 <div
                                     class="row multiple5 mx-0 mt-4 mb-4 justify-content-center justify-content-md-start">
                                     <div class="col-3 col-md-3 text-center me-1">
+                                        <a href="#" onclick="apronSubOne()">
                                         <img id="apronSubImgOne" src="" id="image13"
-                                            alt="" class="img-fluid">
+                                            alt="" class="img-fluid"></a>
                                     </div>
                                     <div class="col-3 col-md-3 text-center me-1">
+                                        <a href="#" onclick="apronSubTwo()">
                                         <img id="apronSubImgTwo" src="" id="image14"
-                                            alt="" class="img-fluid">
+                                            alt="" class="img-fluid"></a>
                                     </div>
                                     <div class="col-3 col-md-3 text-center me-1">
+                                        <a href="#" onclick="apronSubThree()">
                                         <img src="" id="image15"
-                                            alt="" class="img-fluid">
+                                            alt="" class="img-fluid"></a>
                                     </div>
                                 </div>
 
@@ -1057,7 +1071,7 @@
                     <div class="tab-pane fade" id="pills-spinal" aria-labelledby="pills-spinal-tab">
                         <div class="row">
                             <div class="col-12 col-md-5 mb-4 mb-md-0 text-center">
-                                <img src="{{ url('img/frontend/kayak_products/spinal_needles/needles.jpg') }}" alt=""
+                                <img id="spinalImg" src="{{ url('img/frontend/kayak_products/spinal_needles/needles.jpg') }}" alt=""
                                     class="img-fluid main-image5" id="main-image5">
                             </div>
                             <div class="col-12 col-md-7">
@@ -1068,8 +1082,15 @@
                                 <div
                                     class="row multiple5 mx-0 mt-4 mb-4 justify-content-center justify-content-md-start">
                                     <div class="col-3 col-md-3 text-center me-1">
+                                        <a href="#" onclick="spinalSubOne()">
+                                            <img src="{{ url('img/frontend/kayak_products/spinal_needles/needles.jpg') }}"
+                                                id="image13" alt="" class="img-fluid">
+                                        </a>
+                                    </div>
+                                    <div class="col-3 col-md-3 text-center me-1">
+                                        <a href="#" onclick="spinalSubTwo()">
                                         <img src="{{ url('img/frontend/kayak_products/spinal_needles/needles2.jpg') }}"
-                                            id="image13" alt="" class="img-fluid">
+                                            id="image14" alt="" class="img-fluid"></a>
                                     </div>
                                 </div>
 
@@ -1374,40 +1395,94 @@
 
 @push('after-scripts')
 
-<script>
-function masksOne() {
-    var element = document.getElementsByClassName("product-varient-btn")[0];
-    element.classList.add("active");
-    var element = document.getElementsByClassName("product-varient-btn")[1];
-    element.classList.remove("active");
-    document.getElementById("maskProduct").innerHTML = respiratorMasks[0].productName;
-    document.getElementById("maskSpec").innerHTML = respiratorMasks[0].specification;
-    document.getElementById("maskFil").innerHTML = respiratorMasks[0].filtrationRate;
-    document.getElementById("maskSize").innerHTML = respiratorMasks[0].packSize;
-    document.getElementById("packSize").innerHTML = respiratorMasks[0].boxSize;
-    document.getElementById("cartonSize").innerHTML = respiratorMasks[0].cartonSize;
-    document.getElementById("maskImg").src = "{{ url('img/frontend/kayak_products/respiratory-masks/breath-right/06.jpg') }}";
-    document.getElementById("maskSubImgOne").src = "{{ url('img/frontend/kayak_products/respiratory-masks/breath-right/06.jpg') }}";
-    document.getElementById("maskSubImgTwo").src = "{{ url('img/frontend/kayak_products/respiratory-masks/breath-right/06.jpg') }}";
-}
 
-function masksTwo() {
-    var element = document.getElementsByClassName("product-varient-btn")[1];
-    element.classList.add("active");
-    var element = document.getElementsByClassName("product-varient-btn")[0];
-    element.classList.remove("active");
-    document.getElementById("maskProduct").innerHTML = respiratorMasks[1].productName;
-    document.getElementById("maskSpec").innerHTML = respiratorMasks[1].specification;
-    document.getElementById("maskFil").innerHTML = respiratorMasks[1].filtrationRate;
-    document.getElementById("maskSize").innerHTML = respiratorMasks[1].packSize;
-    document.getElementById("packSize").innerHTML = respiratorMasks[1].boxSize;
-    document.getElementById("cartonSize").innerHTML = respiratorMasks[1].cartonSize;
-    document.getElementById("maskImg").src = "{{ url('img/frontend/kayak_products/respiratory-masks/smile/kn95-1.png') }}";
-    document.getElementById("maskSubImgOne").src = "{{ url('img/frontend/kayak_products/respiratory-masks/smile/kn95-2.jpg') }}";
-    document.getElementById("maskSubImgTwo").src = "{{ url('img/frontend/kayak_products/respiratory-masks/smile/kn95-3.jpg') }}";
-}
+
+<script>
+
+
+//MASK IMAGE CHANGER
+    var maskNumber = 1;
+
+    function masksOne() {
+
+        maskNumber = 1;
+
+        var element = document.getElementsByClassName("product-varient-btn")[0];
+        element.classList.add("active");
+        var element = document.getElementsByClassName("product-varient-btn")[1];
+        element.classList.remove("active");
+        document.getElementById("maskProduct").innerHTML = respiratorMasks[0].productName;
+        document.getElementById("maskSpec").innerHTML = respiratorMasks[0].specification;
+        document.getElementById("maskFil").innerHTML = respiratorMasks[0].filtrationRate;
+        document.getElementById("maskSize").innerHTML = respiratorMasks[0].packSize;
+        document.getElementById("packSize").innerHTML = respiratorMasks[0].boxSize;
+        document.getElementById("cartonSize").innerHTML = respiratorMasks[0].cartonSize;
+        document.getElementById("maskImg").src = "{{ url('img/frontend/kayak_products/respiratory-masks/breath-right/06.jpg') }}";
+        document.getElementById("maskSubImgOne").src = "{{ url('img/frontend/kayak_products/respiratory-masks/breath-right/06.jpg') }}";
+        document.getElementById("maskSubImgTwo").src = "{{ url('img/frontend/kayak_products/respiratory-masks/breath-right/N95 Masks2.jpg') }}";
+    }
+
+    function masksTwo() {
+
+        maskNumber = 2;
+
+        var element = document.getElementsByClassName("product-varient-btn")[1];
+        element.classList.add("active");
+        var element = document.getElementsByClassName("product-varient-btn")[0];
+        element.classList.remove("active");
+        document.getElementById("maskProduct").innerHTML = respiratorMasks[1].productName;
+        document.getElementById("maskSpec").innerHTML = respiratorMasks[1].specification;
+        document.getElementById("maskFil").innerHTML = respiratorMasks[1].filtrationRate;
+        document.getElementById("maskSize").innerHTML = respiratorMasks[1].packSize;
+        document.getElementById("packSize").innerHTML = respiratorMasks[1].boxSize;
+        document.getElementById("cartonSize").innerHTML = respiratorMasks[1].cartonSize;
+        document.getElementById("maskImg").src = "{{ url('img/frontend/kayak_products/respiratory-masks/smile/kn95-1.png') }}";
+        document.getElementById("maskSubImgOne").src = "{{ url('img/frontend/kayak_products/respiratory-masks/smile/kn95-1.png') }}";
+        document.getElementById("maskSubImgTwo").src = "{{ url('img/frontend/kayak_products/respiratory-masks/smile/kn95-2.jpg') }}";
+    }
+
+    function maskSubOne() {
+
+        if(maskNumber == 1) {
+            //mask one sub image changer
+            document.getElementById("maskImg").src = "{{ url('img/frontend/kayak_products/respiratory-masks/breath-right/06.jpg') }}";
+        } else {
+            document.getElementById("maskImg").src = "{{ url('img/frontend/kayak_products/respiratory-masks/smile/kn95-1.png') }}";
+        }
+
+    }
+
+    function maskSubTwo() {
+
+        if(maskNumber == 1) {
+            document.getElementById("maskImg").src =  "{{ url('img/frontend/kayak_products/respiratory-masks/breath-right/N95 Masks2.jpg') }}";
+        } else {
+            document.getElementById("maskImg").src =  "{{ url('img/frontend/kayak_products/respiratory-masks/smile/kn95-2.jpg') }}";
+        }
+
+    }
+
+    //ENDOTRACHEAL TUBES IMAGE CHANGER
+    function endoSubOne() {
+        document.getElementById("endoImg").src = "{{ url('img/frontend/kayak_products/endo-tubes/abercom1.jpg') }}";
+    }
+
+    function endoSubTwo() {
+        document.getElementById("endoImg").src = "{{ url('img/frontend/kayak_products/endo-tubes/abercom3.jpg') }}";
+    }
+
+    function endoSubThree() {
+        document.getElementById("endoImg").src = "{{ url('img/frontend/kayak_products/endo-tubes/abercom2.jpg') }}";
+    }
+
+
+    //APRON IMAGE CHANGER
+    var apronNumber = 1;
 
 function apronOne() {
+
+    apronNumber = 1;
+
     var element = document.getElementsByClassName("product-varient-btn-apron")[0];
     element.classList.add("active");
     var element = document.getElementsByClassName("product-varient-btn-apron")[1];
@@ -1425,6 +1500,9 @@ function apronOne() {
 }
 
 function apronTwo() {
+
+    apronNumber = 2;
+
     var element = document.getElementsByClassName("product-varient-btn-apron")[1];
     element.classList.add("active");
     var element = document.getElementsByClassName("product-varient-btn-apron")[0];
@@ -1440,18 +1518,46 @@ function apronTwo() {
     document.getElementById("apronSubImgTwo").src = "{{ url('img/frontend/kayak_products/surgical-aprons/wear-on-three.jpg') }}";
 }
 
+function apronSubOne() {
 
+    if(apronNumber == 1) {
+        document.getElementById("apronImg").src = "{{ url('img/frontend/kayak_products/surgical-aprons/surgical-apron.png') }}";
+    } else {
+      
+        document.getElementById("apronImg").src =  "{{ url('img/frontend/kayak_products/surgical-aprons/wear-on-two.jpg') }}";
+    }
 
+}
+
+function apronSubTwo() {
+
+if(apronNumber == 1) {
+      //apron one haven't second image
+    document.getElementById("apronImg").src = "";
+} else {
+    document.getElementById("apronImg").src = "{{ url('img/frontend/kayak_products/surgical-aprons/wear-on-three.jpg') }}";
+}
+
+}
+
+//SPINAL NEEDLES IMAGE CHANGER
+function spinalSubOne() {
+    document.getElementById("spinalImg").src ="{{ url('img/frontend/kayak_products/spinal_needles/needles.jpg') }}";
+}
+
+function spinalSubTwo() {
+    document.getElementById("spinalImg").src ="{{ url('img/frontend/kayak_products/spinal_needles/needles2.jpg') }}";
+}
 
 
 
 </script>
 
 <script>
-function activeRemover() {
-    var element = document.getElementById("breath-right");
-    element.classList.remove("active");
-}
+    function activeRemover() {
+        var element = document.getElementById("breath-right");
+        element.classList.remove("active");
+    }
 </script>
 
 <!-- Product Thumbnail Slider -->

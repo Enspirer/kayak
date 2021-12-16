@@ -23,7 +23,7 @@
                     <iframe src="https://www.youtube.com/embed/wHWpz804lOk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width: 100%; height: 350px"></iframe>
                 </div> -->
                 <div class="about-title-box">
-                    <h2 class="about-hidden-title">ABOUT KAYAK</h2>
+                    <!-- <h2 class="about-hidden-title">ABOUT KAYAK</h2> -->
                     <h3 class="about-title">ABOUT KAYAK</h3>
                 </div>
                 
@@ -39,7 +39,7 @@
                 <div class="col-12 col-md-6 mb-5 mb-md-0">
                     <div class="card custom-shadow">
                         <div class="card-body p-4 position-relative">
-                            <p class="display-2 position-absolute large-title" style="opacity: 0.07; top: -2.8rem; left: -0.5rem;">VISION</p>
+                            <!-- <p class="display-2 position-absolute large-title" style="opacity: 0.07; top: -2.8rem; left: -0.5rem;">VISION</p> -->
                             <h3 class="card-title mb-2">VISION</h3>
                             <p class="card-text">Our Vision is to Innovate, Strategize and Evolve Medical and Pharmaceutical Industry to better heights utilizing the undermined potential of the Sri Lankan Stringent Standards.</p>
                         </div>
@@ -49,7 +49,7 @@
                 <div class="col-12 col-md-6">
                     <div class="card custom-shadow" style="height: 9.6rem;">
                         <div class="card-body p-4 position-relative">
-                            <p class="display-2 position-absolute large-title" style="opacity: 0.07; top: -2.8rem; left: 0rem;">MISSION</p>
+                            <!-- <p class="display-2 position-absolute large-title" style="opacity: 0.07; top: -2.8rem; left: 0rem;">MISSION</p> -->
                             <h3 class="card-title mb-2">MISSION</h3>
                             <p class="card-text">To Provide Better Medical, Surgical & Pharmaceutical Solutions to the Market with Top Tier Quality, Fitness for Purpose & Cost Effectiveness.</p>
                         </div>

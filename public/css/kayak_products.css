@@ -5,8 +5,9 @@
     background-size: cover;
     /* background-position: center center; */
     height: 650px;
-    margin-top: 7rem;
 }
+
+
 
 .kayak-products .nav-link {
     border: 1px solid #00ACEE;
@@ -184,7 +185,6 @@ hr:not([size]) {
 body {
     font-family: Arial, sans-serif;
     background-size: cover;
-    height: 100vh;
   }
   
   h1 {

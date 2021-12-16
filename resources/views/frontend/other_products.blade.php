@@ -47,7 +47,7 @@
                             </div>
                         </div>
 
-                        <div class="accordion-item mb-4">
+                        <!-- <div class="accordion-item mb-4">
                             <h2 class="accordion-header" id="headingTwo">
                                 <button class="accordion-button collapsed fw-bolder" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
                                     PHARMACEUTICAL DIVISION
@@ -71,35 +71,35 @@
                                     </ul>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
 
                         <div class="accordion-item mb-4">
-                            <h2 class="accordion-header" id="headingThree">
-                                <button class="accordion-button collapsed fw-bolder" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed fw-bolder" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                     PUBLIC HEALTH DIVISION
                                 </button>
                             </h2>
-                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                     <ul class="nav flex-column">
                                         <li class="nav-item" role="presentation">
-                                            <button class="nav-link active btn fw-bold" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home">Ipsum</button>
+                                            <button class="nav-link  btn fw-bold" id="pills-mosquito-dunk-tab" data-bs-toggle="pill" data-bs-target="#pills-mosquito-dunk" type="button" role="tab" aria-controls="pills-mosquito-dunk">Mosquito Dunks</button>
                                         </li>
                                         <li class="nav-item" role="presentation">
+                                            <button class="nav-link btn fw-bold" id="pills-public-tab" data-bs-toggle="pill" data-bs-target="#pills-public" type="button" role="tab" aria-controls="pills-public">Ipsum</button>
+                                        </li>
+                                        <!-- <li class="nav-item" role="presentation">
                                             <button class="nav-link btn fw-bold" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home">Ipsum</button>
                                         </li>
                                         <li class="nav-item" role="presentation">
                                             <button class="nav-link btn fw-bold" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home">Ipsum</button>
-                                        </li>
-                                        <li class="nav-item" role="presentation">
-                                            <button class="nav-link btn fw-bold" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home">Ipsum</button>
-                                        </li>
+                                        </li>  -->
                                     </ul>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="accordion-item mb-4">
+                        <!-- <div class="accordion-item mb-4">
                             <h2 class="accordion-header" id="headingFour">
                                 <button class="accordion-button collapsed fw-bolder" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
                                     LAB DIVISION
@@ -123,11 +123,12 @@
                                     </ul>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
+
                     </div>
                 </div>
 
-                
+                <!-- surgical division products -->
                 <div class="col-12 col-md-8">
                     <div class="tab-content">
                         <div class="tab-pane fade active show" id="pills-orthopaedic" aria-labelledby="pills-orthopaedic-tab">
@@ -159,11 +160,43 @@
                         </div>
 
                         <div class="tab-pane fade" id="pills-hand" aria-labelledby="pills-hand-tab">
-                            
+                            hands
                         </div>
+
+                <!-- end of surgical division -->
+
+                <!-- public health division products -->
+                        <div class="tab-pane fade" id="pills-mosquito-dunk" aria-labelledby="pills-mosquito-dunk-tab">
+                            <div class="row">
+                                <div class="col-md-6 other-main">
+                                    <h2>Mosquito Dunks</h2>
+                                    <img src="{{url('img/frontend/other_products/public-health.png')}}" alt="">
+                                </div>
+                                
+                                <a class="other-company-links" href="https://summitchemical.com/" target="_blank">Visit: www.summitchemical.com</a>
+                                <p>America's best selling homeowner mosquito control product. The only product with BTI, a bacteria toxic only to mosquito larvae, that lasts 30 days and treats 100 square feet of surface water.</p>
+                                <div class="list-and-more-wrapper">
+                                <ul class="other-list">
+                                    <li>Non-toxic to all other wildlife, pets, fish, and humans.</li>
+                                    <li>Simply apply Mosquito Dunks® to any standing water, or water garden.</li>
+                                    <li>Kills within hours and lasts for 30 days or more.</li>
+                                    <li>Labeled For Organic Gardening by the USEPA.</li>
+                                    <li>The quintessential highly effective low impact product</li>
+                                </ul>
+                                <a class="other-more-link" href="{{ url('pdf/other-products/Summit_Catalog-fnl-web.pdf') }}" target="_blank">Read More</a>
+                                </div>
+
+                                <iframe width="450" height="315" src="https://www.youtube.com/embed/5xq4o0-val4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                              
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="pills-public" aria-labelledby="pills-public-tab">
+                            public tab
+                        </div>
+                <!-- end of public health division -->
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
