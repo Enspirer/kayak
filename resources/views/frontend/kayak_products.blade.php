@@ -177,13 +177,13 @@
                                     </div>
                                     <div class="col-3 col-md-3 text-center me-1">
                                         <a onclick="endoSubTwo()">
-                                            <img src="{{ url('img/frontend/kayak_products/endo-tubes/abercom3.jpg') }}"
+                                            <img src="{{ url('img/frontend/kayak_products/endo-tubes/abercom3.png') }}"
                                                 id="image14" alt="" class="img-fluid">
                                         </a>
                                     </div>
                                     <div class="col-3 col-md-3 text-center me-1">
                                         <a onclick="endoSubThree()" href="#">
-                                        <img src="{{ url('img/frontend/kayak_products/endo-tubes/abercom2.jpg') }}"
+                                        <img src="{{ url('img/frontend/kayak_products/endo-tubes/abercom2.png') }}"
                                             id="image13" alt="" class="img-fluid"></a>
                                     </div>
 
@@ -915,7 +915,7 @@
                     <div class="tab-pane fade" id="pills-cellulose" aria-labelledby="pills-cellulose-tab">
                         <div class="row">
                             <div class="col-12 col-md-5 mb-4 mb-md-0 text-center">
-                                <img src="{{ url('img/frontend/kayak_products/roll1.jpg') }}" alt=""
+                                <img src="{{ url('img/frontend/kayak_products/roll1.png') }}" alt=""
                                     class="img-fluid main-image3" id="main-image3">
                             </div>
                             <div class="col-12 col-md-7">
@@ -926,12 +926,12 @@
                                     class="row multiple3 mx-0 mt-4 mb-4 justify-content-center justify-content-md-start">
                                     <div class="col-3 col-md-3 text-center me-1">
                                        
-                                    <img src="{{ url('img/frontend/kayak_products/roll1.jpg') }}" id="image7" alt=""
+                                    <img src="{{ url('img/frontend/kayak_products/roll1.png') }}" id="image7" alt=""
                                             class="img-fluid">
                                     </div>
                                     <div class="col-3 col-md-3 text-center me-1">
                                        
-                                    <img src="{{ url('img/frontend/kayak_products/roll2.jpg') }}" id="image8" alt=""
+                                    <img src="{{ url('img/frontend/kayak_products/roll2.png') }}" id="image8" alt=""
                                             class="img-fluid">
                                     </div>
                                     <!-- <div class="col-3 col-md-3 text-center me-1">
@@ -1005,7 +1005,7 @@
                                     </div>
                                     <div class="col-3 col-md-3 text-center me-1">
                                         <a href="#" onclick="apronSubThree()">
-                                        <img src="" id="image15"
+                                        <img src="" id="apronSubImgThree"
                                             alt="" class="img-fluid"></a>
                                     </div>
                                 </div>
@@ -1089,7 +1089,7 @@
                                     </div>
                                     <div class="col-3 col-md-3 text-center me-1">
                                         <a href="#" onclick="spinalSubTwo()">
-                                        <img src="{{ url('img/frontend/kayak_products/spinal_needles/needles2.jpg') }}"
+                                        <img src="{{ url('img/frontend/kayak_products/spinal_needles/spinal needle2.png') }}"
                                             id="image14" alt="" class="img-fluid"></a>
                                     </div>
                                 </div>
@@ -1438,7 +1438,7 @@
         document.getElementById("cartonSize").innerHTML = respiratorMasks[1].cartonSize;
         document.getElementById("maskImg").src = "{{ url('img/frontend/kayak_products/respiratory-masks/smile/kn95-1.png') }}";
         document.getElementById("maskSubImgOne").src = "{{ url('img/frontend/kayak_products/respiratory-masks/smile/kn95-1.png') }}";
-        document.getElementById("maskSubImgTwo").src = "{{ url('img/frontend/kayak_products/respiratory-masks/smile/kn95-2.jpg') }}";
+        document.getElementById("maskSubImgTwo").src = "{{ url('img/frontend/kayak_products/respiratory-masks/smile/kn95-2.png') }}";
     }
 
     function maskSubOne() {
@@ -1457,7 +1457,7 @@
         if(maskNumber == 1) {
             document.getElementById("maskImg").src =  "{{ url('img/frontend/kayak_products/respiratory-masks/breath-right/N95 Masks2.jpg') }}";
         } else {
-            document.getElementById("maskImg").src =  "{{ url('img/frontend/kayak_products/respiratory-masks/smile/kn95-2.jpg') }}";
+            document.getElementById("maskImg").src =  "{{ url('img/frontend/kayak_products/respiratory-masks/smile/kn95-2.png') }}";
         }
 
     }
@@ -1468,11 +1468,11 @@
     }
 
     function endoSubTwo() {
-        document.getElementById("endoImg").src = "{{ url('img/frontend/kayak_products/endo-tubes/abercom3.jpg') }}";
+        document.getElementById("endoImg").src = "{{ url('img/frontend/kayak_products/endo-tubes/abercom3.png') }}";
     }
 
     function endoSubThree() {
-        document.getElementById("endoImg").src = "{{ url('img/frontend/kayak_products/endo-tubes/abercom2.jpg') }}";
+        document.getElementById("endoImg").src = "{{ url('img/frontend/kayak_products/endo-tubes/abercom2.png') }}";
     }
 
 
@@ -1513,9 +1513,10 @@ function apronTwo() {
     document.getElementById("apronSize").innerHTML = surgicalAprons[1].size;
     document.getElementById("apronPkSize").innerHTML = surgicalAprons[1].packSize;
     document.getElementById("apronCarton").innerHTML = surgicalAprons[1].cartonSize;
-    document.getElementById("apronImg").src = "{{ url('img/frontend/kayak_products/surgical-aprons/wear-on-one.jpg') }}";
-    document.getElementById("apronSubImgOne").src = "{{ url('img/frontend/kayak_products/surgical-aprons/wear-on-two.jpg') }}";
-    document.getElementById("apronSubImgTwo").src = "{{ url('img/frontend/kayak_products/surgical-aprons/wear-on-three.jpg') }}";
+    document.getElementById("apronImg").src = "{{ url('img/frontend/kayak_products/surgical-aprons/wear-on-one.png') }}";
+    document.getElementById("apronSubImgOne").src = "{{ url('img/frontend/kayak_products/surgical-aprons/wear-on-one.png') }}";
+    document.getElementById("apronSubImgTwo").src = "{{ url('img/frontend/kayak_products/surgical-aprons/wear-on-two.png') }}";
+    document.getElementById("apronSubImgThree").src = "{{ url('img/frontend/kayak_products/surgical-aprons/wear-on-three.png') }}";
 }
 
 function apronSubOne() {
@@ -1524,7 +1525,7 @@ function apronSubOne() {
         document.getElementById("apronImg").src = "{{ url('img/frontend/kayak_products/surgical-aprons/surgical-apron.png') }}";
     } else {
       
-        document.getElementById("apronImg").src =  "{{ url('img/frontend/kayak_products/surgical-aprons/wear-on-two.jpg') }}";
+        document.getElementById("apronImg").src =  "{{ url('img/frontend/kayak_products/surgical-aprons/wear-on-one.png') }}";
     }
 
 }
@@ -1535,10 +1536,22 @@ if(apronNumber == 1) {
       //apron one haven't second image
     document.getElementById("apronImg").src = "";
 } else {
-    document.getElementById("apronImg").src = "{{ url('img/frontend/kayak_products/surgical-aprons/wear-on-three.jpg') }}";
+    document.getElementById("apronImg").src = "{{ url('img/frontend/kayak_products/surgical-aprons/wear-on-two.png') }}";
 }
 
 }
+
+function apronSubThree() {
+
+if(apronNumber == 1) {
+      //apron one haven't second image
+    document.getElementById("apronImg").src = "";
+} else {
+    document.getElementById("apronImg").src = "{{ url('img/frontend/kayak_products/surgical-aprons/wear-on-three.png') }}";
+}
+
+}
+
 
 //SPINAL NEEDLES IMAGE CHANGER
 function spinalSubOne() {
@@ -1593,7 +1606,7 @@ $("#image1").click(function() {
     $("#main-image1").attr("src", "img/frontend/kayak_products/kn95-1.png");
 });
 $("#image2").click(function() {
-    $("#main-image1").attr("src", "img/frontend/kayak_products/kn95-2.jpg");
+    $("#main-image1").attr("src", "img/frontend/kayak_products/kn95-2.png");
 });
 // $("#image3").click(function(){
 //     $("#main-image1").attr("src", "img/frontend/kayak_products/kn95-1.png");
@@ -1604,18 +1617,18 @@ $("#image4").click(function() {
     $("#main-image2").attr("src", "img/frontend/kayak_products/abercom1.jpg");
 });
 $("#image5").click(function() {
-    $("#main-image2").attr("src", "img/frontend/kayak_products/abercom2.jpg");
+    $("#main-image2").attr("src", "img/frontend/kayak_products/abercom2.png");
 });
 $("#image6").click(function() {
-    $("#main-image2").attr("src", "img/frontend/kayak_products/abercom3.jpg");
+    $("#main-image2").attr("src", "img/frontend/kayak_products/abercom3.png");
 });
 </script>
 <script>
 $("#image7").click(function() {
-    $("#main-image3").attr("src", "img/frontend/kayak_products/roll1.jpg");
+    $("#main-image3").attr("src", "img/frontend/kayak_products/roll1.png");
 });
 $("#image8").click(function() {
-    $("#main-image3").attr("src", "img/frontend/kayak_products/roll2.jpg");
+    $("#main-image3").attr("src", "img/frontend/kayak_products/roll2.png");
 });
 // $("#image9").click(function(){
 //     $("#main-image3").attr("src", "img/frontend/kayak_products/roll.jpg");
@@ -1648,7 +1661,7 @@ $("#image16").click(function() {
     $("#main-image6").attr("src", "img/frontend/kayak_products/Spinal needle1.jpg");
 });
 $("#image17").click(function() {
-    $("#main-image6").attr("src", "img/frontend/kayak_products/Spinal needle2.jpg");
+    $("#main-image6").attr("src", "img/frontend/kayak_products/Spinal needle2.png");
 });
 // $("#image18").click(function(){
 //     $("#main-image6").attr("src", "img/frontend/kayak_products/Spinal needle.jpg");
