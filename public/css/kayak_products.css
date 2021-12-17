@@ -449,8 +449,21 @@ button.product-varient-btn-apron:hover, button.product-varient-btn-apron.active 
         width: 90%;
     }
 
-    
+
+}
+
+
+.active-kayak{
+    background-color: #e7f1ff !important;
+} 
 
 
 
+.zoom-img {
+    transition: transform .2s;
+}
+
+.zoom-img:hover {
+    transform: scale(1.5);
+    background-color: #fff;
 }

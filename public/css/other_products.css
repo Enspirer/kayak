@@ -36,7 +36,7 @@
 }
 
 .tab-content img {
-    object-fit: cover;
+    object-fit: contain;
     border: 1px solid #00ACEE;
     border-radius: 8px;
 }
@@ -101,3 +101,28 @@
         object-fit: cover;
     }
 }
+
+.ortho-img {
+    width: 360px;
+    height: 150px;
+}
+
+.general-img {
+    width: auto;
+    height: auto;
+}
+
+.other-row {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+
+/*mobile-view*/
+@media screen and (max-width: 767px) {
+    .other-row  {
+        flex-direction: column;
+    }
+}
+

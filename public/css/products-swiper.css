@@ -7,11 +7,19 @@
 }
 
 .mySwiper1 .card .card-body img {
-    height: 10rem;
+    height: 15rem;
     object-fit: cover;
 }
 
 .mySwiper1 .card .card-body a {
     color: #5B5959;
     font-weight: 600;
+}
+
+h6.card-title {
+    margin-top: 25px;
+}
+
+h5.card-titl {
+    margin-top: 25px;
 }

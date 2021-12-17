@@ -22,6 +22,7 @@
 
 .about-main {
     border-radius: 10px;
+    height: 320px;
 }
 .about-main .card-body {
     padding-top: 4rem;
@@ -42,6 +43,16 @@ img.round-img {
     width: 40px;
     height: 40px;
     object-fit: contain;
+}
+
+.logo-bar {
+    display: flex;
+}
+
+.logo-bar img {
+    height: 75px;
+    width: auto;
+    margin-right: 15px;
 }
 
 
@@ -189,4 +200,13 @@ img.round-img {
     .products-banner .swiper-button-next:after, .products-banner .swiper-button-prev:after {
         font-size: 1.7rem!important;
     }
+}
+
+.des-txt p {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.des-txt {
+    margin-top: 30px;
 }

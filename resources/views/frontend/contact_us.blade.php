@@ -88,7 +88,13 @@
                         <div class="mb-2">
                             <textarea name="message" id="message" class="form-control" rows="4" placeholder="Type your message" required></textarea>
                         </div>
-                        <button type="submit" class="btn text-white" style="background-color: #0090FF;">Submit</button>
+                        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+                        <div class="g-recaptcha"
+       data-sitekey="6Lel4Z4UAAAAAOa8LO1Q9mqKRUiMYl_00o5mXJrR"></div>
+
+                        <button type="submit" class="btn text-white" style="background-color: #0090FF; margin-top: 10px;">Submit</button>
+
+       
                     </form>
                 </div>
             </div>
@@ -96,8 +102,14 @@
     </div>
 
     <div class="container-fluid p-0">
-        <div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="350" id="gmap_canvas" src="https://maps.google.com/maps?q=Lionel%20Michel%20Mawatha,%20Eriyawetiya,%20Kiribathgoda,%20Kelaniya,%20Sri%20Lanka&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org"></a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:1080px;}</style><a href="https://www.embedgooglemap.net"></a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1080px;}</style></div></div>
+        <div class="mapouter"><div class="gmap_canvas">
+            <iframe width="100%" height="350" id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d126724.98970730361!2d79.924141!3d6.990908!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa7245321ae610ef3!2sKayak%20Surgi%20Pharma%20(Pvt)%20Ltd!5e0!3m2!1sen!2sus!4v1639752875432!5m2!1sen!2sus" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org"></a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:100%;}</style><a href="https://www.embedgooglemap.net"></a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:80%;margin-left:auto; margin-right: auto;}</style>
+            </div></div>
     </div>
+
+
+
+
 
 @endif
 
