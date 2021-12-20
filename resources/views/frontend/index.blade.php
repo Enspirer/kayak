@@ -412,6 +412,7 @@
         <div class="container">
             <div class="row mt-5">
 
+              
                 <div class="col-12 col-md-4">
                     <a href="http://breakwick.com/kayak/public/news" style="text-decoration:none; color:black;">
                         <img src="{{ url('img/frontend/news/injection photo.jpg')}}"
@@ -554,7 +555,7 @@
 
         <div class="row about-us-row" style="margin-top: 1rem; margin-bottom: 1rem;">
             <div class="col-12 col-md-12 position-relative">
-            <h1 style="text-align:center;margin-bottom: 2rem !important;">Our Partners</h1>
+            <h1 style="text-align:center;margin-bottom: 5rem !important;">Our Partners</h1>
                 <div class="logo-bar">
                     <img src="{{ url('img/frontend/index/logo-stripe/summit.png') }}" alt="">
                     <img src="{{ url('img/frontend/index/logo-stripe/auxein.png') }}" alt="">
