@@ -410,138 +410,79 @@
         </div>
 
         <div class="container">
-            <div class="row mt-5">
+            <div class="row mt-4">
 
-              
-                <div class="col-12 col-md-4">
-                    <a href="http://breakwick.com/kayak/public/news" style="text-decoration:none; color:black;">
-                        <img src="{{ url('img/frontend/news/injection photo.jpg')}}"
-                            alt="" class="img-fluid" style="height:260px; object-fit:cover; width: 100%;">
-                        <div class="row justify-content-end">
-                            <div class="col-11">
-                                <div class="position-relative p-2" style="background-color: white; top: -4rem;">
-                                    <p class="fw-bold mb-2"
-                                        style="text-align: justify; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical;">
-                                        People Who Recovered From COVID-19</p>
-                                    <p
-                                        style="text-align: justify; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 5; -webkit-box-orient: vertical; font-size: 0.8rem;">
-                                        People who survived COVID-19 have a higher risk of stroke, heart attack, heart
-                                        failure, and other cardiovascular problems months after their initial infection,
-                                        according to a new preprint of a study released October 5. This higher risk
-                                        applies not just to people who had severe COVID-19 but also to those who were
-                                        not sick enough to require hospitalization. According to figures from the
-                                        Centers for Disease Control and Prevention (CDC), the 7-day average number of
-                                        new COVID-19 cases has fallen to 93,000 a day, about 12,000 fewer than late last
-                                        week.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-12 col-md-4">
-                    <a href="http://breakwick.com/kayak/public/news" style="text-decoration:none; color:black;">
-                        <img src="{{ url('img/frontend/news/Kayak Website News-01.jpg') }}"
-                            alt="" class="img-fluid" style="height:260px; object-fit:cover; width: 100%;">
-                        <div class="row justify-content-end">
-                            <div class="col-11">
-                                <div class="position-relative p-2" style="background-color: white; top: -4rem;">
-                                    <p class="fw-bold mb-2"
-                                        style="text-align: justify; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical;">
-                                        COVID-19 Cases Are Rising and Falling</p>
-                                    <p
-                                        style="text-align: justify; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 5; -webkit-box-orient: vertical; font-size: 0.8rem;">
-                                        Experts say they are cautiously optimistic that the latest COVID-19 surge has
-                                        peaked in the United States as new cases, deaths, and hospitalizations decrease
-                                        and the daily vaccination rate rises sharply.
-                                        According to figures from the Centers for Disease Control and Prevention (CDC),
-                                        the 7-day average number of new COVID-19 cases has fallen to 93,000 a day, about
-                                        12,000 fewer than late last week. Cases were between 70,000 and 82,000 a day on
-                                        Saturday, Sunday, and Monday as well as under 100,000 on Thursday. According to
-                                        figures from the Centers for Disease Control and Prevention (CDC), the 7-day
-                                        average number of new COVID-19 cases has fallen to 93,000 a day, about 12,000
-                                        fewer than late last week. Cases were between 70,000 and 82,000 a day on
-                                        Saturday, Sunday, and Monday as well as under 100,000 on Thursday.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-
-                <div class="col-12 col-md-4">
-                    <a href="http://breakwick.com/kayak/public/news" style="text-decoration:none; color:black;">
-                        <img src="{{ url('img/frontend/kayak_products/endo-tubes/abercom3.jpg') }}"
-                            alt="" class="img-fluid" style="height:260px; object-fit:cover; width: 100%;">
-                        <div class="row justify-content-end">
-                            <div class="col-11">
-                                <div class="position-relative p-2" style="background-color: white; top: -4rem;">
-                                    <p class="fw-bold mb-2"
-                                        style="text-align: justify; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical;">
-                                        COVID-19 Cases Are Rising and Falling</p>
-                                    <p
-                                        style="text-align: justify; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 5; -webkit-box-orient: vertical; font-size: 0.8rem;">
-                                        Experts say they are cautiously optimistic that the latest COVID-19 surge has
-                                        peaked in the United States as new cases, deaths, and hospitalizations decrease
-                                        and the daily vaccination rate rises sharply.
-                                        According to figures from the Centers for Disease Control and Prevention (CDC),
-                                        the 7-day average number of new COVID-19 cases has fallen to 93,000 a day, about
-                                        12,000 fewer than late last week. Cases were between 70,000 and 82,000 a day on
-                                        Saturday, Sunday, and Monday as well as under 100,000 on Thursday. According to
-                                        figures from the Centers for Disease Control and Prevention (CDC), the 7-day
-                                        average number of new COVID-19 cases has fallen to 93,000 a day, about 12,000
-                                        fewer than late last week. Cases were between 70,000 and 82,000 a day on
-                                        Saturday, Sunday, and Monday as well as under 100,000 on Thursday.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <!-- @if($news_1 != null )
-                    <div class="col-12 col-md-3">
-                        <a href="{{ route('frontend.news') }}" style="text-decoration:none; color:black;">
-                            <img src="{{ uploaded_asset(json_decode($news_1->images)[0]->image1) }}" alt="" class="img-fluid" style="height:260px; object-fit:cover;">
+            @if($homepage_news == null)
+                @include('frontend.includes.not_found',[
+                    'not_found_title' => 'News Not Found',
+                ])
+            @else
+                @if($news_1 != null )
+                    <div class="col-12 col-md-4">
+                        <a href="{{url('news')}}" style="text-decoration:none; color:black;">
+                            <img src="{{ uploaded_asset(json_decode($news_1->images)[0]->image1) }}"
+                                alt="" class="img-fluid" style="height:260px; object-fit:cover; width: 100%;">
                             <div class="row justify-content-end">
                                 <div class="col-11">
                                     <div class="position-relative p-2" style="background-color: white; top: -4rem;">
-                                        <p class="fw-bold mb-2" style="text-align: justify; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical;">{{$news_1->title}}</p>
-                                        <p style="text-align: justify; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 5; -webkit-box-orient: vertical; font-size: 0.8rem;">{{$news_1->description}}</p>
+                                        <p class="fw-bold mb-2"
+                                            style="text-align: justify; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical;">
+                                            {{$news_1->title}}</p>
+                                        <p
+                                            style="text-align: justify; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 5; -webkit-box-orient: vertical; font-size: 0.8rem;">
+                                            {{$news_1->description}}
+                                        </p>
                                     </div>
                                 </div>
                             </div>
                         </a>
                     </div>
                 @endif
-                
+
                 @if($news_2 != null )
-                    <div class="col-12 col-md-3">
-                        <a href="{{ route('frontend.news') }}" style="text-decoration:none; color:black;">
-                            <img src="{{ uploaded_asset(json_decode($news_2->images)[0]->image1) }}" alt="" class="img-fluid" style="height:260px; object-fit:cover;">
+                    <div class="col-12 col-md-4">
+                        <a href="{{url('news')}}" style="text-decoration:none; color:black;">
+                            <img src="{{ uploaded_asset(json_decode($news_2->images)[0]->image1) }}"
+                                alt="" class="img-fluid" style="height:260px; object-fit:cover; width: 100%;">
                             <div class="row justify-content-end">
                                 <div class="col-11">
                                     <div class="position-relative p-2" style="background-color: white; top: -4rem;">
-                                        <p class="fw-bold mb-2" style="text-align: justify; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical;">{{$news_2->title}}</p>
-                                        <p style="text-align: justify; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 5; -webkit-box-orient: vertical; font-size: 0.8rem;">{{$news_2->description}}</p>
+                                        <p class="fw-bold mb-2"
+                                            style="text-align: justify; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical;">
+                                            {{$news_2->title}}</p>
+                                        <p
+                                            style="text-align: justify; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 5; -webkit-box-orient: vertical; font-size: 0.8rem;">
+                                            {{$news_2->description}}
+                                        </p>
                                     </div>
                                 </div>
                             </div>
                         </a>
                     </div>
-                @endif -->
+                @endif
 
-                <!-- <div class="col-12 col-md-3">
-                    <img src="{{ url('img/frontend/index/new-2.png') }}" alt="" class="img-fluid">
-
-                    <div class="row justify-content-end">
-                        <div class="col-11">
-                            <div class="position-relative p-2" style="background-color: white; top: -4rem;">
-                                <p class="fw-bold mb-2">Lorem Ipsum Dolar</p>
-                                <p style="font-size: 0.8rem;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum vero cum, nemo aperiam repellendus quae enim modi a itaque saepe?</p>
+                @if($news_3 != null )
+                    <div class="col-12 col-md-4">
+                        <a href="{{url('news')}}" style="text-decoration:none; color:black;">
+                            <img src="{{ uploaded_asset(json_decode($news_3->images)[0]->image1) }}"
+                                alt="" class="img-fluid" style="height:260px; object-fit:cover; width: 100%;">
+                            <div class="row justify-content-end">
+                                <div class="col-11">
+                                    <div class="position-relative p-2" style="background-color: white; top: -4rem;">
+                                        <p class="fw-bold mb-2"
+                                            style="text-align: justify; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical;">
+                                            {{$news_3->title}}</p>
+                                        <p
+                                            style="text-align: justify; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 5; -webkit-box-orient: vertical; font-size: 0.8rem;">
+                                            {{$news_3->description}}
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
-                </div> -->
+                @endif
+            @endif                
 
                 <!-- <div class="col-12 col-md-6">
                     <iframe src="https://www.youtube.com/embed/wHWpz804lOk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width: 100%; height: 336px"></iframe>

@@ -29,6 +29,7 @@ class HomePageController extends Controller
 
         $add->news_1 = $request->news_1;   
         $add->news_2 = $request->news_2;  
+        $add->news_3 = $request->news_3;  
 
         $add->save();
 
@@ -53,6 +54,7 @@ class HomePageController extends Controller
 
         $update->news_1 = $request->news_1;   
         $update->news_2 = $request->news_2; 
+        $update->news_3 = $request->news_3;  
 
         HomePageNews::whereId($request->hidden_id)->update($update->toArray());
 

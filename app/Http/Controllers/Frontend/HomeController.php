@@ -33,19 +33,30 @@ class HomeController extends Controller
                 $news_2 = News::where('id',$homepage_news->news_2)->first();
             }
 
+            if(News::where('id',$homepage_news->news_3)->first() == null){
+                $news_3 = null;
+            }else{
+                $news_3 = News::where('id',$homepage_news->news_3)->first();
+            }
+
             return view('frontend.index',[
                 'news_1' => $news_1,
                 'news_2' => $news_2,
+                'news_3' => $news_3,
+                'homepage_news' => $homepage_news
             ]);
 
         }else{
 
             $news_1 = null;
             $news_2 = null;
+            $news_3 = null;
 
             return view('frontend.index',[
                 'news_1' => $news_1,
                 'news_2' => $news_2,
+                'news_3' => $news_3,
+                'homepage_news' => $homepage_news
             ]);
 
         }    

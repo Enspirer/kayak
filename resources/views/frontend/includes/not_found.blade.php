@@ -2,7 +2,7 @@
     <div class="container">
         <div style="text-align: center">
             <div style="background-image: url('{{url('img/no_data.jpg')}}');height: 300px;background-position: center;background-repeat: no-repeat;background-size: contain;"></div>
-            <h3>{{$not_found_title}}</h3>
+            <h3 class="mt-3">{{$not_found_title}}</h3>
         </div>
     </div>
 </div>
