@@ -34,7 +34,7 @@
             </div>
         </div>
 
-        <div class="container" style="padding-top: 8rem;">
+        <div class="container vision-container" style="padding-top: 8rem;">
             <div class="row">
                 <div class="col-12 col-md-6 mb-5 mb-md-0">
                     <div class="card custom-shadow">

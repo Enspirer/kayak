@@ -47,10 +47,11 @@ img.round-img {
 
 .logo-bar {
     display: flex;
+    justify-content: center;
 }
 
 .logo-bar img {
-    height: 75px;
+    height: 60px;
     width: auto;
     margin-right: 15px;
 }
@@ -136,7 +137,7 @@ img.round-img {
         background-repeat: no-repeat;
         background-size: 100% 100%;
         background-position: center center;
-        height: 230px!important;
+        height: 175px!important;
     }
     .banner .container {
         padding-top: 4rem!important;
@@ -175,13 +176,13 @@ img.round-img {
         margin-top: 0!important;
     }
     .banners {
-        margin-top: 7.9rem!important;
+        margin-top: 4rem!important;
     }
     .about-us {
         margin-top: 3rem!important;
     }
     .about-us h1 {
-        font-size: 1.8rem!important;
+        font-size: 1.5rem!important;
     }
     .about-us-row {
         margin-top: 4rem!important;
@@ -229,3 +230,63 @@ img.round-img {
     border-radius: 0;
     margin-top: 15px;
 }
+
+
+/*mobile-view*/
+@media screen and (max-width: 767px) { 
+    .logo-bar {
+        flex-direction: column;
+    }
+    
+    h1 {
+        font-size: 1.7rem;
+        margin-bottom: 15px;
+    }
+
+    .navbar-nav {
+        background-color:#00011c;
+    }
+
+    img.round-img {
+        position: relative;
+        left: -5px;
+    }
+
+    .about-main {
+        height: 375px;
+    }
+
+}
+
+
+/*tab-portrait*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .banner   {
+        height: 350px;
+    }
+
+    img.round-img {
+        position: relative;
+        left: -15px;
+    }
+
+    .about-main {
+        height: 440px;
+    }
+
+    .mySwiper1 .card .card-body img {
+        height: 140px !important;
+    }
+
+    .logo-bar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo-bar img {
+        width: max-content;
+    }
+
+}
+
+

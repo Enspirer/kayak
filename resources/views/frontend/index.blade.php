@@ -338,7 +338,7 @@
                                     <div class="swiper-slide px-5">
                                         <a href="{{ route('frontend.other_products') }}">
                                             <div class="d-flex align-items-end"
-                                                style="background-image: url('../img/frontend/other_products/orthopaedic/2.png'); background-repeat: no-repeat;background-size: cover; height: 16rem; background-position:center center; justify-content: center; border-radius: 15px;">
+                                                style="background-image: url('../img/frontend/other_products/orthopaedic/2.png'); background-repeat: no-repeat;background-size: contain; height: 16rem; background-position:center center; justify-content: center; border-radius: 15px;">
                                                 <h5 class="fw-bold text-white mb-2 bottom-caption">Surgical Division</h5>
                                             </div>
                                         </a>
@@ -351,7 +351,7 @@
                                     <div class="swiper-slide px-5">
                                         <a href="{{ route('frontend.other_products') }}">
                                             <div class="d-flex align-items-end"
-                                                style="background-image:url('../img/frontend/other_products/public-health.png'); background-repeat: no-repeat;background-size: cover; height: 16rem; background-position:center center; justify-content: center;border-radius: 15px;">
+                                                style="background-image:url('../img/frontend/other_products/public-health.png'); background-repeat: no-repeat;background-size: contain; height: 16rem; background-position:center center; justify-content: center;border-radius: 15px;">
                                                 <h5 class="fw-bold text-white mb-2 bottom-caption">Public Health Division
                                                 </h5>
                                             </div>
@@ -421,10 +421,10 @@
                     <div class="col-12 col-md-4">
                         <a href="{{url('news')}}" style="text-decoration:none; color:black;">
                             <img src="{{ uploaded_asset(json_decode($news_1->images)[0]->image1) }}"
-                                alt="" class="img-fluid" style="height:260px; object-fit:cover; width: 100%;">
+                                alt="" class="img-fluid" style="object-fit:contain; width: 100%;">
                             <div class="row justify-content-end">
                                 <div class="col-11">
-                                    <div class="position-relative p-2" style="background-color: white; top: -4rem;">
+                                    <div class="position-relative p-2" style="background-color: white; top: -2rem;">
                                         <p class="fw-bold mb-2"
                                             style="text-align: justify; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical;">
                                             {{$news_1->title}}</p>
@@ -443,10 +443,10 @@
                     <div class="col-12 col-md-4">
                         <a href="{{url('news')}}" style="text-decoration:none; color:black;">
                             <img src="{{ uploaded_asset(json_decode($news_2->images)[0]->image1) }}"
-                                alt="" class="img-fluid" style="height:260px; object-fit:cover; width: 100%;">
+                                alt="" class="img-fluid" style="object-fit:contain; width: 100%;">
                             <div class="row justify-content-end">
                                 <div class="col-11">
-                                    <div class="position-relative p-2" style="background-color: white; top: -4rem;">
+                                    <div class="position-relative p-2" style="background-color: white; top: -2rem;">
                                         <p class="fw-bold mb-2"
                                             style="text-align: justify; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical;">
                                             {{$news_2->title}}</p>
@@ -465,10 +465,10 @@
                     <div class="col-12 col-md-4">
                         <a href="{{url('news')}}" style="text-decoration:none; color:black;">
                             <img src="{{ uploaded_asset(json_decode($news_3->images)[0]->image1) }}"
-                                alt="" class="img-fluid" style="height:260px; object-fit:cover; width: 100%;">
+                                alt="" class="img-fluid" style="object-fit:contain; width: 100%;">
                             <div class="row justify-content-end">
                                 <div class="col-11">
-                                    <div class="position-relative p-2" style="background-color: white; top: -4rem;">
+                                    <div class="position-relative p-2" style="background-color: white; top: -2rem;">
                                         <p class="fw-bold mb-2"
                                             style="text-align: justify; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical;">
                                             {{$news_3->title}}</p>
@@ -566,9 +566,9 @@ var swiper = new Swiper('.mySwiper1', {
             slidesPerView: 3,
         }
     },
-    autoplay: {
-        delay: 4000,
-    }
+    // autoplay: {
+    //     delay: 4000,
+    // }
 
 });
 

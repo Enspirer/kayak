@@ -175,3 +175,22 @@ p {
 }
 
 
+/*mobile-view*/
+@media screen and (max-width: 767px) { 
+    .navbar-nav {
+        background-color: #00011c;
+    }
+
+}
+
+
+/*tab-portrait*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-nav {
+        background-color: #00011c;
+    }
+
+    h1.mb-3.mb-md-0 {
+        font-size: 2rem;
+    }
+}

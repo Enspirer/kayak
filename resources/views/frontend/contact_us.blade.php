@@ -37,7 +37,7 @@
 
     <div class="container position-relative contact-cards" style="top: -4rem;">
         <div class="row justify-content-center">
-            <div class="col-12 col-md-4 mb-5 mb-md-0">
+            <div class="col-12 col-md-4 mb-5 mb-md-0 tab-fifty">
                 <div class="col-12 custom-shadow px-4 pt-4 bg-white box" style="padding-bottom: 4.6rem;">
                     <h4 class="mb-3" style="color: #0090FF">Contact Us</h4>
                     <div class="row align-items-center">
@@ -66,7 +66,7 @@
                 </div>
             </div>
 
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-md-4 tab-fifty">
                 <div class="col-12 custom-shadow p-4 bg-white box">
                     <h4 class="mb-3" style="color: #0090FF">Quick Inquiries</h4>
 

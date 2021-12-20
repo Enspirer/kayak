@@ -90,3 +90,24 @@
     }
 }
 
+
+/*mobile-view*/
+@media screen and (max-width: 767px) { 
+    .card.custom-shadow {
+        height: 14.6rem !important;
+    }
+
+    .message-area {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+
+/*tab-portrait*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .vision-container {
+        padding-top: 4rem !important;
+    }
+
+}
