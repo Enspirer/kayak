@@ -147,12 +147,12 @@
                         <div class="row">
                             <div class="col-12 col-md-4 mb-4">
                                 <img src="{{ url('img/frontend/other_products/orthopaedic/1.png') }}" alt=""
-                                    class="img-fluid ortho-img">
+                                    class="img-fluid ortho-img zoom-img">
                             </div>
 
                             <div class="col-12 col-md-4 mb-4">
                                 <img src="{{ url('img/frontend/other_products/orthopaedic/2.png') }}" alt=""
-                                    class="img-fluid ortho-img">
+                                    class="img-fluid ortho-img zoom-img">
                             </div>
                         </div>
 
@@ -170,19 +170,19 @@
                         <div class="col-12 col-md-4 mb-4">
                             <div class="other-row">
                                 <img src="{{ url('img/frontend/other_products/general-surgery/body-foundation.png') }}"
-                                    alt="" class="img-fluid general-img">
+                                    alt="" class="img-fluid general-img zoom-img">
                                 <img src="{{ url('img/frontend/other_products/general-surgery/maternity.png') }}" alt=""
-                                    class="img-fluid general-img">
+                                    class="img-fluid general-img zoom-img">
                                 <img src="{{ url('img/frontend/other_products/general-surgery/postsurgical.png') }}"
-                                    alt="" class="img-fluid general-img">
+                                    alt="" class="img-fluid general-img zoom-img">
                             </div>
                             <div class="other-row">
                                 <img src="{{ url('img/frontend/other_products/general-surgery/man-one.png') }}" alt=""
-                                    class="img-fluid general-img">
+                                    class="img-fluid general-img zoom-img">
                                 <img src="{{ url('img/frontend/other_products/general-surgery/man-two.png') }}" alt=""
-                                    class="img-fluid general-img">
+                                    class="img-fluid general-img zoom-img">
                                 <img src="{{ url('img/frontend/other_products/general-surgery/man-three.png') }}" alt=""
-                                    class="img-fluid general-img">
+                                    class="img-fluid general-img zoom-img">
                             </div>
                         </div>
                         <div class="col-12 col-md-12">
@@ -208,7 +208,7 @@
                     <div class="row">
                         <div class="col-md-6 other-main">
                             <h2>Mosquito Dunks</h2>
-                            <img src="{{url('img/frontend/other_products/public-health.png')}}" alt="">
+                            <img class="zoom-img" src="{{url('img/frontend/other_products/public-health.png')}}" alt="">
                         </div>
                         <div class="inquire">
                                 <button class="btn rounded-pill text-white px-5 py-2" data-bs-toggle="modal" style="background-color: #00ACEE;"

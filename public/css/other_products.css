@@ -126,3 +126,12 @@
     }
 }
 
+
+.zoom-img {
+    transition: transform .2s;
+}
+
+.zoom-img:hover {
+    transform: scale(1.5);
+    background-color: #fff;
+}

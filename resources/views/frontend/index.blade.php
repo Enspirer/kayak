@@ -29,20 +29,20 @@
 
 
 
-    <div class="container-fluid p-0 banners">
+    <div style="margin-top:75px;" class="container-fluid p-0 banners">
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="banner"
-                        style="background-image: url('img/frontend/index/banners/kayak-banner-one.png');">
+                        style="background-image: url('img/frontend/index/banners/kayak-banner-one.jpg');">
                         <div class="container" style="padding-top: 11rem;">
-                            <div class="row justify-content-end">
+                            <!-- <div class="row justify-content-end">
                                 <div class="col-12 col-md-6">
                                     <h1>Better Technology for</h1>
                                     <h1 class="mb-2">Better Health Care</h1>
                                     <p class="ps-1">Widest range of products with Highest Quality standards</p>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -62,9 +62,9 @@
                 </div>
                 <div class="swiper-slide">
                     <div class="banner"
-                        style="background-image: url('img/frontend/index/banners/kayak-banner-three.png');">
+                        style="background-image: url('img/frontend/index/banners/kayak-banner-three.jpg');">
                         <div class="container" style="padding-top: 11rem;">
-                            <div class="row justify-content-start">
+                            <!-- <div class="row justify-content-start">
                                 <div class="col-6">
                                     <h1>We Care for Our Nation</h1>
                                     <div class="des-txt">
@@ -73,15 +73,15 @@
                                     </div>
 
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="banner"
-                        style="background-image: url('img/frontend/index/banners/kayak-banner-four.png');">
+                        style="background-image: url('img/frontend/index/banners/kayak-banner-four.jpg');">
                         <div class="container" style="padding-top: 11rem;">
-                            <div class="row justify-content-start">
+                            <!-- <div class="row justify-content-start">
                                 <div class="col-6">
                                     <h1 style="font-size: 1.8rem;">We are Trusted in Healing the Nation</h1>
                                     <div class="des-txt">
@@ -89,7 +89,7 @@
                                         <p class="">Sri Lankan Manufacturer</p>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -115,9 +115,8 @@
 
 
     <div class="container text-center about-us" style="margin-top: 5rem;">
-        <h1 class="mb-3 mb-md-0">Get More Information About Us</h1>
-        <p>We are doing our best to help our customers. TRUSTED OVER 30 YEARS IN THE MEDICAL INDUSTRY At Kayak Surgi
-            Pharma, We Serve You for Better Health.</p>
+        <h1 class="mb-3 mb-md-0">TRUSTED OVER 30 YEARS IN THE MEDICAL INDUSTRY</h1>
+        <p>At Kayak Surgi Pharma, We Serve You for Better Health. We are doing our best to help our customers.  </p>
 
         <div class="row about-us-row" style="margin-top: 6rem;">
             <div class="col-12 col-md-4 position-relative">
@@ -126,23 +125,26 @@
                         <img src="{{ url('img/frontend/index/team.png') }}" class="round-img" alt="...">
                     </div>
                 </div>
-                <div class="card about-main">
-                    <div class="card-body">
-                        <h5 class="card-title mb-2">About Kayak</h5>
-                        <p class="card-text">We started our operations by introducing many products related to
-                            Pharmaceutical, Surgical and Public Health.
-                            Since our initiation in 2004, we have excelled in various avenues in Medical and Surgical
-                            Goods Manufacturing that were previously deemed impossible to produce locally.
-                        </p>
+                <a class="card-link" href="{{ route('frontend.about_us') }}" style="color: #000;">
+                    <div class="card about-main">
+                        <div class="card-body">
+                            <h5 class="card-title mb-2">About Kayak</h5>
+                            <p class="card-text">We started our operations by introducing many products related to
+                                Pharmaceutical, Surgical and Public Health.
+                                Since our initiation in 2004, we have excelled in various avenues in Medical and Surgical
+                                Goods Manufacturing that were previously deemed impossible to produce locally.
+                            </p>
 
-                        <!-- <div class="row justify-content-end">
-                            <div class="col-2 text-end pe-1">
-                                <i class="bi bi-plus-lg" style="color: #8E8C8C"></i>
-                            </div>
-                        </div> -->
+                            <!-- <div class="row justify-content-end">
+                                <div class="col-2 text-end pe-1">
+                                    <i class="bi bi-plus-lg" style="color: #8E8C8C"></i>
+                                </div>
+                            </div> -->
 
+                        </div>
                     </div>
-                </div>
+                </a>
+               
             </div>
 
             <div class="col-12 col-md-4 position-relative">
@@ -153,7 +155,7 @@
                 </div>
                 <div class="card about-main">
                     <div class="card-body">
-                        <h5 class="card-title mb-2">About Kayak</h5>
+                        <h5 class="card-title mb-2">R & D</h5>
                         <p class="card-text">Kayak is one of the first-ever organizations to set up manufacturing
                             operations for Cellulose Wadding. Thereafter, we introduced a wide scope of medical goods
                             such as Surgical Aprons, Respiratory Masks, Spinal Needles, Endotracheal Tubes and Many
@@ -334,10 +336,12 @@
                             <div class="swiper mySwiper2 mt-5 swipper-with-bottom-caption">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide px-5">
-                                        <div class="d-flex align-items-end"
-                                            style="background-image: url('../img/frontend/index/shoulder.png'); background-repeat: no-repeat;background-size: cover; height: 16rem; background-position:center center; justify-content: center; border-radius: 15px;">
-                                            <h5 class="fw-bold text-white mb-2 bottom-caption">Surgical Division</h5>
-                                        </div>
+                                        <a href="{{ route('frontend.other_products') }}">
+                                            <div class="d-flex align-items-end"
+                                                style="background-image: url('../img/frontend/other_products/orthopaedic/2.png'); background-repeat: no-repeat;background-size: cover; height: 16rem; background-position:center center; justify-content: center; border-radius: 15px;">
+                                                <h5 class="fw-bold text-white mb-2 bottom-caption">Surgical Division</h5>
+                                            </div>
+                                        </a>
                                     </div>
                                     <!-- <div class="swiper-slide px-5">        
                                     <div class="d-flex align-items-end" style="background-image: url('../img/frontend/other_products/lab-division.png'); background-repeat: no-repeat;background-size: cover; height: 16rem; background-position:center center; justify-content: center; border-radius: 15px;">
@@ -345,11 +349,13 @@
                                     </div>
                                 </div> -->
                                     <div class="swiper-slide px-5">
-                                        <div class="d-flex align-items-end"
-                                            style="background-image:url('../img/frontend/other_products/public-health.png'); background-repeat: no-repeat;background-size: cover; height: 16rem; background-position:center center; justify-content: center;border-radius: 15px;">
-                                            <h5 class="fw-bold text-white mb-2 bottom-caption">Public Health Division
-                                            </h5>
-                                        </div>
+                                        <a href="{{ route('frontend.other_products') }}">
+                                            <div class="d-flex align-items-end"
+                                                style="background-image:url('../img/frontend/other_products/public-health.png'); background-repeat: no-repeat;background-size: cover; height: 16rem; background-position:center center; justify-content: center;border-radius: 15px;">
+                                                <h5 class="fw-bold text-white mb-2 bottom-caption">Public Health Division
+                                                </h5>
+                                            </div>
+                                        </a>
                                     </div>
                                     <!-- <div class="swiper-slide px-5">        
                                     <div class="d-flex align-items-end" style="background-image:url('../img/frontend/other_products/pharmaceutical-division.png'); background-repeat: no-repeat;background-size: cover; height: 16rem; background-position:center center; justify-content: center;border-radius:15px;">
@@ -544,11 +550,11 @@
 
     </div>
 
-    <div class="container text-center about-us" style="margin-top: 1rem;">
+    <div class="container text-center about-us" style="margin-top: 6rem;margin-bottom: 6rem;">
 
         <div class="row about-us-row" style="margin-top: 1rem; margin-bottom: 1rem;">
-            <div class="col-12 col-md-4 position-relative">
-
+            <div class="col-12 col-md-12 position-relative">
+            <h1 style="text-align:center;margin-bottom: 2rem !important;">Our Partners</h1>
                 <div class="logo-bar">
                     <img src="{{ url('img/frontend/index/logo-stripe/summit.png') }}" alt="">
                     <img src="{{ url('img/frontend/index/logo-stripe/auxein.png') }}" alt="">
@@ -587,7 +593,7 @@ var swiper = new Swiper(".mySwiper", {
         prevEl: ".swiper-button-prev",
     },
     autoplay: {
-        delay: 4000,
+        delay: 1000,
         disableOnInteraction: false,
     },
     effect: "fade",
@@ -618,6 +624,18 @@ var swiper = new Swiper('.mySwiper1', {
             slidesPerView: 3,
         }
     },
+    autoplay: {
+        delay: 4000,
+    }
+
+});
+
+swiper.on('slideChange', function () {
+
+ 
+
+    $(window).resize();
+
 
 });
 

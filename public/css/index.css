@@ -210,3 +210,15 @@ img.round-img {
 .des-txt {
     margin-top: 30px;
 }
+
+/*large screen*/
+@media screen and (min-width: 1400px) {
+   .banner {
+       height: 800px;
+   }
+}
+
+
+.card-link:hover {
+    text-decoration: none;
+}
