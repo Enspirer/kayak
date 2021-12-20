@@ -221,7 +221,7 @@
                                 <i class="bi bi-star-fill"></i>
                             </div>*/ -->
                             <!-- <p class="card-text mb-md-3" style="font-size: 0.8rem;">At Kayak, Quality is Our Prime Concern. Browse Our Portfolio.</p> -->
-                            <a href="{{ route('frontend.kayak_products') }}" class="btn d-none">View More</a>
+                            <a href="{{ route('frontend.kayak_products') }}" class="btn more-btn d-none">View More</a>
                         </div>
                     </div>
                 </div>
@@ -239,7 +239,7 @@
                                 <i class="bi bi-star-fill"></i>
                             </div>
                             <p class="card-text mb-md-3">At Kayak, Quality is Our Prime Concern. Browse Our Portfolio.</p> -->
-                            <a href="{{ route('frontend.kayak_products') }}" class="btn d-none">View More</a>
+                            <a href="{{ route('frontend.kayak_products') }}" class="btn more-btn d-none">View More</a>
                         </div>
                     </div>
                 </div>
@@ -256,7 +256,7 @@
                                 <i class="bi bi-star-fill"></i>
                             </div> -->
                             <!-- <p class="card-text mb-md-3" style="font-size: 0.8rem;">At Kayak, Quality is Our Prime Concern. Browse Our Portfolio.</p> -->
-                            <a href="{{ route('frontend.kayak_products') }}" class="btn d-none">View More</a>
+                            <a href="{{ route('frontend.kayak_products') }}" class="btn more-btn d-none">View More</a>
                         </div>
                     </div>
                 </div>
@@ -276,7 +276,7 @@
                                 <i class="bi bi-star-fill"></i>
                             </div>
                             <p class="card-text mb-md-3" style="font-size: 0.8rem;">At Kayak, Quality is Our Prime Concern. Browse Our Portfolio.</p> -->
-                            <a href="{{ route('frontend.kayak_products') }}" class="btn d-none">View More</a>
+                            <a href="{{ route('frontend.kayak_products') }}" class="btn more-btn d-none">View More</a>
                         </div>
                     </div>
                 </div>
@@ -296,7 +296,7 @@
                                 <i class="bi bi-star-fill"></i>
                             </div>
                             <p class="card-text mb-md-3" style="font-size: 0.8rem;">At Kayak, Quality is Our Prime Concern. Browse Our Portfolio.</p> -->
-                            <a href="{{ route('frontend.kayak_products') }}" class="btn d-none">View More</a>
+                            <a href="{{ route('frontend.kayak_products') }}" class="btn more-btn d-none">View More</a>
                         </div>
                     </div>
                 </div>
@@ -399,7 +399,7 @@
                 <div class="col-10">
                     <div class="row">
                         <div class="col-12 text-center">
-                            <h1>News From Kayak</h1>
+                            <h1>Latest From Kayak</h1>
                             <p>At Kayak, we are constantly focusing on providing better solutions for our clientele. We
                                 undertake extensive research on our product standards and how it serves healthcare
                                 organizations worldwide.</p>
@@ -414,7 +414,7 @@
 
                 <div class="col-12 col-md-4">
                     <a href="http://breakwick.com/kayak/public/news" style="text-decoration:none; color:black;">
-                        <img src="{{ url('img/frontend/news/injection.png')}}"
+                        <img src="{{ url('img/frontend/news/injection photo.jpg')}}"
                             alt="" class="img-fluid" style="height:260px; object-fit:cover; width: 100%;">
                         <div class="row justify-content-end">
                             <div class="col-11">
@@ -440,7 +440,7 @@
 
                 <div class="col-12 col-md-4">
                     <a href="http://breakwick.com/kayak/public/news" style="text-decoration:none; color:black;">
-                        <img src="http://breakwick.com/kayak/public/uploads/all/DCc0HNEY0RBgI5OEpZuYHj0mxALH3mawNvGHm67N.png"
+                        <img src="{{ url('img/frontend/news/Kayak Website News-01.jpg') }}"
                             alt="" class="img-fluid" style="height:260px; object-fit:cover; width: 100%;">
                         <div class="row justify-content-end">
                             <div class="col-11">
@@ -470,7 +470,7 @@
 
                 <div class="col-12 col-md-4">
                     <a href="http://breakwick.com/kayak/public/news" style="text-decoration:none; color:black;">
-                        <img src="http://breakwick.com/kayak/public/uploads/all/DCc0HNEY0RBgI5OEpZuYHj0mxALH3mawNvGHm67N.png"
+                        <img src="{{ url('img/frontend/kayak_products/endo-tubes/abercom3.jpg') }}"
                             alt="" class="img-fluid" style="height:260px; object-fit:cover; width: 100%;">
                         <div class="row justify-content-end">
                             <div class="col-11">
@@ -630,14 +630,7 @@ var swiper = new Swiper('.mySwiper1', {
 
 });
 
-swiper.on('slideChange', function () {
 
- 
-
-    $(window).resize();
-
-
-});
 
 if ($('.mySwiper1 .swiper-slide').hasClass('swiper-slide-next')) {
     $(this).find('.card-title').css('border', '1px solid black');

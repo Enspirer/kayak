@@ -222,3 +222,10 @@ img.round-img {
 .card-link:hover {
     text-decoration: none;
 }
+
+.more-btn {
+    background-color: #00ACEE;
+    color: #fff !important;
+    border-radius: 0;
+    margin-top: 15px;
+}
