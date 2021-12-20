@@ -232,10 +232,10 @@
                                 target="_blank">Read More</a>
                         </div>
 
-                        <!-- <iframe width="450" height="315" src="https://www.youtube.com/embed/5xq4o0-val4"
+                        <iframe width="450" height="315" src="https://www.youtube.com/embed/5xq4o0-val4"
                             title="YouTube video player" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe> -->
+                            allowfullscreen></iframe> 
 
                     </div>
                 </div>
