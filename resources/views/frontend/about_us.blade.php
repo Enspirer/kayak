@@ -78,10 +78,10 @@
                 
                 <div class="mb-4">
                     <!-- <h5 class="mb-3">Description / Additional Note</h5> -->
-                    <div class="text-center" style="font-size: 0.8rem;">
+                    <div class="text-center md-msg" style="font-size: 0.8rem;">
                         <p style="text-align:left;font-weight:bold;">MD's Message</p>
                         <p class="mt-4" style="text-align:justify;">
-                        The inception of Kayak provided a broader scope of innovation and perception to Sri Lankan Healthcare. Our nation was relying solely upon the import of Medical goods as there was no reliable manufacturer of goods locally. However, with dire focus and dedication, we established local manufacturing of surgical consumables. The most challenging aspect of our mission was changing the thinking of the local industry and, many are following in the footsteps that we initially took.
+                        The inception of Kayak provided a broader scope of innovation and perception to Sri Lankan Healthcare. Our nation was relying solely upon the import of Medical goods as there was no reliable manufacturer of goods locally. However, with dire focus and dedication, we established local manufacturing of surgical consumables. The most challenging aspect of our mission was changing the thinking of the local industry and, many are following in the footsteps that we initially took. Kayak will always paddle towards new horizons, ensuring the highest product standards to the Sri Lankan market.
                         </p>
                     </div>
                 </div>
