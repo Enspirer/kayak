@@ -168,7 +168,7 @@
                                             </div>
                                             <div class="modal-body">
                                                 <img src="{{ url('img/frontend/other_products/orthopaedic/1.png') }}"
-                                                    alt="" class="img-fluid ortho-img">
+                                                    alt="" class="img-fluid ortho-img pop-img">
                                             </div>
                                         </div>
                                     </div>
@@ -178,7 +178,7 @@
                             <div class="col-12 col-md-4 mb-4">
                                 <a href="#" data-toggle="modal" data-target="#basicModal2">
                                     <img src="{{ url('img/frontend/other_products/orthopaedic/2.png') }}" alt=""
-                                        class="img-fluid ortho-img zoom-img"></a>
+                                        class="img-fluid ortho-img "></a>
 
                                 <!-- ortho 2 modal -->
                                 <div class="modal fade" id="basicModal2" tabindex="-1" role="dialog"
@@ -194,7 +194,7 @@
                                             </div>
                                             <div class="modal-body">
                                                 <img src="{{ url('img/frontend/other_products/orthopaedic/2.png') }}"
-                                                    alt="" class="img-fluid ortho-img">
+                                                    alt="" class="img-fluid ortho-img pop-img">
                                             </div>
                                         </div>
                                     </div>
@@ -228,7 +228,7 @@
                                 <div class="modal fade" id="general1" tabindex="-1" role="dialog"
                                     aria-labelledby="general1" aria-hidden="true">
                                     <div class="modal-dialog">
-                                        <div class="modal-content">
+                                        <div class="modal-content general-modal-content">
                                             <div class="modal-header">
                                                 <h4>General Surgery</h4>
                                                 <button type="button" class="close" data-dismiss="modal"
@@ -238,7 +238,7 @@
                                             </div>
                                             <div class="modal-body">
                                                 <img src="{{ url('img/frontend/other_products/general-surgery/body-foundation.png') }}"
-                                                    alt="" class="img-fluid general-img zoom-img">
+                                                    alt="" class="img-fluid general-img pop-img">
                                             </div>
                                         </div>
                                     </div>
@@ -248,7 +248,7 @@
                                 <div class="modal fade" id="general2" tabindex="-1" role="dialog"
                                     aria-labelledby="general2" aria-hidden="true">
                                     <div class="modal-dialog">
-                                        <div class="modal-content">
+                                        <div class="modal-content general-modal-content">
                                             <div class="modal-header">
                                                 <h4>General Surgery</h4>
                                                 <button type="button" class="close" data-dismiss="modal"
@@ -258,7 +258,7 @@
                                             </div>
                                             <div class="modal-body">
                                                 <img src="{{ url('img/frontend/other_products/general-surgery/maternity.png') }}"
-                                                    alt="" class="img-fluid general-img">
+                                                    alt="" class="img-fluid general-img pop-img">
                                             </div>
                                         </div>
                                     </div>
@@ -269,7 +269,7 @@
                                 <div class="modal fade" id="general3" tabindex="-1" role="dialog"
                                     aria-labelledby="general3" aria-hidden="true">
                                     <div class="modal-dialog">
-                                        <div class="modal-content">
+                                        <div class="modal-content general-modal-content">
                                             <div class="modal-header">
                                                 <h4>General Surgery</h4>
                                                 <button type="button" class="close" data-dismiss="modal"
@@ -279,7 +279,7 @@
                                             </div>
                                             <div class="modal-body">
                                                 <img src="{{ url('img/frontend/other_products/general-surgery/postsurgical.png') }}"
-                                                    alt="" class="img-fluid general-img">
+                                                    alt="" class="img-fluid general-img pop-img">
                                             </div>
                                         </div>
                                     </div>
@@ -302,7 +302,7 @@
                                 <div class="modal fade" id="general4" tabindex="-1" role="dialog"
                                     aria-labelledby="general4" aria-hidden="true">
                                     <div class="modal-dialog">
-                                        <div class="modal-content">
+                                        <div class="modal-content general-modal-content">
                                             <div class="modal-header">
                                                 <h4>General Surgery</h4>
                                                 <button type="button" class="close" data-dismiss="modal"
@@ -312,7 +312,7 @@
                                             </div>
                                             <div class="modal-body">
                                                 <img src="{{ url('img/frontend/other_products/general-surgery/man-one.png') }}"
-                                                    alt="" class="img-fluid general-img">
+                                                    alt="" class="img-fluid general-img pop-img">
                                             </div>
                                         </div>
                                     </div>
@@ -323,7 +323,7 @@
                                 <div class="modal fade" id="general5" tabindex="-1" role="dialog"
                                     aria-labelledby="general5" aria-hidden="true">
                                     <div class="modal-dialog">
-                                        <div class="modal-content">
+                                        <div class="modal-content general-modal-content">
                                             <div class="modal-header">
                                                 <h4>General Surgery</h4>
                                                 <button type="button" class="close" data-dismiss="modal"
@@ -333,7 +333,7 @@
                                             </div>
                                             <div class="modal-body">
                                                 <img src="{{ url('img/frontend/other_products/general-surgery/man-two.png') }}"
-                                                    alt="" class="img-fluid general-img">
+                                                    alt="" class="img-fluid general-img pop-img">
                                             </div>
                                         </div>
                                     </div>
@@ -343,7 +343,7 @@
                                 <div class="modal fade" id="general6" tabindex="-1" role="dialog"
                                     aria-labelledby="general6" aria-hidden="true">
                                     <div class="modal-dialog">
-                                        <div class="modal-content">
+                                        <div class="modal-content general-modal-content">
                                             <div class="modal-header">
                                                 <h4>General Surgery</h4>
                                                 <button type="button" class="close" data-dismiss="modal"
@@ -353,7 +353,7 @@
                                             </div>
                                             <div class="modal-body">
                                             <img src="{{ url('img/frontend/other_products/general-surgery/man-three.png') }}"
-                                        alt="" class="img-fluid general-img ">
+                                        alt="" class="img-fluid general-img pop-img">
                                             </div>
                                         </div>
                                     </div>
@@ -404,7 +404,7 @@
                                                 </button>
                                             </div>
                                             <div class="modal-body">
-                                            <img class="mosquito" style="width:400px;" src="{{url('img/frontend/other_products/public-health.png')}}"
+                                            <img class="mosquito" src="{{url('img/frontend/other_products/public-health.png')}}"
                                     alt="">
                                             </div>
                                         </div>

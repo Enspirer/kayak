@@ -461,11 +461,17 @@ button.product-varient-btn-apron:hover, button.product-varient-btn-apron.active 
 
 .zoom-img {
     transition: transform .2s;
+    z-index: 10000;
+    background-color: #fff;
 }
 
 .zoom-img:hover {
-    transform: scale(1.3);
+    transform: scale(1.5);
     background-color: #fff;
+}
+
+.kayak-products-row {
+    padding-left: 30px;
 }
 
 

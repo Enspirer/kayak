@@ -35,7 +35,7 @@
                     </li>
                     <li class="nav-item dropdown mx-3">
                         <a class="nav-link dropdown-toggle text-white {{ Request::segment(1) == 'other-products' ? 'active' : (Request::segment(1) == 'kayak-products' ? 'active' : null) }}" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" disabled>
-                            Products
+                            Products<i class="visible-xs fas fa-caret-down"></i>
                         </a>
                     
                         <ul class="dropdown-menu px-0" aria-labelledby="navbarDropdown">
