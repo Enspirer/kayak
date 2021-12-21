@@ -132,6 +132,15 @@ p {
     box-shadow: 0 0rem 1rem rgba(0,0,0,.175);
 }
 
+.profile-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 15px;
+}
+
+
 
 
 
@@ -175,3 +184,27 @@ p {
 }
 
 
+/*mobile-view*/
+@media screen and (max-width: 767px) { 
+    .navbar-nav {
+        background-color: #00011c;
+    }
+
+  
+
+}
+
+
+/*tab-portrait*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-nav {
+        background-color: #00011c;
+    }
+
+    h1.mb-3.mb-md-0 {
+        font-size: 2rem;
+    }
+
+   
+
+}

@@ -37,18 +37,24 @@
 
     <div class="container position-relative contact-cards" style="top: -4rem;">
         <div class="row justify-content-center">
-            <div class="col-12 col-md-4 mb-5 mb-md-0">
+            <div class="col-12 col-md-4 mb-5 mb-md-0 tab-fifty">
                 <div class="col-12 custom-shadow px-4 pt-4 bg-white box" style="padding-bottom: 4.6rem;">
                     <h4 class="mb-3" style="color: #0090FF">Contact Us</h4>
                     <div class="row align-items-center">
+                        <div class="col-12" style="margin-bottom:1rem;">
+                            <h5 class="fw-bold mb-2">Kayak Surgi Pharma (Pvt) Ltd.</h5>
+                            <p class="mb-1" style="font-size: 1rem;">526/C2, Eriyawetiya road,</p>
+                            <p class="mb-1" style="font-size: 1rem;">Kiribathgoda, Kelaniya,</p>
+                            <p class="mb-1" style="font-size: 1rem;">Sri Lanka.</p>
+                        </div>
                         <div class="col-12 mb-4">
                             <i class="bi bi-telephone-fill text-black me-3" style="font-size: 1.1rem"></i>
-                            <p class="d-inline-block" style="font-size: 1rem;">011 5022832</p>
+                            <p class="d-inline-block" style="font-size: 1rem;">+9411 5022832</p>
                         </div>
 
                         <div class="col-12 mb-4">
                             <img src="{{ url('img/frontend/contact_us/fax.png') }}" alt="" class="img-fluid me-3" style="height:1.1rem;">
-                            <p class="d-inline-block" style="font-size: 1rem;">0094 11 5526575</p>
+                            <p class="d-inline-block" style="font-size: 1rem;">+94 11 5526575</p>
                         </div>
 
                         <div class="col-12 mb-5">
@@ -56,17 +62,12 @@
                             <p class="d-inline-block" style="font-size: 1rem;">kayakpharma@sltnet.lk</p>
                         </div>
 
-                        <div class="col-12">
-                            <h5 class="fw-bold mb-2">Kayak Surgi Pharma (Pvt) Ltd.</h5>
-                            <p class="mb-1" style="font-size: 1rem;">526/C2, Eriyawetiya road,</p>
-                            <p class="mb-1" style="font-size: 1rem;">Kiribathgoda, Kelaniya,</p>
-                            <p class="mb-1" style="font-size: 1rem;">Sri Lanka.</p>
-                        </div>
+                        
                     </div>
                 </div>
             </div>
 
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-md-4 tab-fifty">
                 <div class="col-12 custom-shadow p-4 bg-white box">
                     <h4 class="mb-3" style="color: #0090FF">Quick Inquiries</h4>
 

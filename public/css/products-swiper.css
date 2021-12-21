@@ -23,3 +23,15 @@ h6.card-title {
 h5.card-titl {
     margin-top: 25px;
 }
+
+
+/*tab-portrait*/
+@media (min-width: 768px) and (max-width: 991px) { 
+    .mySwiper1 .swiper-slide-next {
+        height: 20rem !important;
+    }
+
+    h5.card-title.fw-bold.mb-2 {
+        margin-top: 20px;
+    }
+}

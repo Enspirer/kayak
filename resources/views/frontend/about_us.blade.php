@@ -34,7 +34,7 @@
             </div>
         </div>
 
-        <div class="container" style="padding-top: 8rem;">
+        <div class="container vision-container" style="padding-top: 8rem;">
             <div class="row">
                 <div class="col-12 col-md-6 mb-5 mb-md-0">
                     <div class="card custom-shadow">
@@ -68,7 +68,7 @@
     <div class="container mb-5">
 
         <div class="text-center">
-            <h3 class="mb-5 fw-bold about-bottom-topic" style="color: #0090FF">MESSAGE FROM CHAIRMAN</h3>
+            <h3 class="mb-5 fw-bold about-bottom-topic" style="color: #0090FF">Message from Managing Director</h3>
         </div>
 
         <div class="row align-items-center message-area">            
@@ -78,12 +78,9 @@
                 
                 <div class="mb-4">
                     <!-- <h5 class="mb-3">Description / Additional Note</h5> -->
-                    <div class="text-center" style="font-size: 0.8rem;">
-                        <p>
-                            To continue the good work Kayak has achieved so far, and to further enhance our competitive advantage, through innovation, marketing infrastructure, cost effectiveness, and customer relationship extended by our dynamic team.
-                        </p>
-                        <p class="mt-4">
-                            To continue the good work Kayak has achieved so far, and to further enhance our competitive advantage, through innovation, marketing infrastructure, cost effectiveness, and customer relationship extended by our dynamic team.
+                    <div class="text-center md-msg" style="font-size: 0.8rem;">
+                        <p class="mt-4" style="text-align:justify;">
+                        The inception of Kayak provided a broader scope of innovation and perception to Sri Lankan Healthcare. Our nation was relying solely upon the import of Medical goods as there was no reliable manufacturer of goods locally. However, with dire focus and dedication, we established local manufacturing of surgical consumables. The most challenging aspect of our mission was changing the thinking of the local industry and, many are following in the footsteps that we initially took. Kayak will always paddle towards new horizons, ensuring the highest product standards to the Sri Lankan market.
                         </p>
                     </div>
                 </div>

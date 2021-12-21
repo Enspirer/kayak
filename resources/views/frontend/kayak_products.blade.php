@@ -32,7 +32,7 @@
 
 @else
 <div class="container-fluid banner kayak-main-container">
-    <div class="container" style="padding-top: 4rem;">
+    <div class="container" style="padding-top: 6rem;">
         <div class="row justify-content-center">
             <div class="col-12 col-md-7 text-center">
                 <h2>Kayak Products</h2>
@@ -89,7 +89,7 @@
                             </div>
 
 
-                            <div class="col-12 col-md-7" style="z-index:1">
+                            <div class="col-12 col-md-7 kayak-products-row" style="z-index:1">
 
                                 <h5 class="fw-bold text-center text-md-left">Respirator Masks</h5>
                                 <hr>
@@ -185,7 +185,7 @@
                                 <img id="endoImg" class="zoom-img"
                                     src="{{ url('img/frontend/kayak_products/endo-tubes/abercom1.png') }}">
                             </div>
-                            <div class="col-12 col-md-7">
+                            <div class="col-12 col-md-7 kayak-products-row">
 
                                 <h5 class="fw-bold text-center text-md-left">Endotracheal Tube</h5>
                                 <hr>
@@ -942,7 +942,7 @@
                                 <img id="rollImg" src="{{ url('img/frontend/kayak_products/roll1.png') }}" alt=""
                                     class="img-fluid main-image3 zoom-img">
                             </div>
-                            <div class="col-12 col-md-7">
+                            <div class="col-12 col-md-7 kayak-products-row">
                                 <h5 class="fw-bold text-center text-md-left">Multilayer Surgical Cellulose Roll</h5>
                                 <hr>
 
@@ -1011,7 +1011,7 @@
                                     src="{{ url('img/frontend/kayak_products/surgical-aprons/surgical-apron.png') }}"
                                     alt="" class="img-fluid main-image5 zoom-img">
                             </div>
-                            <div class="col-12 col-md-7">
+                            <div class="col-12 col-md-7 kayak-products-row">
 
                                 <h5 class="fw-bold text-center text-md-left">Surgical Aprons</h5>
                                 <hr>
@@ -1100,7 +1100,7 @@
                                     src="{{ url('img/frontend/kayak_products/spinal_needles/needles.jpg') }}" alt=""
                                     class="img-fluid main-image5 zoom-img">
                             </div>
-                            <div class="col-12 col-md-7">
+                            <div class="col-12 col-md-7 kayak-products-row">
 
                                 <h5 class="fw-bold text-center text-md-left">Spinal Needles</h5>
                                 <hr>

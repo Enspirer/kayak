@@ -48,7 +48,7 @@
                 </div>
                 <div class="swiper-slide">
                     <div class="banner"
-                        style="background-image: url('img/frontend/index/banners/kayak-banner-two.png');">
+                        style="background-image: url('img/frontend/index/banners/kayak-banner-two.jpg');">
                         <div class="container" style="padding-top: 11rem;">
                             <div class="row justify-content-end">
                                 <div class="col-6">
@@ -95,7 +95,7 @@
                 </div>
                 <div class="swiper-slide">
                     <div class="banner"
-                        style="background-image: url('img/frontend/index/banners/kayak-banner-five.png');">
+                        style="background-image: url('img/frontend/index/banners/kayak-banner-five.jpg');">
                         <div class="container" style="padding-top: 11rem;">
                             <div class="row justify-content-end">
                                 <div class="col-6">
@@ -115,7 +115,7 @@
 
 
     <div class="container text-center about-us" style="margin-top: 5rem;">
-        <h1 class="mb-3 mb-md-0">TRUSTED OVER 30 YEARS IN THE MEDICAL INDUSTRY</h1>
+        <h1 class="mb-3 mb-md-0">Trusted Over 30 Years in the Medical Industry</h1>
         <p>At Kayak Surgi Pharma, We Serve You for Better Health. We are doing our best to help our customers.  </p>
 
         <div class="row about-us-row" style="margin-top: 6rem;">
@@ -221,7 +221,7 @@
                                 <i class="bi bi-star-fill"></i>
                             </div>*/ -->
                             <!-- <p class="card-text mb-md-3" style="font-size: 0.8rem;">At Kayak, Quality is Our Prime Concern. Browse Our Portfolio.</p> -->
-                            <a href="{{ route('frontend.kayak_products') }}" class="btn more-btn d-none">View More</a>
+                            <!-- <a href="{{ route('frontend.kayak_products') }}" class="btn more-btn d-none">View More</a> -->
                         </div>
                     </div>
                 </div>
@@ -239,7 +239,7 @@
                                 <i class="bi bi-star-fill"></i>
                             </div>
                             <p class="card-text mb-md-3">At Kayak, Quality is Our Prime Concern. Browse Our Portfolio.</p> -->
-                            <a href="{{ route('frontend.kayak_products') }}" class="btn more-btn d-none">View More</a>
+                            <!-- <a href="{{ route('frontend.kayak_products') }}" class="btn more-btn d-none">View More</a> -->
                         </div>
                     </div>
                 </div>
@@ -256,7 +256,7 @@
                                 <i class="bi bi-star-fill"></i>
                             </div> -->
                             <!-- <p class="card-text mb-md-3" style="font-size: 0.8rem;">At Kayak, Quality is Our Prime Concern. Browse Our Portfolio.</p> -->
-                            <a href="{{ route('frontend.kayak_products') }}" class="btn more-btn d-none">View More</a>
+                            <!-- <a href="{{ route('frontend.kayak_products') }}" class="btn more-btn d-none">View More</a> -->
                         </div>
                     </div>
                 </div>
@@ -276,7 +276,7 @@
                                 <i class="bi bi-star-fill"></i>
                             </div>
                             <p class="card-text mb-md-3" style="font-size: 0.8rem;">At Kayak, Quality is Our Prime Concern. Browse Our Portfolio.</p> -->
-                            <a href="{{ route('frontend.kayak_products') }}" class="btn more-btn d-none">View More</a>
+                            <!-- <a href="{{ route('frontend.kayak_products') }}" class="btn more-btn d-none">View More</a> -->
                         </div>
                     </div>
                 </div>
@@ -296,15 +296,18 @@
                                 <i class="bi bi-star-fill"></i>
                             </div>
                             <p class="card-text mb-md-3" style="font-size: 0.8rem;">At Kayak, Quality is Our Prime Concern. Browse Our Portfolio.</p> -->
-                            <a href="{{ route('frontend.kayak_products') }}" class="btn more-btn d-none">View More</a>
+                            <!-- <a href="{{ route('frontend.kayak_products') }}" class="btn more-btn d-none">View More</a> -->
                         </div>
                     </div>
                 </div>
+
             </div>
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
         </div>
-
+        <div class="view-more-wrapper">
+                <a href="{{ route('frontend.kayak_products') }}" class="btn more-btn d-none">View More</a>
+        </div>
     </div>
 
 
@@ -338,7 +341,7 @@
                                     <div class="swiper-slide px-5">
                                         <a href="{{ route('frontend.other_products') }}">
                                             <div class="d-flex align-items-end"
-                                                style="background-image: url('../img/frontend/other_products/orthopaedic/2.png'); background-repeat: no-repeat;background-size: cover; height: 16rem; background-position:center center; justify-content: center; border-radius: 15px;">
+                                                style="background-image: url('../img/frontend/other_products/orthopaedic/2.png'); background-repeat: no-repeat;background-size: contain; height: 16rem; background-position:center center; justify-content: center; border-radius: 15px;">
                                                 <h5 class="fw-bold text-white mb-2 bottom-caption">Surgical Division</h5>
                                             </div>
                                         </a>
@@ -351,7 +354,7 @@
                                     <div class="swiper-slide px-5">
                                         <a href="{{ route('frontend.other_products') }}">
                                             <div class="d-flex align-items-end"
-                                                style="background-image:url('../img/frontend/other_products/public-health.png'); background-repeat: no-repeat;background-size: cover; height: 16rem; background-position:center center; justify-content: center;border-radius: 15px;">
+                                                style="background-image:url('../img/frontend/other_products/public-health.png'); background-repeat: no-repeat;background-size: contain; height: 16rem; background-position:center center; justify-content: center;border-radius: 15px;">
                                                 <h5 class="fw-bold text-white mb-2 bottom-caption">Public Health Division
                                                 </h5>
                                             </div>
@@ -421,10 +424,10 @@
                     <div class="col-12 col-md-4">
                         <a href="{{url('news')}}" style="text-decoration:none; color:black;">
                             <img src="{{ url(uploaded_asset(json_decode($news_1->images)[0]->image1)) }}"
-                                alt="" class="img-fluid" style="height:260px; object-fit:cover; width: 100%;">
+                                alt="" class="img-fluid" style="object-fit:contain; width: 100%;">
                             <div class="row justify-content-end">
                                 <div class="col-11">
-                                    <div class="position-relative p-2" style="background-color: white; top: -4rem;">
+                                    <div class="position-relative p-2" style="background-color: white; top: -2rem;">
                                         <p class="fw-bold mb-2"
                                             style="text-align: justify; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical;">
                                             {{$news_1->title}}</p>
@@ -443,10 +446,10 @@
                     <div class="col-12 col-md-4">
                         <a href="{{url('news')}}" style="text-decoration:none; color:black;">
                             <img src="{{ url(uploaded_asset(json_decode($news_2->images)[0]->image1)) }}"
-                                alt="" class="img-fluid" style="height:260px; object-fit:cover; width: 100%;">
+                                alt="" class="img-fluid" style="object-fit:contain; width: 100%;">
                             <div class="row justify-content-end">
                                 <div class="col-11">
-                                    <div class="position-relative p-2" style="background-color: white; top: -4rem;">
+                                    <div class="position-relative p-2" style="background-color: white; top: -2rem;">
                                         <p class="fw-bold mb-2"
                                             style="text-align: justify; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical;">
                                             {{$news_2->title}}</p>
@@ -465,10 +468,10 @@
                     <div class="col-12 col-md-4">
                         <a href="{{url('news')}}" style="text-decoration:none; color:black;">
                             <img src="{{ url(uploaded_asset(json_decode($news_3->images)[0]->image1)) }}"
-                                alt="" class="img-fluid" style="height:260px; object-fit:cover; width: 100%;">
+                                alt="" class="img-fluid" style="object-fit:contain; width: 100%;">
                             <div class="row justify-content-end">
                                 <div class="col-11">
-                                    <div class="position-relative p-2" style="background-color: white; top: -4rem;">
+                                    <div class="position-relative p-2" style="background-color: white; top: -2rem;">
                                         <p class="fw-bold mb-2"
                                             style="text-align: justify; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical;">
                                             {{$news_3->title}}</p>
@@ -499,10 +502,10 @@
             <h1 style="text-align:center;margin-bottom: 5rem !important;">Our Partners</h1>
                 <div class="logo-bar">
                     <img src="{{ url('img/frontend/index/logo-stripe/summit.png') }}" alt="">
-                    <img src="{{ url('img/frontend/index/logo-stripe/auxein.png') }}" alt="">
+                    <img id="auxein" src="{{ url('img/frontend/index/logo-stripe/auxein.png') }}" alt="">
                     <img src="{{ url('img/frontend/index/logo-stripe/design-veronique.png') }}" alt="">
-                    <img src="{{ url('img/frontend/index/logo-stripe/app-sinarmas.png') }}" alt="">
-                    <img src="{{ url('img/frontend/index/logo-stripe/rdmd.png') }}" alt="">
+                    <img id="app-sinarmas" src="{{ url('img/frontend/index/logo-stripe/app-sinarmas.png') }}" alt="">
+                    <img id="rdmd" src="{{ url('img/frontend/index/logo-stripe/rdmd.png') }}" alt="">
                 </div>
 
             </div>
@@ -574,48 +577,48 @@ var swiper = new Swiper('.mySwiper1', {
 
 
 
-if ($('.mySwiper1 .swiper-slide').hasClass('swiper-slide-next')) {
-    $(this).find('.card-title').css('border', '1px solid black');
-}
+// if ($('.mySwiper1 .swiper-slide').hasClass('swiper-slide-next')) {
+//     $(this).find('.card-title').css('border', '1px solid black');
+// }
 
-if ($('.mySwiper1 .swiper-slide').hasClass('swiper-slide-next')) {
-    $('.mySwiper1 .swiper-slide-next').find('a').removeClass('d-none');
-}
+// if ($('.mySwiper1 .swiper-slide').hasClass('swiper-slide-next')) {
+//     $('.mySwiper1 .swiper-slide-next').find('a').removeClass('d-none');
+// }
 
 
 
 /*next button*/
-$('.swiper-button-next').on('click', function() {
-    if ($('.mySwiper1 .swiper-slide').hasClass('swiper-slide-active')) {
-        $('.mySwiper1 .swiper-slide-next').find('a').removeClass('d-none');
-    }
+// $('.swiper-button-next').on('click', function() {
+//     if ($('.mySwiper1 .swiper-slide').hasClass('swiper-slide-active')) {
+//         $('.mySwiper1 .swiper-slide-next').find('a').removeClass('d-none');
+//     }
 
-    if ($('.mySwiper1 .swiper-slide').hasClass('swiper-slide-next')) {
-        $('.mySwiper1 .swiper-slide-active').find('a').addClass('d-none');
-    }
+//     if ($('.mySwiper1 .swiper-slide').hasClass('swiper-slide-next')) {
+//         $('.mySwiper1 .swiper-slide-active').find('a').addClass('d-none');
+//     }
 
-    $(window).resize();
+//     $(window).resize();
 
-});
+// });
 
 
 /*previous button*/
-$('.swiper-button-prev').on('click', function() {
-    if ($('.mySwiper1 .swiper-slide').hasClass('swiper-slide')) {
-        $('.mySwiper1 .swiper-slide').find('a').addClass('d-none');
-    }
+// $('.swiper-button-prev').on('click', function() {
+//     if ($('.mySwiper1 .swiper-slide').hasClass('swiper-slide')) {
+//         $('.mySwiper1 .swiper-slide').find('a').addClass('d-none');
+//     }
 
-    if ($('.mySwiper1 .swiper-slide-active').hasClass('swiper-slide-active')) {
-        $('.mySwiper1 .swiper-slide-active').find('a').addClass('d-none');
-    }
+//     if ($('.mySwiper1 .swiper-slide-active').hasClass('swiper-slide-active')) {
+//         $('.mySwiper1 .swiper-slide-active').find('a').addClass('d-none');
+//     }
 
-    if ($('.mySwiper1 .swiper-slide-next').hasClass('swiper-slide-next')) {
-        $('.mySwiper1 .swiper-slide-next').find('a').removeClass('d-none');
-    }
+//     if ($('.mySwiper1 .swiper-slide-next').hasClass('swiper-slide-next')) {
+//         $('.mySwiper1 .swiper-slide-next').find('a').removeClass('d-none');
+//     }
 
-    $(window).resize();
+//     $(window).resize();
 
-});
+// });
 
 
 $(window).resize(function(e) {

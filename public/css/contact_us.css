@@ -26,7 +26,7 @@
     .banner {
         background-size: 100% 100%;
         margin-bottom: 3rem;
-        margin-top: 8.5rem!important;
+        margin-top: 4.5rem!important;
         height: 200px!important;
     }
     .banner .container {
@@ -35,4 +35,13 @@
     .contact-cards {
         top: -5rem!important;
     }
+} 
+
+/*tab-portrait*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .tab-fifty {
+        min-width: 50%;
+    }
+
 }
