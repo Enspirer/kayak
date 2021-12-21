@@ -225,7 +225,7 @@ class AizUploadController extends Controller
 
     public function get_image_content($file_name)
     {
-        // dd('sss');
+        dd('sss');
     }
 
 

@@ -427,7 +427,7 @@ We invest in extensive research on careful selection of our suppliers to complim
                                             {{$news_1->title}}</p>
                                         <p
                                             style="text-align: justify; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 5; -webkit-box-orient: vertical; font-size: 0.8rem;">
-                                            {{$news_1->description}}
+                                            {{str_replace("&nbsp;", " ", strip_tags($news_1->description))}}
                                         </p>
                                         <a class="news-link" href="{{url('news')}}">Read More</a>
                                     </div>
@@ -450,7 +450,7 @@ We invest in extensive research on careful selection of our suppliers to complim
                                             {{$news_2->title}}</p>
                                         <p
                                             style="text-align: justify; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 5; -webkit-box-orient: vertical; font-size: 0.8rem;">
-                                            {{$news_2->description}}
+                                            {{str_replace("&nbsp;", " ", strip_tags($news_2->description))}}
                                         </p>
                                         <a class="news-link" href="{{url('news')}}">Read More</a>
                                     </div>
@@ -473,7 +473,7 @@ We invest in extensive research on careful selection of our suppliers to complim
                                             {{$news_3->title}}</p>
                                         <p
                                             style="text-align: justify; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 5; -webkit-box-orient: vertical; font-size: 0.8rem;">
-                                            {{$news_3->description}}
+                                            {{str_replace("&nbsp;", " ", strip_tags($news_3->description))}}
                                         </p>
                                         <a class="news-link" href="{{url('news')}}">Read More</a>
                                     </div>
