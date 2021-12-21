@@ -48,7 +48,7 @@
                 </div>
                 <div class="swiper-slide">
                     <div class="banner"
-                        style="background-image: url('img/frontend/index/banners/kayak-banner-two.png');">
+                        style="background-image: url('img/frontend/index/banners/kayak-banner-two.jpg');">
                         <div class="container" style="padding-top: 11rem;">
                             <div class="row justify-content-end">
                                 <div class="col-6">
@@ -95,7 +95,7 @@
                 </div>
                 <div class="swiper-slide">
                     <div class="banner"
-                        style="background-image: url('img/frontend/index/banners/kayak-banner-five.png');">
+                        style="background-image: url('img/frontend/index/banners/kayak-banner-five.jpg');">
                         <div class="container" style="padding-top: 11rem;">
                             <div class="row justify-content-end">
                                 <div class="col-6">
@@ -502,10 +502,10 @@
             <h1 style="text-align:center;margin-bottom: 5rem !important;">Our Partners</h1>
                 <div class="logo-bar">
                     <img src="{{ url('img/frontend/index/logo-stripe/summit.png') }}" alt="">
-                    <img src="{{ url('img/frontend/index/logo-stripe/auxein.png') }}" alt="">
+                    <img id="auxein" src="{{ url('img/frontend/index/logo-stripe/auxein.png') }}" alt="">
                     <img src="{{ url('img/frontend/index/logo-stripe/design-veronique.png') }}" alt="">
-                    <img src="{{ url('img/frontend/index/logo-stripe/app-sinarmas.png') }}" alt="">
-                    <img src="{{ url('img/frontend/index/logo-stripe/rdmd.png') }}" alt="">
+                    <img id="app-sinarmas" src="{{ url('img/frontend/index/logo-stripe/app-sinarmas.png') }}" alt="">
+                    <img id="rdmd" src="{{ url('img/frontend/index/logo-stripe/rdmd.png') }}" alt="">
                 </div>
 
             </div>

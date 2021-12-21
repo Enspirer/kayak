@@ -51,7 +51,6 @@ img.round-img {
 }
 
 .logo-bar img {
-    height: 60px;
     width: auto;
     margin-right: 15px;
 }
@@ -155,9 +154,9 @@ img.round-img {
     .banner {
         background-attachment: initial!important;
         background-repeat: no-repeat;
-        background-size: 100% 100%;
+        background-size: cover;
         background-position: center center;
-        height: 175px!important;
+        height: 150px!important;
     }
     .banner .container {
         padding-top: 4rem!important;
@@ -221,6 +220,7 @@ img.round-img {
     .products-banner .swiper-button-next:after, .products-banner .swiper-button-prev:after {
         font-size: 1.7rem!important;
     }
+
 }
 
 .des-txt p {
@@ -276,6 +276,24 @@ img.round-img {
         height: 375px;
     }
 
+    .logo-bar img {
+        height: auto;
+        margin-right: 0;
+        width: max-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #auxein {
+        margin-top: 30px;
+    }
+
+    img#app-sinarmas {
+        width: max-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 }
 
 
@@ -285,9 +303,25 @@ img.round-img {
         height: 350px;
     }
 
+    #auxein {
+        margin-top: 30px;
+    }
+
+    
+
+    .logo-bar img {
+        height: 60px;
+        margin-right: 0;
+    }
+
     img.round-img {
         position: relative;
         left: -15px;
+    }
+
+    .logo-bar img {
+        height: auto;
+        margin-right: 0;
     }
 
     .about-main {
