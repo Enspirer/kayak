@@ -107,7 +107,11 @@ img.round-img {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 600px;
+    height: 630px;
+}
+
+.narrow-para {
+    margin: 15px 60px;
 }
 
 
@@ -148,6 +152,20 @@ img.round-img {
     width: 100%;
     display: flex;
     justify-content: center;
+}
+
+.news-link {
+    text-align: right;
+    margin-left: auto;
+    display: block;
+    padding: 5px;
+    font-size: 0.8rem;
+}
+
+.news-link:hover {
+    color: #00ACEE;
+    text-decoration: none;
+    text-shadow: 2px 2px 8px #00ACEE;
 }
 
 @media screen and (max-width: 576px) {
@@ -257,6 +275,11 @@ img.round-img {
     .logo-bar {
         flex-direction: column;
     }
+
+    .narrow-para {
+        margin: 0 !important;
+        margin-top: 15px !important;
+    }
     
     h1 {
         font-size: 1.7rem;
@@ -305,6 +328,12 @@ img.round-img {
 
     #auxein {
         margin-top: 30px;
+    }
+
+    .narrow-para {
+        margin: 0 !important;
+        margin-top: 15px !important;
+        margin-bottom: 30px !important;
     }
 
     

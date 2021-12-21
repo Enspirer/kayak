@@ -286,7 +286,7 @@
                     <div class="card">
                         <div class="card-body text-center">
                             <img style="padding-bottom: 10px;"
-                                src="{{ url('img/frontend/kayak_products/spinal_needles/needles.jpg') }}" alt="...">
+                                src="{{ url('img/frontend/kayak_products/spinal_needles/spinal needle2.png') }}" alt="...">
                             <h6 class="card-title fw-bold mb-2">Spinal Needles</h6>
                             <!-- <div class="text-center mb-2">
                                 <i class="bi bi-star-fill gold"></i>
@@ -316,7 +316,7 @@
             <div class="row pt-5">
                 <div class="col-12 text-center mb-4 mb-md-0">
                     <h3>Other Products</h3>
-                    <p>We are doing our best to help our customers.</p>
+                    <p class="narrow-para">To ensure that we provide top tier product quality, we have partnered with many global brands. We import and distribute many surgical and public healthcare essentials. </p>
                 </div>
             </div>
 
@@ -435,6 +435,7 @@
                                             style="text-align: justify; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 5; -webkit-box-orient: vertical; font-size: 0.8rem;">
                                             {{$news_1->description}}
                                         </p>
+                                        <a class="news-link" href="{{url('news')}}">Read More</a>
                                     </div>
                                 </div>
                             </div>
@@ -457,6 +458,7 @@
                                             style="text-align: justify; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 5; -webkit-box-orient: vertical; font-size: 0.8rem;">
                                             {{$news_2->description}}
                                         </p>
+                                        <a class="news-link" href="{{url('news')}}">Read More</a>
                                     </div>
                                 </div>
                             </div>
@@ -479,6 +481,7 @@
                                             style="text-align: justify; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 5; -webkit-box-orient: vertical; font-size: 0.8rem;">
                                             {{$news_3->description}}
                                         </p>
+                                        <a class="news-link" href="{{url('news')}}">Read More</a>
                                     </div>
                                 </div>
                             </div>
