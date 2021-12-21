@@ -32,7 +32,7 @@
 
 @else
 <div class="container-fluid banner kayak-main-container">
-    <div class="container" style="padding-top: 4rem;">
+    <div class="container" style="padding-top: 6rem;">
         <div class="row justify-content-center">
             <div class="col-12 col-md-7 text-center">
                 <h2>Kayak Products</h2>

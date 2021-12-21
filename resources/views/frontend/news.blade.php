@@ -8,7 +8,7 @@
 
 @section('content')
     <div class="container main-news" style="margin-top: 10rem;">
-        <h1 class="fw-bolder title" style="color: #00ACEE">Latest Events at Kayak</h1>
+        <h1 class="fw-bolder title" style="color: #00ACEE">Latest at Kayak</h1>
 
         @if($featured_news !=  null)
             @if(json_decode($featured_news->images)[1]->image2 == null  )

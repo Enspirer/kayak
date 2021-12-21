@@ -57,14 +57,28 @@ img.round-img {
 }
 
 
+.view-more-wrapper {
+    width: 100%;
+    display: block;
+    height: 100px;
+}
 
+.view-more-wrapper a {
+    display: block !important;
+    height: max-content;
+    width: max-content;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
 
 .products-banner {
     background-image: url('../img/frontend/index/product_banner.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 600px;
+    height: 100%;
 }
 .mySwiper1 .card {
     background: rgba(255, 255, 255, .8);
@@ -129,6 +143,12 @@ img.round-img {
     bottom: -45px;
     color: #00acee !important;
     text-transform: uppercase;
+}
+
+.view-more-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 @media screen and (max-width: 576px) {
