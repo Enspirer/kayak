@@ -260,7 +260,7 @@ img.round-img {
     
     h1 {
         font-size: 1.7rem;
-        margin-bottom: 15px;
+        margin-bottom: 15px !important;
     }
 
     .navbar-nav {
