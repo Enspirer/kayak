@@ -316,7 +316,10 @@
             <div class="row pt-5">
                 <div class="col-12 text-center mb-4 mb-md-0">
                     <h3>Other Products</h3>
-                    <p class="narrow-para">To ensure that we provide top tier product quality, we have partnered with many global brands. We import and distribute many surgical and public healthcare essentials. </p>
+                    <p class="narrow-para">Unwavering trust for decades, with global partners <br><br>
+
+To ensure that we provide top tier product quality, we have partnered with many global brands. We import and distribute many surgical and public healthcare essentials from credible and well established overseas suppliers.
+We invest in extensive research on careful selection of our suppliers to compliment Kayak quality promise. </p>
                 </div>
             </div>
 
@@ -383,7 +386,7 @@
                         </div>
                     </div>
 
-                    <div class="text-center mt-5">
+                    <div class="text-center mt-1">
                         <a href="{{ route('frontend.other_products') }}" type="button"
                             class="btn text-decoration-none text-white rounded-pill"
                             style="background-color: #00ACEE;">View All Products</a>
@@ -402,7 +405,7 @@
                 <div class="col-10">
                     <div class="row">
                         <div class="col-12 text-center">
-                            <h1>Latest From Kayak</h1>
+                            <h1 class="mb-1">Latest From Kayak</h1>
                             <p>At Kayak, we are constantly focusing on providing better solutions for our clientele. We
                                 undertake extensive research on our product standards and how it serves healthcare
                                 organizations worldwide.</p>

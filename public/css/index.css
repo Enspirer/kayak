@@ -107,7 +107,7 @@ img.round-img {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 630px;
+    height: 650px;
 }
 
 .narrow-para {
@@ -274,6 +274,15 @@ img.round-img {
 @media screen and (max-width: 767px) { 
     .logo-bar {
         flex-direction: column;
+    }
+
+    .about-cards {
+        width: 80px;
+        height: 80px;
+    }
+
+    .swiper-button-next, .swiper-button-prev {
+        top: 40%;
     }
 
     .narrow-para {

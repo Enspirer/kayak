@@ -485,6 +485,13 @@ button.product-varient-btn-apron:hover, button.product-varient-btn-apron.active 
         transform: scale(1.2);
         background-color: #fff;
     }
+
+    .col-3.col-xs-12.text-center.me-1 {
+        width: 100%;
+        height: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
     
 }
 
