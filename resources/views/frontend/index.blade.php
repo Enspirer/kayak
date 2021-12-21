@@ -423,7 +423,7 @@
                 @if($news_1 != null )
                     <div class="col-12 col-md-4">
                         <a href="{{url('news')}}" style="text-decoration:none; color:black;">
-                            <img src="{{ uploaded_asset(json_decode($news_1->images)[0]->image1) }}"
+                            <img src="{{ url(uploaded_asset(json_decode($news_1->images)[0]->image1)) }}"
                                 alt="" class="img-fluid" style="object-fit:contain; width: 100%;">
                             <div class="row justify-content-end">
                                 <div class="col-11">
@@ -446,7 +446,7 @@
                 @if($news_2 != null )
                     <div class="col-12 col-md-4">
                         <a href="{{url('news')}}" style="text-decoration:none; color:black;">
-                            <img src="{{ uploaded_asset(json_decode($news_2->images)[0]->image1) }}"
+                            <img src="{{ url(uploaded_asset(json_decode($news_2->images)[0]->image1)) }}"
                                 alt="" class="img-fluid" style="object-fit:contain; width: 100%;">
                             <div class="row justify-content-end">
                                 <div class="col-11">
@@ -469,7 +469,7 @@
                 @if($news_3 != null )
                     <div class="col-12 col-md-4">
                         <a href="{{url('news')}}" style="text-decoration:none; color:black;">
-                            <img src="{{ uploaded_asset(json_decode($news_3->images)[0]->image1) }}"
+                            <img src="{{ url(uploaded_asset(json_decode($news_3->images)[0]->image1)) }}"
                                 alt="" class="img-fluid" style="object-fit:contain; width: 100%;">
                             <div class="row justify-content-end">
                                 <div class="col-11">
