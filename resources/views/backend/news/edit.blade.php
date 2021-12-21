@@ -5,6 +5,7 @@
 @section('content')
 
 <link rel="stylesheet" href="{{url('css/vendors.css')}}">
+<script src="https://cdn.ckeditor.com/ckeditor5/29.0.0/classic/ckeditor.js"></script>
 
     <form action="{{route('admin.news.update')}}" method="post" enctype="multipart/form-data">
         {{csrf_field()}}
@@ -18,7 +19,7 @@
                         </div>
                         <div class="form-group">
                             <label>Description <span class="text-danger">*</span></label>
-                            <textarea type="text" class="form-control" name="description" rows="6" required>{{$news->description}}</textarea>
+                            <textarea type="text" id="editor" class="form-control" name="description" rows="6" required>{{$news->description}}</textarea>
                         </div> 
                         
                         <div class="form-group">
@@ -114,4 +115,20 @@
 
     
 <br><br>
+
+<script>
+	ClassicEditor
+		.create( document.querySelector( '#editor' ), {
+			// toolbar: [ 'heading', '|', 'bold', 'italic', 'link' ]
+		} )
+		.then( editor => {
+			window.editor = editor;
+		} )
+		.catch( err => {
+			console.error( err.stack );
+		} );
+
+    
+</script>
+
 @endsection

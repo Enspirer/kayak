@@ -433,7 +433,7 @@
                                             {{$news_1->title}}</p>
                                         <p
                                             style="text-align: justify; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 5; -webkit-box-orient: vertical; font-size: 0.8rem;">
-                                            {{$news_1->description}}
+                                            {{str_replace("&nbsp;", " ", strip_tags($news_1->description))}}
                                         </p>
                                     </div>
                                 </div>
@@ -455,7 +455,7 @@
                                             {{$news_2->title}}</p>
                                         <p
                                             style="text-align: justify; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 5; -webkit-box-orient: vertical; font-size: 0.8rem;">
-                                            {{$news_2->description}}
+                                            {{str_replace("&nbsp;", " ", strip_tags($news_2->description))}}
                                         </p>
                                     </div>
                                 </div>
@@ -477,7 +477,7 @@
                                             {{$news_3->title}}</p>
                                         <p
                                             style="text-align: justify; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 5; -webkit-box-orient: vertical; font-size: 0.8rem;">
-                                            {{$news_3->description}}
+                                            {{str_replace("&nbsp;", " ", strip_tags($news_3->description))}}
                                         </p>
                                     </div>
                                 </div>
