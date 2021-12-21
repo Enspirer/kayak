@@ -316,10 +316,7 @@
             <div class="row pt-5">
                 <div class="col-12 text-center mb-4 mb-md-0">
                     <h3>Other Products</h3>
-                    <p class="narrow-para">Unwavering trust for decades, with global partners <br><br>
-
-To ensure that we provide top tier product quality, we have partnered with many global brands. We import and distribute many surgical and public healthcare essentials from credible and well established overseas suppliers.
-We invest in extensive research on careful selection of our suppliers to compliment Kayak quality promise. </p>
+                    <p class="narrow-para">Unwavering trust for decades, with global partners </p>
                 </div>
             </div>
 
@@ -328,14 +325,8 @@ We invest in extensive research on careful selection of our suppliers to complim
                     <div class="row align-items-center">
                         <div class="col-12 col-md-6 text-center">
                             <!-- <h4 class="fw-bold">SURGICAL DIVISION</h4> -->
-                            <p>Kayak Surgical Division provides Orthopedic and Hand Surgery essentials. We also supply
-                                Cardiac surgery goods such as Perfusion Cannula. We are partnered with leading
-                                manufacturers worldwide with exclusive products to provide for our Nation.
-                                We excel in providing Post-Surgical Garments, Bacteria Filters, Cellulose Wadding, IV
-                                Cannula, Spinal Needle, Endotracheal tubes, Syringes, Face Masks, N-95 Masks and other
-                                general medical products. Our unparallel manufacturing technology allows us to provide
-                                better solutions for our stakeholders.
-                            </p>
+                            <p>To ensure that we provide top tier product quality, we have partnered with many global brands. We import and distribute many surgical and public healthcare essentials from credible and well established overseas suppliers.
+We invest in extensive research on careful selection of our suppliers to compliment Kayak quality promise. </p>
                         </div>
 
                         <div class="col-12 col-md-6">
