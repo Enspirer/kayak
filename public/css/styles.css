@@ -133,9 +133,6 @@ p {
 }
 
 
-.visible-xs {
-    display: none !important;
-}
 
 
 
@@ -183,10 +180,6 @@ p {
 @media screen and (max-width: 767px) { 
     .navbar-nav {
         background-color: #00011c;
-    }
-
-    .visible-xs {
-        display: block !important;
     }
 
 }

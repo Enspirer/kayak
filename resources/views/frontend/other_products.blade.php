@@ -151,7 +151,7 @@
                         <div class="row">
                             <div class="col-12 col-md-4 mb-4">
                                 <a href="#" data-toggle="modal" data-target="#basicModal"><img
-                                        src="{{ url('img/frontend/other_products/orthopaedic/1.png') }}" alt=""
+                                        src="{{ url('img/frontend/other_products/orthopaedic/1.jpg') }}" alt=""
                                         class="img-fluid ortho-img"></a>
 
                                 <!-- ortho 1 modal -->
@@ -167,7 +167,7 @@
                                                 </button>
                                             </div>
                                             <div class="modal-body">
-                                                <img src="{{ url('img/frontend/other_products/orthopaedic/1.png') }}"
+                                                <img src="{{ url('img/frontend/other_products/orthopaedic/1.jpg') }}"
                                                     alt="" class="img-fluid ortho-img pop-img">
                                             </div>
                                         </div>
