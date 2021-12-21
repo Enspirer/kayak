@@ -1,6 +1,6 @@
 @extends('frontend.layouts.app')
 
-@section('title', app_name() . ' | ' . __('labels.frontend.contact.box_title'))
+@section('title', app_name() . ' | ' . __('Other Products'))
 
 @push('after-styles')
 <link rel="stylesheet" href="{{ url('css/other_products.css') }}">
