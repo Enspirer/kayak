@@ -15,9 +15,9 @@
                 @if(json_decode($featured_news->images)[1]->image2 == null && json_decode($featured_news->images)[2]->image3 == null)
                     <div class="row mt-4 mb-4">
                         <div class="col-12 col-md-7 mb-3 mb-md-0">
-                            <img src="{{ uploaded_asset(json_decode($featured_news->images)[0]->image1) }}" alt="..." class="img-fluid w-100" style="height: 22rem; object-fit: cover;">
+                            <img src="{{ uploaded_asset(json_decode($featured_news->images)[0]->image1) }}" alt="..." class="img-fluid w-100" style="object-fit: contain;">
                         </div>
-                        <div class="col-12 mt-5 col-md-5">
+                        <div class="col-12 col-md-5">
                             <h2 class="fw-bolder mb-2 mb-md-3">{{$featured_news->title}}</h2>
                             <p style="text-align: justify; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 12; -webkit-box-orient: vertical;">{!!$featured_news->description!!}</p>
                         </div>
@@ -28,21 +28,21 @@
                     <h2 class="fw-bolder">{{$featured_news->title}}</h2>
                     <div class="row mt-2 mt-md-4">
                         <div class="col-12 col-md-7 mb-3 mb-md-0">
-                            <img src="{{ uploaded_asset(json_decode($featured_news->images)[0]->image1) }}" alt="..." class="img-fluid w-100 main-images" style="height: 22rem; object-fit: cover;">
+                            <img src="{{ uploaded_asset(json_decode($featured_news->images)[0]->image1) }}" alt="..." class="img-fluid w-100 main-images" style="object-fit: contain;">
                         </div>
                         <div class="col-12 col-md-2 mb-2 mb-md-0">
                             <div class="row multiples">
                                 <div class="col-4 col-md-12 mb-2">
-                                    <img src="{{ uploaded_asset(json_decode($featured_news->images)[0]->image1) }}" alt="..." class="img-fluid w-100 other-images" style="height: 7rem; object-fit: cover;">
+                                    <img src="{{ uploaded_asset(json_decode($featured_news->images)[0]->image1) }}" alt="..." class="img-fluid w-100 other-images" style="object-fit: contain;">
                                 </div>
                                 @if(json_decode($featured_news->images)[1]->image2 != null)
                                     <div class="col-4 col-md-12 mb-2">
-                                        <img src="{{ uploaded_asset(json_decode($featured_news->images)[1]->image2) }}" alt="..." class="img-fluid w-100 other-images" style="height: 7rem; object-fit: cover;">
+                                        <img src="{{ uploaded_asset(json_decode($featured_news->images)[1]->image2) }}" alt="..." class="img-fluid w-100 other-images" style="object-fit: contain;">
                                     </div>
                                 @endif
                                 @if(json_decode($featured_news->images)[2]->image3 != null)
                                     <div class="col-4 col-md-12 mb-2">
-                                        <img src="{{ uploaded_asset(json_decode($featured_news->images)[2]->image3) }}" alt="..." class="img-fluid w-100 other-images" style="height: 7rem; object-fit: cover;">
+                                        <img src="{{ uploaded_asset(json_decode($featured_news->images)[2]->image3) }}" alt="..." class="img-fluid w-100 other-images" style="object-fit: contain;">
                                     </div>
                                 @endif
                             </div>

@@ -32,11 +32,10 @@
 
 @else
 <div class="container-fluid banner kayak-main-container">
-    <div class="container" style="padding-top: 6rem;">
+    <div class="container" style="padding-top: 9rem;">
         <div class="row justify-content-center">
             <div class="col-12 col-md-7 text-center">
                 <h2>Kayak Products</h2>
-                <p>We are doing our best to help our customers, throw stable steps</p>
             </div>
         </div>
     </div>
@@ -96,12 +95,12 @@
 
                                 <div
                                     class="row multiple5 mx-0 mt-4 mb-4 justify-content-center justify-content-md-start">
-                                    <div class="col-3 col-md-3 text-center me-1">
+                                    <div class="col-3 col-xs-12 text-center me-1">
                                         <a onclick="maskSubOne()" href="#"> <img id="maskSubImgOne"
                                                 src="{{ url('img/frontend/kayak_products/respiratory-masks/breath-right/N95 Masks1.png') }}"
                                                 alt="" class="img-fluid"> </a>
                                     </div>
-                                    <div class="col-3 col-md-3 text-center me-1">
+                                    <div class="col-3 col-xs-12 text-center me-1">
                                         <a onclick="maskSubTwo()" href="#">
                                             <img id="maskSubImgTwo"
                                                 src="{{ url('img/frontend/kayak_products/respiratory-masks/breath-right/N95 Masks2.jpg') }}"
@@ -193,18 +192,18 @@
                                 <div
                                     class="row multiple5 mx-0 mt-4 mb-4 justify-content-center justify-content-md-start">
 
-                                    <div class="col-3 col-md-3 text-center me-1">
+                                    <div class="col-3 col-xs-12 text-center me-1">
                                         <a onclick="endoSubOne()" href="#">
                                             <img src="{{ url('img/frontend/kayak_products/endo-tubes/abercom1.jpg') }}"
                                                 id="image13" alt="" class="img-fluid"></a>
                                     </div>
-                                    <div class="col-3 col-md-3 text-center me-1">
+                                    <div class="col-3 col-xs-12 text-center me-1">
                                         <a onclick="endoSubTwo()">
                                             <img src="{{ url('img/frontend/kayak_products/endo-tubes/abercom3.png') }}"
                                                 id="image14" alt="" class="img-fluid">
                                         </a>
                                     </div>
-                                    <div class="col-3 col-md-3 text-center me-1">
+                                    <div class="col-3 col-xs-12 text-center me-1">
                                         <a onclick="endoSubThree()" href="#">
                                             <img src="{{ url('img/frontend/kayak_products/endo-tubes/abercom2.png') }}"
                                                 id="image13" alt="" class="img-fluid"></a>
@@ -948,17 +947,17 @@
 
                                 <div
                                     class="row multiple3 mx-0 mt-4 mb-4 justify-content-center justify-content-md-start">
-                                    <div class="col-3 col-md-3 text-center me-1">
+                                    <div class="col-3 col-xs-12 text-center me-1">
                                         <a href="#" onclick="rollOne()" >
                                         <img src="{{ url('img/frontend/kayak_products/roll1.png') }}" id="rollSubOne" alt=""
                                             class="img-fluid"></a>
                                     </div>
-                                    <div class="col-3 col-md-3 text-center me-1">
+                                    <div class="col-3 col-xs-12 text-center me-1">
                                         <a href="#" onclick="rollTwo()">
                                         <img src="{{ url('img/frontend/kayak_products/roll2.png') }}" id="rollSubTwo" alt=""
                                             class="img-fluid"></a>
                                     </div>
-                                    <!-- <div class="col-3 col-md-3 text-center me-1">
+                                    <!-- <div class="col-3 col-xs-12 text-center me-1">
                                             <img src="{{ url('img/frontend/kayak_products/roll.png') }}" id="image9" alt="" class="img-fluid">
                                         </div> -->
                                 </div>
@@ -1018,15 +1017,15 @@
 
                                 <div
                                     class="row multiple5 mx-0 mt-4 mb-4 justify-content-center justify-content-md-start">
-                                    <div class="col-3 col-md-3 text-center me-1">
+                                    <div class="col-3 col-xs-12 text-center me-1">
                                         <a href="#" onclick="apronSubOne()">
                                             <img id="apronSubImgOne" src="" id="image13" alt="" class="img-fluid"></a>
                                     </div>
-                                    <div class="col-3 col-md-3 text-center me-1">
+                                    <div class="col-3 col-xs-12 text-center me-1">
                                         <a href="#" onclick="apronSubTwo()">
                                             <img id="apronSubImgTwo" src="" id="image14" alt="" class="img-fluid"></a>
                                     </div>
-                                    <div class="col-3 col-md-3 text-center me-1">
+                                    <div class="col-3 col-xs-12 text-center me-1">
                                         <a href="#" onclick="apronSubThree()">
                                             <img src="" id="apronSubImgThree" alt="" class="img-fluid"></a>
                                     </div>
@@ -1107,13 +1106,13 @@
 
                                 <div
                                     class="row multiple5 mx-0 mt-4 mb-4 justify-content-center justify-content-md-start">
-                                    <div class="col-3 col-md-3 text-center me-1">
+                                    <div class="col-3 col-xs-12 text-center me-1">
                                         <a href="#" onclick="spinalSubOne()">
                                             <img src="{{ url('img/frontend/kayak_products/spinal_needles/needles.jpg') }}"
                                                 id="image13" alt="" class="img-fluid">
                                         </a>
                                     </div>
-                                    <div class="col-3 col-md-3 text-center me-1">
+                                    <div class="col-3 col-xs-12 text-center me-1">
                                         <a href="#" onclick="spinalSubTwo()">
                                             <img src="{{ url('img/frontend/kayak_products/spinal_needles/spinal needle2.png') }}"
                                                 id="image14" alt="" class="img-fluid"></a>

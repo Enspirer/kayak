@@ -286,7 +286,7 @@
                     <div class="card">
                         <div class="card-body text-center">
                             <img style="padding-bottom: 10px;"
-                                src="{{ url('img/frontend/kayak_products/spinal_needles/needles.jpg') }}" alt="...">
+                                src="{{ url('img/frontend/kayak_products/spinal_needles/spinal needle2.png') }}" alt="...">
                             <h6 class="card-title fw-bold mb-2">Spinal Needles</h6>
                             <!-- <div class="text-center mb-2">
                                 <i class="bi bi-star-fill gold"></i>
@@ -316,7 +316,7 @@
             <div class="row pt-5">
                 <div class="col-12 text-center mb-4 mb-md-0">
                     <h3>Other Products</h3>
-                    <p>We are doing our best to help our customers.</p>
+                    <p class="narrow-para">Unwavering trust for decades, with global partners </p>
                 </div>
             </div>
 
@@ -325,14 +325,8 @@
                     <div class="row align-items-center">
                         <div class="col-12 col-md-6 text-center">
                             <!-- <h4 class="fw-bold">SURGICAL DIVISION</h4> -->
-                            <p>Kayak Surgical Division provides Orthopedic and Hand Surgery essentials. We also supply
-                                Cardiac surgery goods such as Perfusion Cannula. We are partnered with leading
-                                manufacturers worldwide with exclusive products to provide for our Nation.
-                                We excel in providing Post-Surgical Garments, Bacteria Filters, Cellulose Wadding, IV
-                                Cannula, Spinal Needle, Endotracheal tubes, Syringes, Face Masks, N-95 Masks and other
-                                general medical products. Our unparallel manufacturing technology allows us to provide
-                                better solutions for our stakeholders.
-                            </p>
+                            <p>To ensure that we provide top tier product quality, we have partnered with many global brands. We import and distribute many surgical and public healthcare essentials from credible and well established overseas suppliers.
+We invest in extensive research on careful selection of our suppliers to compliment Kayak quality promise. </p>
                         </div>
 
                         <div class="col-12 col-md-6">
@@ -383,7 +377,7 @@
                         </div>
                     </div>
 
-                    <div class="text-center mt-5">
+                    <div class="text-center mt-1">
                         <a href="{{ route('frontend.other_products') }}" type="button"
                             class="btn text-decoration-none text-white rounded-pill"
                             style="background-color: #00ACEE;">View All Products</a>
@@ -402,7 +396,7 @@
                 <div class="col-10">
                     <div class="row">
                         <div class="col-12 text-center">
-                            <h1>Latest From Kayak</h1>
+                            <h1 class="mb-1">Latest From Kayak</h1>
                             <p>At Kayak, we are constantly focusing on providing better solutions for our clientele. We
                                 undertake extensive research on our product standards and how it serves healthcare
                                 organizations worldwide.</p>
@@ -435,6 +429,7 @@
                                             style="text-align: justify; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 5; -webkit-box-orient: vertical; font-size: 0.8rem;">
                                             {{str_replace("&nbsp;", " ", strip_tags($news_1->description))}}
                                         </p>
+                                        <a class="news-link" href="{{url('news')}}">Read More</a>
                                     </div>
                                 </div>
                             </div>
@@ -457,6 +452,7 @@
                                             style="text-align: justify; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 5; -webkit-box-orient: vertical; font-size: 0.8rem;">
                                             {{str_replace("&nbsp;", " ", strip_tags($news_2->description))}}
                                         </p>
+                                        <a class="news-link" href="{{url('news')}}">Read More</a>
                                     </div>
                                 </div>
                             </div>
@@ -479,6 +475,7 @@
                                             style="text-align: justify; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 5; -webkit-box-orient: vertical; font-size: 0.8rem;">
                                             {{str_replace("&nbsp;", " ", strip_tags($news_3->description))}}
                                         </p>
+                                        <a class="news-link" href="{{url('news')}}">Read More</a>
                                     </div>
                                 </div>
                             </div>

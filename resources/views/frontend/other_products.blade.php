@@ -8,11 +8,10 @@
 
 @section('content')
 <div class="container-fluid banner other-products">
-    <div class="container" style="padding-top: 6rem;">
+    <div class="container" style="padding-top: 9rem;">
         <div class="row justify-content-center">
             <div class="col-12 col-md-7 text-center">
                 <h2>Other Products</h2>
-                <p>Tissue Items such as paper serviette, Toilet Tissue, Kitchen Towel etc.</p>
             </div>
         </div>
     </div>
