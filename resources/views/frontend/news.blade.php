@@ -17,7 +17,7 @@
                         <div class="col-12 col-md-7 mb-3 mb-md-0">
                             <img src="{{ uploaded_asset(json_decode($featured_news->images)[0]->image1) }}" alt="..." class="img-fluid w-100" style="object-fit: contain;">
                         </div>
-                        <div class="col-12 mt-5 col-md-5">
+                        <div class="col-12 col-md-5">
                             <h2 class="fw-bolder mb-2 mb-md-3">{{$featured_news->title}}</h2>
                             <p style="text-align: justify; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 12; -webkit-box-orient: vertical;">{{$featured_news->description}}</p>
                         </div>
