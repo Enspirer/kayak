@@ -155,7 +155,7 @@
                 </div>
                 <div class="card about-main">
                     <div class="card-body">
-                        <h5 class="card-title mb-2">R & D</h5>
+                        <h5 class="card-title mb-2">Manufacturing</h5>
                         <p class="card-text">Kayak is one of the first-ever organizations to set up manufacturing
                             operations for Cellulose Wadding. Thereafter, we introduced a wide scope of medical goods
                             such as Surgical Aprons, Respiratory Masks, Spinal Needles, Endotracheal Tubes and Many
@@ -180,7 +180,7 @@
                 </div>
                 <div class="card about-main">
                     <div class="card-body ">
-                        <h5 class="card-title mb-2">Manufacturing</h5>
+                        <h5 class="card-title mb-2">Importer & Exporter</h5>
                         <p class="card-text">We also engage in import and supply of many types of Medical items in Sri
                             Lanka. We Strive to import Quality Products that heal the Nation.
                             We are one of the local manufacturers to Export Medical Goods.
@@ -230,7 +230,7 @@
                         <div class="card-body text-center">
                             <img src="{{ url('img/frontend/kayak_products/respiratory-masks/breath-right/N95 Masks1.png') }}"
                                 alt="...">
-                            <h5 class="card-title fw-bold mb-2">Face Masks</h5>
+                            <h5 class="card-title fw-bold mb-2">N95</h5>
                             <!-- <div class="text-center mb-2">
                                 <i class="bi bi-star-fill gold"></i>
                                 <i class="bi bi-star-fill gold"></i>
@@ -243,6 +243,26 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img src="{{ url('img/frontend/kayak_products/respiratory-masks/smile/kn95-1.png') }}"
+                                alt="...">
+                            <h5 class="card-title fw-bold mb-2">KN95</h5>
+                            <!-- <div class="text-center mb-2">
+                                <i class="bi bi-star-fill gold"></i>
+                                <i class="bi bi-star-fill gold"></i>
+                                <i class="bi bi-star-fill gold"></i>
+                                <i class="bi bi-star-fill gold"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <p class="card-text mb-md-3">At Kayak, Quality is Our Prime Concern. Browse Our Portfolio.</p> -->
+                            <!-- <a href="{{ route('frontend.kayak_products') }}" class="btn more-btn d-none">View More</a> -->
+                        </div>
+                    </div>
+                </div>
+
                 <div class="swiper-slide">
                     <div class="card">
                         <div class="card-body text-center">
@@ -281,6 +301,26 @@
                     </div>
                 </div>
 
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img style="padding-bottom: 10px;"
+                                src="{{ url('img/frontend/kayak_products/surgical-aprons/wear-on-one.png') }}"
+                                alt="...">
+                            <h6 class="card-title fw-bold mb-2">Wear on</h6>
+                            <!-- <div class="text-center mb-2">
+                                <i class="bi bi-star-fill gold"></i>
+                                <i class="bi bi-star-fill gold"></i>
+                                <i class="bi bi-star-fill gold"></i>
+                                <i class="bi bi-star-fill gold"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <p class="card-text mb-md-3" style="font-size: 0.8rem;">At Kayak, Quality is Our Prime Concern. Browse Our Portfolio.</p> -->
+                            <!-- <a href="{{ route('frontend.kayak_products') }}" class="btn more-btn d-none">View More</a> -->
+                        </div>
+                    </div>
+                </div>
+
 
                 <div class="swiper-slide">
                     <div class="card">
@@ -288,6 +328,45 @@
                             <img style="padding-bottom: 10px;"
                                 src="{{ url('img/frontend/kayak_products/spinal_needles/spinal needle2.png') }}" alt="...">
                             <h6 class="card-title fw-bold mb-2">Spinal Needles</h6>
+                            <!-- <div class="text-center mb-2">
+                                <i class="bi bi-star-fill gold"></i>
+                                <i class="bi bi-star-fill gold"></i>
+                                <i class="bi bi-star-fill gold"></i>
+                                <i class="bi bi-star-fill gold"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <p class="card-text mb-md-3" style="font-size: 0.8rem;">At Kayak, Quality is Our Prime Concern. Browse Our Portfolio.</p> -->
+                            <!-- <a href="{{ route('frontend.kayak_products') }}" class="btn more-btn d-none">View More</a> -->
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img style="padding-bottom: 10px;"
+                                src="{{url('img/frontend/kayak_consumer_products/product_two.png')}}" alt="...">
+                            <h6 class="card-title fw-bold mb-2">Serviette Paper</h6>
+                            <!-- <div class="text-center mb-2">
+                                <i class="bi bi-star-fill gold"></i>
+                                <i class="bi bi-star-fill gold"></i>
+                                <i class="bi bi-star-fill gold"></i>
+                                <i class="bi bi-star-fill gold"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <p class="card-text mb-md-3" style="font-size: 0.8rem;">At Kayak, Quality is Our Prime Concern. Browse Our Portfolio.</p> -->
+                            <!-- <a href="{{ route('frontend.kayak_products') }}" class="btn more-btn d-none">View More</a> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img style="padding-bottom: 10px;"
+                                src="{{url('img/frontend/kayak_consumer_products/product_three.png')}}" alt="...">
+                            <h6 class="card-title fw-bold mb-2">Toilet Paper</h6>
                             <!-- <div class="text-center mb-2">
                                 <i class="bi bi-star-fill gold"></i>
                                 <i class="bi bi-star-fill gold"></i>
@@ -396,7 +475,7 @@ We invest in extensive research on careful selection of our suppliers to complim
                 <div class="col-10">
                     <div class="row">
                         <div class="col-12 text-center">
-                            <h1 class="mb-1">Latest From Kayak</h1>
+                            <h1 class="mb-1">Latest at Kayak</h1>
                             <p>At Kayak, we are constantly focusing on providing better solutions for our clientele. We
                                 undertake extensive research on our product standards and how it serves healthcare
                                 organizations worldwide.</p>

@@ -433,7 +433,7 @@ let surgicalAprons = [
 let respiratorMasks = [
     {
         id:1,
-        productName: "Breath Right",
+        productName: "N95",
         specification: "N95 Respiratory<br> Protection,fold- flat<br>respirator,individually<br> packed",
         filtrationRate: "Bacteria Filtration ≥ 99%<br>Particle Filtration ≥ 95 %",
         packSize: "1 x 1",
@@ -443,7 +443,7 @@ let respiratorMasks = [
     },
     {
         id:2,
-        productName: "Smile",
+        productName: "KN95",
         specification: "KN95 Respirator Mask,<br> individually packed",
         filtrationRate: "Bacteria Filtration ≥ 99%<br>Particle Filtration ≥ 95 %",
         packSize: "1 x 1",

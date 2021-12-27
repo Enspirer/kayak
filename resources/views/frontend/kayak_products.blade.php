@@ -124,7 +124,7 @@
                                 <div class="row">
                                     <div class="spec-row">
                                         <span class="spec">Product:</span>
-                                        <p id="maskProduct">Breath Right</p>
+                                        <p id="maskProduct">N95</p>
                                     </div>
                                     <div class="spec-row">
                                         <span class="spec">Specification: </span>
@@ -1041,7 +1041,7 @@
                                 <button onclick="apronOne()" class="product-varient-btn-apron active">Surgical
                                     Apron</button>
                                 <button onclick="apronTwo()" class="product-varient-btn-apron">Wear-on
-                                    (Sterille)</button>
+                                    (Sterile)</button>
                             </div>
                             <div class="row">
                                 <div class="content-wrapper">

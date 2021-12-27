@@ -19,7 +19,7 @@ Route::get('/', [HomeController::class, 'index'])->name('index');
 Route::get('contact-us', [ContactController::class, 'index'])->name('contact_us');
 Route::post('contact/store', [ContactController::class, 'store'])->name('contact.store');
 
-
+Route::get('kayak-consumer-products', [ProductsController::class, 'kayakConsumerProducts'])->name('kayak_consumer_products');
 Route::get('other-products', [ProductsController::class, 'otherProducts'])->name('other_products');
 Route::get('kayak-products', [ProductsController::class, 'kayakProducts'])->name('kayak_products');
 Route::post('products/send', [ProductsController::class, 'send'])->name('products.send');
