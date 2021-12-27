@@ -281,6 +281,10 @@ img.round-img {
         height: 80px;
     }
 
+    .view-more-wrapper a {
+        margin-top: 0;
+    }
+
     .swiper-button-next, .swiper-button-prev {
         top: 40%;
     }

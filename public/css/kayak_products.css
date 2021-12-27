@@ -515,4 +515,12 @@ button.product-varient-btn-apron:hover, button.product-varient-btn-apron.active 
     .kayak-main-container {
         margin-top: 75px;
     }
+
+    .tab-content .col-md-5 img {
+        height: 12rem;
+    }
+
+    .kayak-sub-img-box  {
+        padding: 5px;
+    }
 }

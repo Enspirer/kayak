@@ -8,7 +8,7 @@
 
 @section('content')
 <div class="container-fluid banner other-products">
-    <div class="container" style="padding-top: 9rem;">
+    <div class="container tab-container" style="padding-top: 9rem;">
         <div class="row justify-content-center">
             <div class="col-12 col-md-7 text-center">
                 <h2>Other Products</h2>
@@ -16,7 +16,7 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container ">
         <div class="row mt-4 mt-md-5">
             <div class="col-12 col-md-4 mb-4 mb-md-0">
                 <div class="accordion" id="accordionExample">
@@ -428,11 +428,11 @@
                                     <li>Labeled For Organic Gardening by the USEPA.</li>
                                     <li>The quintessential highly effective low impact product</li>
                                 </ul>
-                                <a class="other-more-link"
+                               
+                            </div>
+                            <a class="other-more-link"
                                     href="{{ url('pdf/other-products/Summit_Catalog-fnl-web.pdf') }}"
                                     target="_blank">Read More</a>
-                            </div>
-
                             <iframe width="450" height="315" src="https://www.youtube.com/embed/5xq4o0-val4"
                                 title="YouTube video player" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
