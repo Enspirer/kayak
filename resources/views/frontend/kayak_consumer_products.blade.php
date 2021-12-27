@@ -20,17 +20,20 @@
     <div class="container">
         <div class="row mt-4 mt-md-5 consumer-row">
 
-            <a class="consumer-img" href="#" data-toggle="modal" data-target="#basicModalOne"><img
+            <a class="consumer-img-link" href="#" data-toggle="modal" data-target="#basicModalOne">
+                <img
                     src="{{ url('img/frontend/kayak_consumer_products/product_one.png') }}" 
                     alt=""
-                    class="img-fluid consumer-img"></a>
+                    class="img-fluid consumer-img">
+                <h5>Paper Serviettes</h5>
+                </a>
 
             <div class="modal fade" id="basicModalOne" tabindex="-1" role="dialog" aria-labelledby="basicModal"
                 aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h4>Serviette Paper and Toilet Roll</h4>
+                        <h5>Paper Serviettes</h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">×</span>
                             </button>
@@ -38,23 +41,26 @@
                         <div class="modal-body">
                             <img src="{{url('img/frontend/kayak_consumer_products/product_one.png')}}" alt=""
                                 class="img-fluid consumer-img pop-img">
+                           
                         </div>
                     </div>
                 </div>
             </div>
 
 
-            <a class="consumer-img" href="#" data-toggle="modal" data-target="#basicModalTwo"><img
+            <a class="consumer-img-link" href="#" data-toggle="modal" data-target="#basicModalTwo"><img
                     src="{{ url('img/frontend/kayak_consumer_products/product_two.png') }}" 
                     alt=""
-                    class="img-fluid consumer-img"></a>
+                    class="img-fluid consumer-img">
+                    <h5>Paper Serviettes</h5>
+                </a>
 
             <div class="modal fade" id="basicModalTwo" tabindex="-1" role="dialog" aria-labelledby="basicModal"
                 aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h4>Serviette Paper and Toilet Roll</h4>
+                        <h5>Paper Serviettes</h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">×</span>
                             </button>
@@ -62,23 +68,26 @@
                         <div class="modal-body">
                             <img src="{{url('img/frontend/kayak_consumer_products/product_two.png')}}" alt=""
                                 class="img-fluid consumer-img pop-img">
+                         
                         </div>
                     </div>
                 </div>
             </div>
 
 
-            <a class="consumer-img" href="#" data-toggle="modal" data-target="#basicModalThree"><img
+            <a class="consumer-img-link" href="#" data-toggle="modal" data-target="#basicModalThree"><img
                     src="{{ url('img/frontend/kayak_consumer_products/product_three.png') }}" 
                     alt=""
-                    class="img-fluid consumer-img"></a>
+                    class="img-fluid consumer-img">
+                    <h5>Toilet Rolls</h5>
+                </a>
 
             <div class="modal fade" id="basicModalThree" tabindex="-1" role="dialog" aria-labelledby="basicModal"
                 aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h4>Serviette Paper and Toilet Roll</h4>
+                        <h5>Toilet Rolls</h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">×</span>
                             </button>
@@ -86,6 +95,7 @@
                         <div class="modal-body">
                             <img src="{{url('img/frontend/kayak_consumer_products/product_three.png')}}" alt=""
                                 class="img-fluid consumer-img pop-img">
+                                
                         </div>
                     </div>
                 </div>

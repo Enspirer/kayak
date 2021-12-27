@@ -230,7 +230,7 @@
                         <div class="card-body text-center">
                             <img src="{{ url('img/frontend/kayak_products/respiratory-masks/breath-right/N95 Masks1.png') }}"
                                 alt="...">
-                            <h5 class="card-title fw-bold mb-2">N95</h5>
+                            <h5 class="card-title fw-bold mb-2">N95 Mask</h5>
                             <!-- <div class="text-center mb-2">
                                 <i class="bi bi-star-fill gold"></i>
                                 <i class="bi bi-star-fill gold"></i>
@@ -249,7 +249,7 @@
                         <div class="card-body text-center">
                             <img src="{{ url('img/frontend/kayak_products/respiratory-masks/smile/kn95-1.png') }}"
                                 alt="...">
-                            <h5 class="card-title fw-bold mb-2">KN95</h5>
+                            <h5 class="card-title fw-bold mb-2">KN95 Mask</h5>
                             <!-- <div class="text-center mb-2">
                                 <i class="bi bi-star-fill gold"></i>
                                 <i class="bi bi-star-fill gold"></i>
@@ -287,7 +287,7 @@
                             <img style="padding-bottom: 10px;"
                                 src="{{ url('img/frontend/kayak_products/surgical-aprons/surgical-apron.png') }}"
                                 alt="...">
-                            <h6 class="card-title fw-bold mb-2">Surgical Aprons</h6>
+                            <h6 class="card-title fw-bold mb-2">Surgical Aprons<br>(Non-Sterile)</h6>
                             <!-- <div class="text-center mb-2">
                                 <i class="bi bi-star-fill gold"></i>
                                 <i class="bi bi-star-fill gold"></i>
@@ -307,7 +307,7 @@
                             <img style="padding-bottom: 10px;"
                                 src="{{ url('img/frontend/kayak_products/surgical-aprons/wear-on-one.png') }}"
                                 alt="...">
-                            <h6 class="card-title fw-bold mb-2">Wear on</h6>
+                            <h6 class="card-title fw-bold mb-2">Surgical Aprons<br>(Sterile)</h6>
                             <!-- <div class="text-center mb-2">
                                 <i class="bi bi-star-fill gold"></i>
                                 <i class="bi bi-star-fill gold"></i>
@@ -346,8 +346,8 @@
                     <div class="card">
                         <div class="card-body text-center">
                             <img style="padding-bottom: 10px;"
-                                src="{{url('img/frontend/kayak_consumer_products/product_two.png')}}" alt="...">
-                            <h6 class="card-title fw-bold mb-2">Serviette Paper</h6>
+                                src="{{url('img/frontend/kayak_consumer_products/product_one.png')}}" alt="...">
+                            <h6 class="card-title fw-bold mb-2">Paper Serviette</h6>
                             <!-- <div class="text-center mb-2">
                                 <i class="bi bi-star-fill gold"></i>
                                 <i class="bi bi-star-fill gold"></i>

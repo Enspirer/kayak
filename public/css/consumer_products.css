@@ -1,5 +1,18 @@
-.consumer-img {
+.consumer-img, .consumer-img-link {
     width: 300px;
+    text-align: center;
+    color: #000;
+}
+
+.consumer-img-link {
+    border: 1px solid #00acee;
+    border-radius: 8px;
+    margin: 20px;
+}
+
+.consumer-img:hover, .consumer-img-link:hover {
+    text-decoration: none;
+    color: #000;
 }
 
 .consumer-row {
@@ -11,4 +24,9 @@
 
 .modal-content {
     text-align: center;
+}
+
+
+a.consumer-img-link h5 {
+    margin-bottom: 30px !important;
 }

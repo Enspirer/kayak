@@ -411,7 +411,7 @@ let surgicalAprons = [
     {
         id:1,
         srNumber: "14800501",
-        productName: "Surgical Apron",
+        productName: "Surgical Aprons (Non-Sterile)",
         specification: "Apron disposable, medical use, for neck to toe protection (Non Sterile)",
         size: "152cm x 71cm<br>(Length x Width)",
         packSize: "1 x 50",
@@ -421,7 +421,7 @@ let surgicalAprons = [
     {
         id:1,
         srNumber: "(no SR Number)",
-        productName: "Wear - on",
+        productName: "Surgical Aprons(Sterile)",
         specification: "Apron disposable, medical use, for neck to toe protection, individually packed (Sterile)",
         size: "152cm x 71cm(Length x Width)",
         packSize: "1 x 12",
@@ -433,7 +433,7 @@ let surgicalAprons = [
 let respiratorMasks = [
     {
         id:1,
-        productName: "N95",
+        productName: "N95 Mask",
         specification: "N95 Respiratory<br> Protection,fold- flat<br>respirator,individually<br> packed",
         filtrationRate: "Bacteria Filtration ≥ 99%<br>Particle Filtration ≥ 95 %",
         packSize: "1 x 1",
@@ -443,7 +443,7 @@ let respiratorMasks = [
     },
     {
         id:2,
-        productName: "KN95",
+        productName: "KN95 Mask",
         specification: "KN95 Respirator Mask,<br> individually packed",
         filtrationRate: "Bacteria Filtration ≥ 99%<br>Particle Filtration ≥ 95 %",
         packSize: "1 x 1",

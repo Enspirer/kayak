@@ -70,10 +70,10 @@
                             aria-selected="false" class="nav-link fw-bolder mb-3">Spinal Needles<i
                                 class="bi bi-plus-lg"></i></button></li>
 
-                    <li role="presentation" class="nav-item"><button id="pills-serviette-tab" data-bs-toggle="pill"
+                    <!-- <li role="presentation" class="nav-item"><button id="pills-serviette-tab" data-bs-toggle="pill"
                             data-bs-target="#pills-serviette" type="button" role="tab" aria-controls="pills-serviette"
                             aria-selected="false" class="nav-link fw-bolder mb-3">Consumer Products<i
-                                class="bi bi-plus-lg"></i></button></li>
+                                class="bi bi-plus-lg"></i></button></li> -->
 
                 </ul>
             </div>
@@ -118,8 +118,8 @@
 
                             <div class="product-varients-wrapper">
                                 <h5 style="margin-right: 15px;">Masks Products :- </h5>
-                                <button onclick="masksOne()" class="product-varient-btn active">N95</button>
-                                <button onclick="masksTwo()" class="product-varient-btn">KN95</button>
+                                <button onclick="masksOne()" class="product-varient-btn active">N95 Mask</button>
+                                <button onclick="masksTwo()" class="product-varient-btn">KN95 Mask</button>
                             </div>
 
                         </div>
@@ -130,7 +130,7 @@
                                 <div class="row">
                                     <div class="spec-row">
                                         <span class="spec">Product:</span>
-                                        <p id="maskProduct">N95</p>
+                                        <p id="maskProduct">N95 Mask</p>
                                     </div>
                                     <div class="spec-row">
                                         <span class="spec">Specification: </span>
@@ -1045,8 +1045,8 @@
                             <div class="product-varients-wrapper">
                                 <h5 style="margin-right: 15px;">Apron Products :- </h5>
                                 <button onclick="apronOne()" class="product-varient-btn-apron active">Surgical
-                                    Apron</button>
-                                <button onclick="apronTwo()" class="product-varient-btn-apron">Wear-on
+                                    Aprons<br>(Non-Sterile)</button>
+                                <button onclick="apronTwo()" class="product-varient-btn-apron">Surgical Aprons <br>
                                     (Sterile)</button>
                             </div>
                             <div class="row">
@@ -1058,7 +1058,7 @@
                                         </div>
                                         <div class="spec-row">
                                             <span class="spec">Product:</span>
-                                            <p id="apronProduct">Surgical Apron</p>
+                                            <p id="apronProduct">Surgical Apron (Non_Sterile)</p>
                                         </div>
                                         <div class="spec-row">
                                             <span class="spec">Specification: </span>
@@ -1363,7 +1363,7 @@
 
 
                       <!-- for serviette paper and toilet roll  -->
-                      <div class="tab-pane fade" id="pills-serviette" aria-labelledby="pills-serviette-tab">
+                      <!-- <div class="tab-pane fade" id="pills-serviette" aria-labelledby="pills-serviette-tab">
                         <div class="row">
                           
                         <div class="col-12 col-md-5 mb-4 mb-md-0 text-center kayak-main-img-area">
@@ -1398,7 +1398,7 @@
 
                             </div>
                         </div>
-                    </div>
+                    </div> -->
 
                 </div>
             </div>
