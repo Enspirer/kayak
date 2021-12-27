@@ -474,6 +474,17 @@ button.product-varient-btn-apron:hover, button.product-varient-btn-apron.active 
     padding-left: 30px;
 }
 
+.toilet-paper-img {
+    width: 250px;
+}
+
+.kayak-main-img-area {
+    z-index: 1;
+}
+
+.kayak-sub-img-area {
+    z-index: -1;
+}
 
 /*mobile-view*/
 @media screen and (max-width: 767px) {  

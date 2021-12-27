@@ -15,10 +15,6 @@ class ProductsController extends Controller
     /**
      * @return \Illuminate\View\View
      */
-    public function kayakConsumerProducts()
-    {
-        return view('frontend.kayak_consumer_products');
-    }
     public function otherProducts()
     {
         return view('frontend.other_products');

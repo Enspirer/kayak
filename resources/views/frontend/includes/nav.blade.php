@@ -41,7 +41,6 @@
                         <ul class="dropdown-menu px-0" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item py-2" href="{{ route('frontend.kayak_products') }}">Kayak Products</a></li>
                             <li><a class="dropdown-item py-2" href="{{ route('frontend.other_products') }}">Other Products</a></li>
-                            <li><a class="dropdown-item py-2" href="{{ route('frontend.kayak_consumer_products') }}">Kayak Consumer Products</a></li>
                         </ul>
                     </li>
                     <li class="nav-item mx-3">

@@ -69,6 +69,12 @@
                             data-bs-target="#pills-spinal" type="button" role="tab" aria-controls="pills-spinal"
                             aria-selected="false" class="nav-link fw-bolder mb-3">Spinal Needles<i
                                 class="bi bi-plus-lg"></i></button></li>
+
+                    <li role="presentation" class="nav-item"><button id="pills-serviette-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-serviette" type="button" role="tab" aria-controls="pills-serviette"
+                            aria-selected="false" class="nav-link fw-bolder mb-3">Consumer Products<i
+                                class="bi bi-plus-lg"></i></button></li>
+
                 </ul>
             </div>
 
@@ -79,7 +85,7 @@
                     <div class="tab-pane fade active show" id="pills-respirator-masks" aria-labelledby="pills-mask-tab">
                         <div class="row">
 
-                            <div class="col-12 col-md-5 mb-4 mb-md-0 text-center">
+                            <div class="col-12 col-md-5 mb-4 mb-md-0 text-center kayak-main-img-area">
                                <img id="maskImg"
                                         src="{{ url('img/frontend/kayak_products/respiratory-masks/breath-right/N95 Masks1.png') }}"
                                         alt="" class="img-fluid main-image5 zoom-img">
@@ -88,7 +94,7 @@
                             </div>
 
 
-                            <div class="col-12 col-md-7 kayak-products-row" style="z-index:1">
+                            <div class="col-12 col-md-7 kayak-products-row kayak-sub-img-area" style="z-index:1">
 
                                 <h5 class="fw-bold text-center text-md-left">Respirator Masks</h5>
                                 <hr>
@@ -180,11 +186,11 @@
                     <!-- endotracheal tubes -->
                     <div class="tab-pane fade" id="pills-endo-tubes" aria-labelledby="pills-tubes">
                         <div class="row">
-                            <div class="col-12 col-md-5 mb-4 mb-md-0 text-center">
+                            <div class="col-12 col-md-5 mb-4 mb-md-0 text-center kayak-main-img-area">
                                 <img id="endoImg" class="zoom-img"
-                                    src="{{ url('img/frontend/kayak_products/endo-tubes/abercom1.png') }}">
+                                    src="{{ url('img/frontend/kayak_products/endo-tubes/abercom1.jpg') }}">
                             </div>
-                            <div class="col-12 col-md-7 kayak-products-row">
+                            <div class="col-12 col-md-7 kayak-products-row kayak-sub-img-area">
 
                                 <h5 class="fw-bold text-center text-md-left">Endotracheal Tube</h5>
                                 <hr>
@@ -199,13 +205,13 @@
                                     </div>
                                     <div class="col-3 col-xs-12 text-center me-1">
                                         <a onclick="endoSubTwo()">
-                                            <img src="{{ url('img/frontend/kayak_products/endo-tubes/abercom3.png') }}"
+                                            <img src="{{ url('img/frontend/kayak_products/endo-tubes/abercom3.jpg') }}"
                                                 id="image14" alt="" class="img-fluid">
                                         </a>
                                     </div>
                                     <div class="col-3 col-xs-12 text-center me-1">
                                         <a onclick="endoSubThree()" href="#">
-                                            <img src="{{ url('img/frontend/kayak_products/endo-tubes/abercom2.png') }}"
+                                            <img src="{{ url('img/frontend/kayak_products/endo-tubes/abercom2.jpg') }}"
                                                 id="image13" alt="" class="img-fluid"></a>
                                     </div>
 
@@ -937,11 +943,11 @@
                     <!-- surgical cellulose roll -->
                     <div class="tab-pane fade" id="pills-cellulose" aria-labelledby="pills-cellulose-tab">
                         <div class="row">
-                            <div class="col-12 col-md-5 mb-4 mb-md-0 text-center">
+                            <div class="col-12 col-md-5 mb-4 mb-md-0 text-center kayak-main-img-area">
                                 <img id="rollImg" src="{{ url('img/frontend/kayak_products/roll1.png') }}" alt=""
                                     class="img-fluid main-image3 zoom-img">
                             </div>
-                            <div class="col-12 col-md-7 kayak-products-row">
+                            <div class="col-12 col-md-7 kayak-products-row kayak-sub-img-area">
                                 <h5 class="fw-bold text-center text-md-left">Multilayer Surgical Cellulose Roll</h5>
                                 <hr>
 
@@ -1005,12 +1011,12 @@
                     <!-- surgical aprons -->
                     <div class="tab-pane fade" id="pills-apron" aria-labelledby="pills-surgical-tab">
                         <div class="row">
-                            <div class="col-12 col-md-5 mb-4 mb-md-0 text-center">
+                            <div class="col-12 col-md-5 mb-4 mb-md-0 text-center kayak-main-img-area">
                                 <img id="apronImg"
                                     src="{{ url('img/frontend/kayak_products/surgical-aprons/surgical-apron.png') }}"
                                     alt="" class="img-fluid main-image5 zoom-img">
                             </div>
-                            <div class="col-12 col-md-7 kayak-products-row">
+                            <div class="col-12 col-md-7 kayak-products-row kayak-sub-img-area">
 
                                 <h5 class="fw-bold text-center text-md-left">Surgical Aprons</h5>
                                 <hr>
@@ -1094,12 +1100,12 @@
                     <!-- spinal needles -->
                     <div class="tab-pane fade" id="pills-spinal" aria-labelledby="pills-spinal-tab">
                         <div class="row">
-                            <div class="col-12 col-md-5 mb-4 mb-md-0 text-center">
+                            <div class="col-12 col-md-5 mb-4 mb-md-0 text-center kayak-main-img-area">
                                 <img id="spinalImg"
                                     src="{{ url('img/frontend/kayak_products/spinal_needles/needles.jpg') }}" alt=""
                                     class="img-fluid main-image5 zoom-img">
                             </div>
-                            <div class="col-12 col-md-7 kayak-products-row">
+                            <div class="col-12 col-md-7 kayak-products-row kayak-main-img-area">
 
                                 <h5 class="fw-bold text-center text-md-left">Spinal Needles</h5>
                                 <hr>
@@ -1355,6 +1361,45 @@
                         </div>
                     </div>
 
+
+                      <!-- for serviette paper and toilet roll  -->
+                      <div class="tab-pane fade" id="pills-serviette" aria-labelledby="pills-serviette-tab">
+                        <div class="row">
+                          
+                        <div class="col-12 col-md-5 mb-4 mb-md-0 text-center kayak-main-img-area">
+                                <img id="toiletImg"
+                                    src="{{ url('img/frontend/kayak_consumer_products/product_one.jpg') }}"
+                                    alt="" class="img-fluid main-image5 zoom-img">
+                            </div>
+
+                            <div class="col-12 col-md-7 kayak-products-row kayak-sub-img-area">
+
+                                <h5 class="fw-bold text-center text-md-left">Consumer Products</h5>
+                                <hr>
+
+                                <div
+                                    class="row multiple5 mx-0 mt-4 mb-4 justify-content-center justify-content-md-start">
+                                    <div class="col-3 col-xs-12 text-center me-1">
+                                        <a href="#" onclick="toiletSubOne()">
+                                            <img id="toiletSubImgOne" src="{{ url('img/frontend/kayak_consumer_products/product_one.png') }}" id="image13" alt="" class="img-fluid"></a>
+                                    </div>
+                                    <div class="col-3 col-xs-12 text-center me-1">
+                                        <a href="#" onclick="toiletSubTwo()">
+                                            <img id="toiletSubImgTwo" src="{{ url('img/frontend/kayak_consumer_products/product_two.png') }}" id="image14" alt="" class="img-fluid"></a>
+                                    </div>
+                                    <div class="col-3 col-xs-12 text-center me-1">
+                                        <a href="#" onclick="toiletSubThree()">
+                                            <img src="{{ url('img/frontend/kayak_consumer_products/product_three.png') }}" id="toiletSubImgThree" alt="" class="img-fluid"></a>
+                                    </div>
+                                </div>
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -1501,11 +1546,11 @@ function endoSubOne() {
 }
 
 function endoSubTwo() {
-    document.getElementById("endoImg").src = "{{ url('img/frontend/kayak_products/endo-tubes/abercom3.png') }}";
+    document.getElementById("endoImg").src = "{{ url('img/frontend/kayak_products/endo-tubes/abercom3.jpg') }}";
 }
 
 function endoSubThree() {
-    document.getElementById("endoImg").src = "{{ url('img/frontend/kayak_products/endo-tubes/abercom2.png') }}";
+    document.getElementById("endoImg").src = "{{ url('img/frontend/kayak_products/endo-tubes/abercom2.jpg') }}";
 }
 
 
@@ -1594,6 +1639,33 @@ function apronSubThree() {
     }
 
 }
+
+//Toilet Paper
+function toiletSubOne() {
+
+
+document.getElementById("toiletImg").src =
+            "{{ url('img/frontend/kayak_consumer_products/product_one.jpg') }}";
+
+}
+
+
+function toiletSubTwo() {
+
+  document.getElementById("toiletImg").src =
+            "{{ url('img/frontend/kayak_consumer_products/product_two.jpg') }}";
+
+}
+
+
+
+function toiletSubThree() {
+
+    document.getElementById("toiletImg").src =
+            "{{ url('img/frontend/kayak_consumer_products/product_three.jpg') }}";
+
+}
+
 
 //ROLL
 

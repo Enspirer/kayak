@@ -366,7 +366,7 @@
                         <div class="card-body text-center">
                             <img style="padding-bottom: 10px;"
                                 src="{{url('img/frontend/kayak_consumer_products/product_three.png')}}" alt="...">
-                            <h6 class="card-title fw-bold mb-2">Toilet Paper</h6>
+                            <h6 class="card-title fw-bold mb-2">Toilet Roll</h6>
                             <!-- <div class="text-center mb-2">
                                 <i class="bi bi-star-fill gold"></i>
                                 <i class="bi bi-star-fill gold"></i>
