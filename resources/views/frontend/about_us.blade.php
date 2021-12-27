@@ -48,7 +48,7 @@
                 </div>
 
                 <div class="col-12 col-md-6">
-                    <div class="card custom-shadow" style="height: 9.6rem;">
+                    <div class="card custom-shadow">
                         <div class="card-body p-4 position-relative">
                             <!-- <p class="display-2 position-absolute large-title" style="opacity: 0.07; top: -2.8rem; left: 0rem;">MISSION</p> -->
                             <h3 class="card-title mb-2">MISSION</h3>
@@ -66,7 +66,7 @@
 
 
 
-    <div class="container mb-5">
+    <div class="container mb-5 manager-row">
 
         <div class="text-center">
             <h3 class="mb-5 fw-bold about-bottom-topic" style="color: #0090FF">Message from Managing Director</h3>

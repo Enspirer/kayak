@@ -204,7 +204,7 @@
                                                 id="image13" alt="" class="img-fluid"></a>
                                     </div>
                                     <div class="col-3 col-xs-12 text-center me-1">
-                                        <a onclick="endoSubTwo()">
+                                        <a onclick="endoSubTwo()" href="#">
                                             <img src="{{ url('img/frontend/kayak_products/endo-tubes/abercom3.jpg') }}"
                                                 id="image14" alt="" class="img-fluid">
                                         </a>
