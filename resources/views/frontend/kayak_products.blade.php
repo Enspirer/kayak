@@ -1120,7 +1120,7 @@
                                     </div>
                                     <div class="col-3 col-xs-12 text-center me-1">
                                         <a href="#" onclick="spinalSubTwo()">
-                                            <img src="{{ url('img/frontend/kayak_products/spinal_needles/spinal needle2.png') }}"
+                                            <img src="{{ url('img/frontend/kayak_products/spinal_needles/needles2.jpg') }}"
                                                 id="image14" alt="" class="img-fluid"></a>
                                     </div>
                                 </div>

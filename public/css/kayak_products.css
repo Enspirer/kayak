@@ -479,11 +479,11 @@ button.product-varient-btn-apron:hover, button.product-varient-btn-apron.active 
 }
 
 .kayak-main-img-area {
-    z-index: 1;
+    z-index: 2;
 }
 
 .kayak-sub-img-area {
-    z-index: -1;
+    z-index: 1;
 }
 
 /*mobile-view*/
