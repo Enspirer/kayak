@@ -280,8 +280,17 @@ body {
 
   .table-popup th {
       border: 1px solid #000;
+      background: #0088ec;
+      color: #fff;
   }
 
+.table-popup  tr.odd td {
+    background: #d4f3ff;
+}
+
+.table-popup  tr.even td {
+    background: #ebf9ff;
+}
   .table-popup td {
         border: 1px solid #000;
         white-space: nowrap;
