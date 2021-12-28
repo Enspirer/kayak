@@ -1338,8 +1338,8 @@
                                     <div class="row">
                                         <div class="spec-img-row">
                                             <span class="spec">Specification: </span>
-                                            <a class="" href="#popup1"><img class="spec-img"
-                                                    src="{{ url('img/frontend/kayak_products/endo-tubes/endo-table.png') }}"
+                                            <a class="" href="#popup1"><img class="spec-img" style="width:50%;"
+                                                    src="{{ url('img/frontend/kayak_products/spinal_needles/spinal-needle-table.png') }}"
                                                     alt=""></a>
                                             <div class="btn-wrapper">
                                                 <a class="btn rounded-pill text-white px-5 py-2 pop-btn"
