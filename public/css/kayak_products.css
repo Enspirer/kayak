@@ -486,6 +486,10 @@ button.product-varient-btn-apron:hover, button.product-varient-btn-apron.active 
     z-index: 1;
 }
 
+div#popup-tubes {
+    z-index: 2;
+}
+
 /*mobile-view*/
 @media screen and (max-width: 767px) {  
     .zoom-img {
